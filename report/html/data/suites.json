@@ -1,0 +1,105 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "test_db",
+      "children" : [ {
+        "name" : "testdb",
+        "children" : [ {
+          "name" : "test_get_cursor",
+          "uid" : "73f909408bce99a5",
+          "parentUid" : "4b483dadf0b78d59748b3357aa05e436",
+          "status" : "passed",
+          "time" : {
+            "start" : 1617954191804,
+            "stop" : 1617954191839,
+            "duration" : 35
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_query",
+          "uid" : "3f184bf9bb44164e",
+          "parentUid" : "4b483dadf0b78d59748b3357aa05e436",
+          "status" : "passed",
+          "time" : {
+            "start" : 1617954191863,
+            "stop" : 1617954191879,
+            "duration" : 16
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4b483dadf0b78d59748b3357aa05e436"
+      } ],
+      "uid" : "37c5adb8d76d4cbf7495db6ecf030a26"
+    }, {
+      "name" : "test1_db",
+      "children" : [ {
+        "name" : "testdb",
+        "children" : [ {
+          "name" : "test_get_cursor",
+          "uid" : "eacbcad38b8f9f2",
+          "parentUid" : "0b4a1061feee70684c6c67a4cfd77bbd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1617955548717,
+            "stop" : 1617955548723,
+            "duration" : 6
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_query",
+          "uid" : "595548340546b75b",
+          "parentUid" : "0b4a1061feee70684c6c67a4cfd77bbd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1617955548726,
+            "stop" : 1617955548741,
+            "duration" : 15
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0b4a1061feee70684c6c67a4cfd77bbd"
+      } ],
+      "uid" : "5a653aae67c18917bf61b010bd383aa7"
+    }, {
+      "name" : "TestKeywords",
+      "children" : [ {
+        "name" : "TestKeyword",
+        "children" : [ {
+          "name" : "Case_007-购买星际手机",
+          "uid" : "bf5f7efe194bf40e",
+          "parentUid" : "e836c6066021918f73a7e193fbfabab1",
+          "status" : "broken",
+          "time" : {
+            "start" : 1618560621059,
+            "stop" : 1618560673316,
+            "duration" : 52257
+          },
+          "flaky" : true,
+          "parameters" : [ "{'TC_ID': 'TC_Purchase_ji', 'CASE_ID': 'Case_007', '是否运行': 'y', '用例名称': '购买星际手机', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '', '备注': '购买星际手机', '描述': '购买星际云手机流程'}" ]
+        }, {
+          "name" : "Case_005-购买星动手机",
+          "uid" : "9515e79ff645195b",
+          "parentUid" : "e836c6066021918f73a7e193fbfabab1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1618628885697,
+            "stop" : 1618629027675,
+            "duration" : 141978
+          },
+          "flaky" : true,
+          "parameters" : [ "{'TC_ID': 'TC_Purchase', 'CASE_ID': 'Case_005', '是否运行': 'y', '用例名称': '购买星动手机', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '支付取消', '备注': '购买星动云手机', '描述': '购买星动云手机流程'}" ]
+        } ],
+        "uid" : "e836c6066021918f73a7e193fbfabab1"
+      } ],
+      "uid" : "5b004c01582c75c1ea08511ae3be4f73"
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  } ]
+}

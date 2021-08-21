@@ -1,0 +1,1 @@
+{"uuid": "9c7a9d62-3cf6-422c-bc3e-37dbf68fd79d", "children": ["9199634d-dd44-490c-b741-6f56097dba1d", "f4f671f9-71d5-4ade-8038-ff847175cc2f"], "befores": [{"name": "start_appium_desired", "status": "passed", "start": 1618472417615, "stop": 1618472417682}], "start": 1618472417615, "stop": 1618472417726}

@@ -1,0 +1,93 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "test_db",
+      "children" : [ {
+        "name" : "test_get_cursor",
+        "uid" : "73f909408bce99a5",
+        "parentUid" : "c9275452c5983ead4648379eb4050596",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617954191804,
+          "stop" : 1617954191839,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_query",
+        "uid" : "3f184bf9bb44164e",
+        "parentUid" : "c9275452c5983ead4648379eb4050596",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617954191863,
+          "stop" : 1617954191879,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c9275452c5983ead4648379eb4050596"
+    }, {
+      "name" : "test1_db",
+      "children" : [ {
+        "name" : "test_get_cursor",
+        "uid" : "eacbcad38b8f9f2",
+        "parentUid" : "51e33a922f47edd47c67cf554a9a6869",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617955548717,
+          "stop" : 1617955548723,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_query",
+        "uid" : "595548340546b75b",
+        "parentUid" : "51e33a922f47edd47c67cf554a9a6869",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617955548726,
+          "stop" : 1617955548741,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "51e33a922f47edd47c67cf554a9a6869"
+    }, {
+      "name" : "TestKeywords",
+      "children" : [ {
+        "name" : "Case_007-购买星际手机",
+        "uid" : "bf5f7efe194bf40e",
+        "parentUid" : "1bb5cafdc86a8222adeccc6a41d2c090",
+        "status" : "broken",
+        "time" : {
+          "start" : 1618560621059,
+          "stop" : 1618560673316,
+          "duration" : 52257
+        },
+        "flaky" : true,
+        "parameters" : [ "{'TC_ID': 'TC_Purchase_ji', 'CASE_ID': 'Case_007', '是否运行': 'y', '用例名称': '购买星际手机', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '', '备注': '购买星际手机', '描述': '购买星际云手机流程'}" ]
+      }, {
+        "name" : "Case_005-购买星动手机",
+        "uid" : "9515e79ff645195b",
+        "parentUid" : "1bb5cafdc86a8222adeccc6a41d2c090",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618628885697,
+          "stop" : 1618629027675,
+          "duration" : 141978
+        },
+        "flaky" : true,
+        "parameters" : [ "{'TC_ID': 'TC_Purchase', 'CASE_ID': 'Case_005', '是否运行': 'y', '用例名称': '购买星动手机', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '支付取消', '备注': '购买星动云手机', '描述': '购买星动云手机流程'}" ]
+      } ],
+      "uid" : "1bb5cafdc86a8222adeccc6a41d2c090"
+    } ],
+    "uid" : "559e15d0a5469c40d1629e36b5ae40ea"
+  } ]
+}

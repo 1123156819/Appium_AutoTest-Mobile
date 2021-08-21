@@ -1,0 +1,168 @@
+{
+  "uid" : "b2d43fdf2af791f",
+  "name" : "Case_003-登录成功",
+  "fullName" : "testcase.TestKeywords.TestKeyword#test_run",
+  "historyId" : "57f42c85049a65a342046333a233a277",
+  "time" : {
+    "start" : 1618049229698,
+    "stop" : 1618049238780,
+    "duration" : 9082
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "cmdopt",
+    "time" : {
+      "start" : 1618049206837,
+      "stop" : 1618049206837,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "start_appium_desired",
+    "time" : {
+      "start" : 1618049206837,
+      "stop" : 1618049218344,
+      "duration" : 11507
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "输入用户名",
+      "time" : {
+        "start" : 1618049231353,
+        "stop" : 1618049233411,
+        "duration" : 2058
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1618049233413,
+        "stop" : 1618049235080,
+        "duration" : 1667
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1618049235080,
+        "stop" : 1618049235693,
+        "duration" : 613
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "移动坐标",
+      "time" : {
+        "start" : 1618049235695,
+        "stop" : 1618049238780,
+        "duration" : 3085
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "7fee979f0a678006",
+      "name" : "log",
+      "source" : "7fee979f0a678006.txt",
+      "type" : "text/plain",
+      "size" : 2413
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录功能测试"
+  }, {
+    "name" : "story",
+    "value" : "自动登录测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "TestKeywords"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKeyword"
+  }, {
+    "name" : "host",
+    "value" : "hanlizhi-pc"
+  }, {
+    "name" : "thread",
+    "value" : "16716-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.TestKeywords"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "run_case",
+    "value" : "{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_003', '是否运行': 'y', '用例名称': '登录成功', '测试数据': 'username=13129559867,password=12345678', '期望结果': '', '备注': '登录功能测试', '描述': '自动登录测试'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b2d43fdf2af791f.json",
+  "parameterValues" : [ "{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_003', '是否运行': 'y', '用例名称': '登录成功', '测试数据': 'username=13129559867,password=12345678', '期望结果': '', '备注': '登录功能测试', '描述': '自动登录测试'}" ]
+}

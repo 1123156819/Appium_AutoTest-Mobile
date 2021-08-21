@@ -1,0 +1,165 @@
+{
+  "uid" : "eb12eaa33fc84699",
+  "name" : "Case_006-购买星动手机",
+  "fullName" : "testcase.TestKeywords.TestKeyword#test_run",
+  "historyId" : "09d1def909cb056249b96d75b8c275b2",
+  "time" : {
+    "start" : 1617956256315,
+    "stop" : 1617956261989,
+    "duration" : 5674
+  },
+  "status" : "broken",
+  "statusMessage" : "IndexError: tuple index out of range",
+  "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x000001AFBF1F4F98>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"3084241d-2ea2-482c-b724-1cd6441a096b\")>\nrun_case = {'CASE_ID': 'Case_006', 'TC_ID': 'TC_Purchase', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:227: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:221: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:127: in step\n    action_method(**param_value)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <base.BaseAction.Action object at 0x000001AFBFAAE7B8>\nkwargs = {'by': 'id', 'expect': '', 'mobile': '13333333333', 'note': '注册', ...}\nby = '注册', value = '13333333333'\ntunnelDB = <utils.dbUtil.MysqlConnect object at 0x000001AFBFAAE860>\nsql = 'SELECT regist FROM t_user_phonecode WHERE phone =13333333333'\nresults = (('866519',),)\n\n    def test_query(self, **kwargs):\n        by,value = kwargs[\"note\"],kwargs[\"mobile\"]\n        tunnelDB = MysqlConnect('192.168.199.243', 3306, 'cloud', 'Cloud.123456', 'cloud')\n        if by==\"注册\":\n            # 注册验证码\n            sql = 'SELECT regist FROM t_user_phonecode WHERE phone =%s' % value\n            results = tunnelDB.select(sql)\n        elif by==\"登陆\":\n            # 登陆验证码\n            sql = 'SELECT login FROM t_user_phonecode WHERE phone =%s' % value\n            results = tunnelDB.select(sql)\n        elif by == \"找回\":\n            # 密码找回验证码\n            sql = 'SELECT passwd_back FROM t_user_phonecode WHERE phone =%s' % value\n            results = tunnelDB.select(sql)\n        elif by == \"绑定新手机\":\n            # 绑定新手机验证码\n            sql = 'SELECT modify FROM t_user_phonecode WHERE phone =%s' % value\n            results = tunnelDB.select(sql)\n>       int = results[1]\nE       IndexError: tuple index out of range\n\nbase\\BaseAction.py:198: IndexError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "cmdopt",
+    "time" : {
+      "start" : 1617956243823,
+      "stop" : 1617956243823,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "start_appium_desired",
+    "time" : {
+      "start" : 1617956243823,
+      "stop" : 1617956256314,
+      "duration" : 12491
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "IndexError: tuple index out of range",
+    "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x000001AFBF1F4F98>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"3084241d-2ea2-482c-b724-1cd6441a096b\")>\nrun_case = {'CASE_ID': 'Case_006', 'TC_ID': 'TC_Purchase', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:227: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:221: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:127: in step\n    action_method(**param_value)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <base.BaseAction.Action object at 0x000001AFBFAAE7B8>\nkwargs = {'by': 'id', 'expect': '', 'mobile': '13333333333', 'note': '注册', ...}\nby = '注册', value = '13333333333'\ntunnelDB = <utils.dbUtil.MysqlConnect object at 0x000001AFBFAAE860>\nsql = 'SELECT regist FROM t_user_phonecode WHERE phone =13333333333'\nresults = (('866519',),)\n\n    def test_query(self, **kwargs):\n        by,value = kwargs[\"note\"],kwargs[\"mobile\"]\n        tunnelDB = MysqlConnect('192.168.199.243', 3306, 'cloud', 'Cloud.123456', 'cloud')\n        if by==\"注册\":\n            # 注册验证码\n            sql = 'SELECT regist FROM t_user_phonecode WHERE phone =%s' % value\n            results = tunnelDB.select(sql)\n        elif by==\"登陆\":\n            # 登陆验证码\n            sql = 'SELECT login FROM t_user_phonecode WHERE phone =%s' % value\n            results = tunnelDB.select(sql)\n        elif by == \"找回\":\n            # 密码找回验证码\n            sql = 'SELECT passwd_back FROM t_user_phonecode WHERE phone =%s' % value\n            results = tunnelDB.select(sql)\n        elif by == \"绑定新手机\":\n            # 绑定新手机验证码\n            sql = 'SELECT modify FROM t_user_phonecode WHERE phone =%s' % value\n            results = tunnelDB.select(sql)\n>       int = results[1]\nE       IndexError: tuple index out of range\n\nbase\\BaseAction.py:198: IndexError",
+    "steps" : [ {
+      "name" : "输入用户名",
+      "time" : {
+        "start" : 1617956257869,
+        "stop" : 1617956260076,
+        "duration" : 2207
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1617956260077,
+        "stop" : 1617956261777,
+        "duration" : 1700
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "获取验证码",
+      "time" : {
+        "start" : 1617956261778,
+        "stop" : 1617956261795,
+        "duration" : 17
+      },
+      "status" : "broken",
+      "statusMessage" : "IndexError: tuple index out of range\n",
+      "statusTrace" : "  File \"D:\\appiumdm\\Appium_AutoTest\\testcase\\operate\\KeywordOperatePytest.py\", line 127, in step\n    action_method(**param_value)\n  File \"D:\\appiumdm\\Appium_AutoTest\\base\\BaseAction.py\", line 198, in test_query\n    int = results[1]\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "a2059c5519535ec2",
+      "name" : "2021-04-09 16:17:41",
+      "source" : "a2059c5519535ec2.png",
+      "type" : "image/png",
+      "size" : 166381
+    }, {
+      "uid" : "26aef4c8cbe10ba8",
+      "name" : "log",
+      "source" : "26aef4c8cbe10ba8.txt",
+      "type" : "text/plain",
+      "size" : 2170
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "购买云手机功能测试"
+  }, {
+    "name" : "story",
+    "value" : "购买星动云手机流程"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "TestKeywords"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKeyword"
+  }, {
+    "name" : "host",
+    "value" : "hanlizhi-pc"
+  }, {
+    "name" : "thread",
+    "value" : "17140-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.TestKeywords"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "run_case",
+    "value" : "{'TC_ID': 'TC_Purchase', 'CASE_ID': 'Case_006', '是否运行': 'y', '用例名称': '购买星动手机', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eb12eaa33fc84699.json",
+  "parameterValues" : [ "{'TC_ID': 'TC_Purchase', 'CASE_ID': 'Case_006', '是否运行': 'y', '用例名称': '购买星动手机', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程'}" ]
+}

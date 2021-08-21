@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Apr 09 16:05:48 CST 2021","Fri Apr 09 16:05:48 CST 2021","6","testcase","test1_db","testdb","","","test_get_cursor",""
+"passed","Sat Apr 17 11:08:05 CST 2021","Sat Apr 17 11:10:27 CST 2021","141978","testcase","TestKeywords","TestKeyword","","","Case_005-购买星动手机",""
+"passed","Fri Apr 09 16:05:48 CST 2021","Fri Apr 09 16:05:48 CST 2021","15","testcase","test1_db","testdb","","","test_query",""
+"broken","Fri Apr 16 16:10:21 CST 2021","Fri Apr 16 16:11:13 CST 2021","52257","testcase","TestKeywords","TestKeyword","","","Case_007-购买星际手机",""
+"passed","Fri Apr 09 15:43:11 CST 2021","Fri Apr 09 15:43:11 CST 2021","35","testcase","test_db","testdb","","","test_get_cursor",""
+"passed","Fri Apr 09 15:43:11 CST 2021","Fri Apr 09 15:43:11 CST 2021","16","testcase","test_db","testdb","","","test_query",""

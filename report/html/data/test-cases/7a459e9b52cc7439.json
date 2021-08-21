@@ -1,0 +1,108 @@
+{
+  "uid" : "7a459e9b52cc7439",
+  "name" : "test_run[run_case0]",
+  "fullName" : "testcase.TestKeywords.TestKeyword#test_run",
+  "historyId" : "09d1def909cb056249b96d75b8c275b2",
+  "time" : {
+    "start" : 1618481205822,
+    "stop" : 1618481205822,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: can only concatenate str (not \"dict\") to str",
+  "statusTrace" : "cmdopt = \"{'host': '127.0.0.1', 'port': '4723', 'bpport': '4724', 'udid': '35987d7f'}\"\n\n    # 3、调用命令使用\n    @pytest.fixture(scope=\"session\")\n    def start_appium_desired(cmdopt):\n    \n        opt = eval(cmdopt)\n        # # {\"host\":\"127.0.0.1\",\n        # #          \"port\":\"4723\",\n        # #          \"bpport\":\"4724\",\n        # #         \"udid\":None}\n        host = opt[\"host\"]\n        port = opt[\"port\"]\n        bpport = opt[\"bpport\"]\n        udid = opt[\"udid\"]\n        # system_port = opt[\"systemPort\"]\n        driver = None\n        if udid in get_devices():\n            #放入 端口连接参数\n            appium_start(host, port, bpport, udid)\n            time.sleep(5)\n>           if not check_port():\n\nD:\\appiumdm\\Appium_AutoTest\\testcase\\conftest.py:38: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nhost = '127.0.0.1', port = '4723'\n\n    def appium_desired_caps(host, port):\n        desired_caps = dict()\n        # 3.platformName\n        desired_caps['platformName'] = data['platformName']\n    \n        # 4.platformVesion\n        desired_caps['platfromVersion'] = data['platfromVersion']\n        print(\"11\")\n    \n        # 5.deviceName\n        desired_caps['deviceName'] = data['deviceName']\n        print(\"12\")\n        # 6.启动程序的报名 appPackage    # 通过 adb shell dumpsys window|grep mCurrentFocus 获取\n        desired_caps['appPackage'] = data['appPackage']\n        print(\"13\")\n        # 7.启动界面名appActivity\n        desired_caps['appActivity'] = data['appActivity']\n        print(\"14\")\n        # 获取toast automationName = uiautomator2\n        desired_caps[\"automationName\"] = data['automationName']\n        print(\"15\")\n    \n        # 不清除app里的原有数据\n        desired_caps[\"noReset\"] = True\n        print(\"16\")\n        # 8.使用http，链接appium服务器\n>       print(host+\"=\"+port+\"=\"+desired_caps)\nE       TypeError: can only concatenate str (not \"dict\") to str\n\nbase\\DesireCaps.py:41: TypeError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_appium_desired",
+    "time" : {
+      "start" : 1618481205823,
+      "stop" : 1618481210890,
+      "duration" : 5067
+    },
+    "status" : "broken",
+    "statusMessage" : "TypeError: can only concatenate str (not \"dict\") to str\n",
+    "statusTrace" : "  File \"D:\\daima\\venv\\lib\\site-packages\\pluggy\\callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"D:\\daima\\venv\\lib\\site-packages\\_pytest\\fixtures.py\", line 1126, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"D:\\daima\\venv\\lib\\site-packages\\_pytest\\fixtures.py\", line 932, in call_fixture_func\n    fixture_result = fixturefunc(**kwargs)\n  File \"D:\\appiumdm\\Appium_AutoTest\\testcase\\conftest.py\", line 38, in start_appium_desired\n    if not check_port():\n  File \"D:\\Appium_AutoTest-Mobile\\base\\DesireCaps.py\", line 41, in appium_desired_caps\n    print(host+\"=\"+port+\"=\"+desired_caps)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 0
+  }, {
+    "name" : "cmdopt",
+    "time" : {
+      "start" : 1618481205822,
+      "stop" : 1618481205823,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: can only concatenate str (not \"dict\") to str",
+    "statusTrace" : "cmdopt = \"{'host': '127.0.0.1', 'port': '4723', 'bpport': '4724', 'udid': '35987d7f'}\"\n\n    # 3、调用命令使用\n    @pytest.fixture(scope=\"session\")\n    def start_appium_desired(cmdopt):\n    \n        opt = eval(cmdopt)\n        # # {\"host\":\"127.0.0.1\",\n        # #          \"port\":\"4723\",\n        # #          \"bpport\":\"4724\",\n        # #         \"udid\":None}\n        host = opt[\"host\"]\n        port = opt[\"port\"]\n        bpport = opt[\"bpport\"]\n        udid = opt[\"udid\"]\n        # system_port = opt[\"systemPort\"]\n        driver = None\n        if udid in get_devices():\n            #放入 端口连接参数\n            appium_start(host, port, bpport, udid)\n            time.sleep(5)\n>           if not check_port():\n\nD:\\appiumdm\\Appium_AutoTest\\testcase\\conftest.py:38: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nhost = '127.0.0.1', port = '4723'\n\n    def appium_desired_caps(host, port):\n        desired_caps = dict()\n        # 3.platformName\n        desired_caps['platformName'] = data['platformName']\n    \n        # 4.platformVesion\n        desired_caps['platfromVersion'] = data['platfromVersion']\n        print(\"11\")\n    \n        # 5.deviceName\n        desired_caps['deviceName'] = data['deviceName']\n        print(\"12\")\n        # 6.启动程序的报名 appPackage    # 通过 adb shell dumpsys window|grep mCurrentFocus 获取\n        desired_caps['appPackage'] = data['appPackage']\n        print(\"13\")\n        # 7.启动界面名appActivity\n        desired_caps['appActivity'] = data['appActivity']\n        print(\"14\")\n        # 获取toast automationName = uiautomator2\n        desired_caps[\"automationName\"] = data['automationName']\n        print(\"15\")\n    \n        # 不清除app里的原有数据\n        desired_caps[\"noReset\"] = True\n        print(\"16\")\n        # 8.使用http，链接appium服务器\n>       print(host+\"=\"+port+\"=\"+desired_caps)\nE       TypeError: can only concatenate str (not \"dict\") to str\n\nbase\\DesireCaps.py:41: TypeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "22304c13051ed3af",
+      "name" : "log",
+      "source" : "22304c13051ed3af.txt",
+      "type" : "text/plain",
+      "size" : 197
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "TestKeywords"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKeyword"
+  }, {
+    "name" : "host",
+    "value" : "hanlizhi-pc"
+  }, {
+    "name" : "thread",
+    "value" : "920-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.TestKeywords"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "run_case",
+    "value" : "{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', '是否运行': 'y', '用例名称': '登录续费', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '', '备注': '进行登录续费', '描述': '登录续费'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a459e9b52cc7439.json",
+  "parameterValues" : [ "{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', '是否运行': 'y', '用例名称': '登录续费', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '', '备注': '进行登录续费', '描述': '登录续费'}" ]
+}

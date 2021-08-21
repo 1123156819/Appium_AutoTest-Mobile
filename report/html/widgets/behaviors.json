@@ -1,0 +1,26 @@
+{
+  "total" : 6,
+  "items" : [ {
+    "uid" : "1ba3ab1146ffc2fdb6cc73c0b6ab80c4",
+    "name" : "购买星际手机",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "d2b9b5da4c095db65c450417de4c2dee",
+    "name" : "购买星动云手机",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

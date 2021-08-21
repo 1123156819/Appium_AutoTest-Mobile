@@ -1,0 +1,165 @@
+{
+  "uid" : "72d8dedb567c5b58",
+  "name" : "Case_007-购买星动手机",
+  "fullName" : "testcase.TestKeywords.TestKeyword#test_run",
+  "historyId" : "09d1def909cb056249b96d75b8c275b2",
+  "time" : {
+    "start" : 1618047942655,
+    "stop" : 1618047949894,
+    "duration" : 7239
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'send'",
+  "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x000001E71E4F48D0>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"b91009cc-adab-4da6-a5d4-0a7efe790f8d\")>\nrun_case = {'CASE_ID': 'Case_007', 'TC_ID': 'TC_Purchase', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:205: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:199: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:152: in step\n    action_method(**param_value)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <base.BaseAction.Action object at 0x000001E71E5B6DD8>\nkwargs = {'by': 'id', 'expect': '', 'slid': '', 'value': 'com.gemini.cloud.client:id/et_password'}\nby = 'id', value = 'com.gemini.cloud.client:id/et_password'\nloc = <appium.webdriver.webelement.WebElement (session=\"b91009cc-adab-4da6-a5d4-0a7efe790f8d\", element=\"3bb34abb-e69b-4210-b736-ba3aa4921024\")>\n\n    def by_id_send_keys(self, **kwargs):\n        \"\"\"\n        通过id定位元素发送内容\n        :param by:\n        :param value:\n        :param send_value:\n        :return:\n        \"\"\"\n        # self.by_find_element(By.ID, value).send_keys(send_value)\n        by, value = kwargs[\"by\"], kwargs[\"value\"]\n        if by == \"id\":\n            loc = self.by_id(value)\n        elif by == \"xpath\":\n            loc = self.by_xpath(value)\n        loc.click()\n>       loc.send_keys(kwargs[\"send\"])\nE       KeyError: 'send'\n\nbase\\BaseAction.py:61: KeyError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_appium_desired",
+    "time" : {
+      "start" : 1618047931203,
+      "stop" : 1618047942654,
+      "duration" : 11451
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "cmdopt",
+    "time" : {
+      "start" : 1618047931203,
+      "stop" : 1618047931203,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "KeyError: 'send'",
+    "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x000001E71E4F48D0>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"b91009cc-adab-4da6-a5d4-0a7efe790f8d\")>\nrun_case = {'CASE_ID': 'Case_007', 'TC_ID': 'TC_Purchase', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:205: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:199: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:152: in step\n    action_method(**param_value)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <base.BaseAction.Action object at 0x000001E71E5B6DD8>\nkwargs = {'by': 'id', 'expect': '', 'slid': '', 'value': 'com.gemini.cloud.client:id/et_password'}\nby = 'id', value = 'com.gemini.cloud.client:id/et_password'\nloc = <appium.webdriver.webelement.WebElement (session=\"b91009cc-adab-4da6-a5d4-0a7efe790f8d\", element=\"3bb34abb-e69b-4210-b736-ba3aa4921024\")>\n\n    def by_id_send_keys(self, **kwargs):\n        \"\"\"\n        通过id定位元素发送内容\n        :param by:\n        :param value:\n        :param send_value:\n        :return:\n        \"\"\"\n        # self.by_find_element(By.ID, value).send_keys(send_value)\n        by, value = kwargs[\"by\"], kwargs[\"value\"]\n        if by == \"id\":\n            loc = self.by_id(value)\n        elif by == \"xpath\":\n            loc = self.by_xpath(value)\n        loc.click()\n>       loc.send_keys(kwargs[\"send\"])\nE       KeyError: 'send'\n\nbase\\BaseAction.py:61: KeyError",
+    "steps" : [ {
+      "name" : "输入用户名",
+      "time" : {
+        "start" : 1618047944412,
+        "stop" : 1618047947052,
+        "duration" : 2640
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1618047947054,
+        "stop" : 1618047949110,
+        "duration" : 2056
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "获取验证码",
+      "time" : {
+        "start" : 1618047949112,
+        "stop" : 1618047949734,
+        "duration" : 622
+      },
+      "status" : "broken",
+      "statusMessage" : "KeyError: 'send'\n",
+      "statusTrace" : "  File \"D:\\appiumdm\\Appium_AutoTest\\testcase\\operate\\KeywordOperatePytest.py\", line 152, in step\n    action_method(**param_value)\n  File \"D:\\appiumdm\\Appium_AutoTest\\base\\BaseAction.py\", line 61, in by_id_send_keys\n    loc.send_keys(kwargs[\"send\"])\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "ac30c2c31117fd02",
+      "name" : "2021-04-10 17:45:49",
+      "source" : "ac30c2c31117fd02.png",
+      "type" : "image/png",
+      "size" : 169175
+    }, {
+      "uid" : "ea76093f2018fb5c",
+      "name" : "log",
+      "source" : "ea76093f2018fb5c.txt",
+      "type" : "text/plain",
+      "size" : 2172
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "购买云手机功能测试"
+  }, {
+    "name" : "story",
+    "value" : "购买星动云手机流程"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "TestKeywords"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKeyword"
+  }, {
+    "name" : "host",
+    "value" : "hanlizhi-pc"
+  }, {
+    "name" : "thread",
+    "value" : "7104-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.TestKeywords"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "run_case",
+    "value" : "{'TC_ID': 'TC_Purchase', 'CASE_ID': 'Case_007', '是否运行': 'y', '用例名称': '购买星动手机', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "72d8dedb567c5b58.json",
+  "parameterValues" : [ "{'TC_ID': 'TC_Purchase', 'CASE_ID': 'Case_007', '是否运行': 'y', '用例名称': '购买星动手机', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程'}" ]
+}

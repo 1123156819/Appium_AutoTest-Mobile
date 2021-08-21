@@ -1,0 +1,148 @@
+{
+  "uid" : "f955a69870d04bdb",
+  "name" : "Case_006-购买星动手机",
+  "fullName" : "testcase.TestKeywords.TestKeyword#test_run",
+  "historyId" : "09d1def909cb056249b96d75b8c275b2",
+  "time" : {
+    "start" : 1617970820526,
+    "stop" : 1617970826381,
+    "duration" : 5855
+  },
+  "status" : "broken",
+  "statusMessage" : "UnboundLocalError: local variable 'results' referenced before assignment",
+  "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x000002BF2AC32A90>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"4c7cc6c6-dd97-457d-a5f7-2af5521a01cb\")>\nrun_case = {'CASE_ID': 'Case_006', 'TC_ID': 'TC_Purchase', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:235: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:229: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:126: in step\n    code=Action.by_query(self,send_note=send_note,phone=phone)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.operate.KeywordOperatePytest.Operate object at 0x000002BF2AC6BD30>\nkwargs = {'phone': '13333333333', 'send_note': '注册'}, by = None, value = None\ntunnelDB = <utils.dbUtil.MysqlConnect object at 0x000002BF2B4EFEB8>\n\n    def by_query(self,**kwargs):\n        print(self)\n        print(kwargs)\n        by = print('{send_note}'.format(**kwargs))\n        value = print('{phone}'.format(**kwargs))\n        # by = kwargs[\"send_note\"]\n        # value =kwargs[\"phone\"]\n    \n    \n        tunnelDB = MysqlConnect('192.168.199.243', 3306, 'cloud', 'Cloud.123456', 'cloud')\n        if by == \"注册\":\n            # 注册验证码\n            sql = 'SELECT regist FROM t_user_phonecode WHERE phone =%s' % value\n            results = tunnelDB.select(sql)\n        elif by == \"登陆\":\n            # 登陆验证码\n            sql = 'SELECT login FROM t_user_phonecode WHERE phone =%s' % value\n            results = tunnelDB.select(sql)\n        elif by == \"找回\":\n            # 密码找回验证码\n            sql = 'SELECT passwd_back FROM t_user_phonecode WHERE phone =%s' % value\n            results = tunnelDB.select(sql)\n        elif by == \"绑定新手机\":\n            # 绑定新手机验证码\n            sql = 'SELECT modify FROM t_user_phonecode WHERE phone =%s' % value\n            results = tunnelDB.select(sql)\n>       print(results[0])\nE       UnboundLocalError: local variable 'results' referenced before assignment\n\nbase\\BaseAction.py:205: UnboundLocalError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "cmdopt",
+    "time" : {
+      "start" : 1617970809030,
+      "stop" : 1617970809030,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "start_appium_desired",
+    "time" : {
+      "start" : 1617970809031,
+      "stop" : 1617970820521,
+      "duration" : 11490
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "UnboundLocalError: local variable 'results' referenced before assignment",
+    "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x000002BF2AC32A90>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"4c7cc6c6-dd97-457d-a5f7-2af5521a01cb\")>\nrun_case = {'CASE_ID': 'Case_006', 'TC_ID': 'TC_Purchase', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:235: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:229: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:126: in step\n    code=Action.by_query(self,send_note=send_note,phone=phone)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.operate.KeywordOperatePytest.Operate object at 0x000002BF2AC6BD30>\nkwargs = {'phone': '13333333333', 'send_note': '注册'}, by = None, value = None\ntunnelDB = <utils.dbUtil.MysqlConnect object at 0x000002BF2B4EFEB8>\n\n    def by_query(self,**kwargs):\n        print(self)\n        print(kwargs)\n        by = print('{send_note}'.format(**kwargs))\n        value = print('{phone}'.format(**kwargs))\n        # by = kwargs[\"send_note\"]\n        # value =kwargs[\"phone\"]\n    \n    \n        tunnelDB = MysqlConnect('192.168.199.243', 3306, 'cloud', 'Cloud.123456', 'cloud')\n        if by == \"注册\":\n            # 注册验证码\n            sql = 'SELECT regist FROM t_user_phonecode WHERE phone =%s' % value\n            results = tunnelDB.select(sql)\n        elif by == \"登陆\":\n            # 登陆验证码\n            sql = 'SELECT login FROM t_user_phonecode WHERE phone =%s' % value\n            results = tunnelDB.select(sql)\n        elif by == \"找回\":\n            # 密码找回验证码\n            sql = 'SELECT passwd_back FROM t_user_phonecode WHERE phone =%s' % value\n            results = tunnelDB.select(sql)\n        elif by == \"绑定新手机\":\n            # 绑定新手机验证码\n            sql = 'SELECT modify FROM t_user_phonecode WHERE phone =%s' % value\n            results = tunnelDB.select(sql)\n>       print(results[0])\nE       UnboundLocalError: local variable 'results' referenced before assignment\n\nbase\\BaseAction.py:205: UnboundLocalError",
+    "steps" : [ {
+      "name" : "输入用户名",
+      "time" : {
+        "start" : 1617970822001,
+        "stop" : 1617970824476,
+        "duration" : 2475
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1617970824478,
+        "stop" : 1617970826197,
+        "duration" : 1719
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "901c024eabaa1aa4",
+      "name" : "2021-04-09 20:20:26",
+      "source" : "901c024eabaa1aa4.png",
+      "type" : "image/png",
+      "size" : 166335
+    }, {
+      "uid" : "198d85eb462c13ac",
+      "name" : "log",
+      "source" : "198d85eb462c13ac.txt",
+      "type" : "text/plain",
+      "size" : 2168
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "购买云手机功能测试"
+  }, {
+    "name" : "story",
+    "value" : "购买星动云手机流程"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "TestKeywords"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKeyword"
+  }, {
+    "name" : "host",
+    "value" : "hanlizhi-pc"
+  }, {
+    "name" : "thread",
+    "value" : "17168-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.TestKeywords"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "run_case",
+    "value" : "{'TC_ID': 'TC_Purchase', 'CASE_ID': 'Case_006', '是否运行': 'y', '用例名称': '购买星动手机', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f955a69870d04bdb.json",
+  "parameterValues" : [ "{'TC_ID': 'TC_Purchase', 'CASE_ID': 'Case_006', '是否运行': 'y', '用例名称': '购买星动手机', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程'}" ]
+}

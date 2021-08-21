@@ -1,0 +1,17 @@
+INFO     start_appium:StartAppium.py:82 获取的devices信息udid:['127.0.0.1:62001']
+INFO     start_appium:StartAppium.py:18 port 4723 is used!
+INFO     start_appium:StartAppium.py:18 port 4723 is used!
+INFO     TestKeywords:TestKeywords.py:33 执行用例内容{'TC_ID': 'TC_Lg_Verification ', 'CASE_ID': 'Case_004', '是否运行': 'y', '用例名称': '验证码登录', '测试数据': 'username=13129559867', '期望结果': '', '备注': '验证码登录功能测试', '描述': '验证码登录'}
+DEBUG    operate:KeywordOperatePytest.py:78 执行步骤{'TC_ID': 'TC_Lg_Verification ', '步骤ID': 'LGV006', '步骤名称': '点击验证码登录', '操作': 'click', '元素名称': 'El_tv_lg', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:82 元素信息{'TC_ID': 'TC_Lg_Verification ', '元素名称': 'El_tv_lg', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/tv_login', '': '登录页验证码登录按钮'}
+DEBUG    operate:KeywordOperatePytest.py:92 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:78 执行步骤{'TC_ID': 'TC_Lg_Verification ', '步骤ID': 'LGV007', '步骤名称': '点击输入手机号码', '操作': 'text', '元素名称': 'El_lg_phone', '数据': 'username', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:82 元素信息{'TC_ID': 'TC_Lg_Verification ', '元素名称': 'El_lg_phone', '定位类型': 'xpath', '元素信息': "//*[contains(@text,'请输入11位手机号码')]", '': '输入手机号码'}
+DEBUG    operate:KeywordOperatePytest.py:92 该关键字是by_id_send_keys
+DEBUG    operate:KeywordOperatePytest.py:78 执行步骤{'TC_ID': 'TC_Lg_Verification ', '步骤ID': 'LGV008', '步骤名称': '点击获取验证码', '操作': 'click', '元素名称': 'El_clk_note', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:82 元素信息{'TC_ID': 'TC_Lg_Verification ', '元素名称': 'El_clk_note', '定位类型': 'xpath', '元素信息': "//*[contains(@text,'获取验证码')]", '': '点击获取验证码'}
+DEBUG    operate:KeywordOperatePytest.py:92 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:78 执行步骤{'TC_ID': 'TC_Lg_Verification ', '步骤ID': 'LGV009', '步骤名称': '输入验证码', '操作': 'text', '元素名称': 'El_text_note', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '登录', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:82 元素信息{'TC_ID': 'TC_Lg_Verification ', '元素名称': 'El_text_note', '定位类型': 'xpath', '元素信息': "//*[@class='android.widget.TextView' and @index='7']", '': '点击输入验证码框'}
+DEBUG    operate:KeywordOperatePytest.py:92 该关键字是by_id_send_keys
+ERROR    Base_Page:BaseAction.py:77 没有找到该元素Message:

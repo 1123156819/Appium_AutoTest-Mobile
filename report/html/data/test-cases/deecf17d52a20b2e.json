@@ -1,0 +1,163 @@
+{
+  "uid" : "deecf17d52a20b2e",
+  "name" : "Case_004-验证码登录",
+  "fullName" : "testcase.TestKeywords.TestKeyword#test_run",
+  "historyId" : "09d1def909cb056249b96d75b8c275b2",
+  "time" : {
+    "start" : 1618309427041,
+    "stop" : 1618309444387,
+    "duration" : 17346
+  },
+  "status" : "broken",
+  "statusMessage" : "pymysql.err.OperationalError: (2003, \"Can't connect to MySQL server on '192.168.199.243' (timed out)\")",
+  "statusTrace" : "self = <pymysql.connections.Connection object at 0x000001C9BEE84A58>\nsock = None\n\n    def connect(self, sock=None):\n        self._closed = False\n        try:\n            if sock is None:\n                if self.unix_socket:\n                    sock = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)\n                    sock.settimeout(self.connect_timeout)\n                    sock.connect(self.unix_socket)\n                    self.host_info = \"Localhost via UNIX socket\"\n                    self._secure = True\n                    if DEBUG:\n                        print(\"connected using unix_socket\")\n                else:\n                    kwargs = {}\n                    if self.bind_address is not None:\n                        kwargs[\"source_address\"] = (self.bind_address, 0)\n                    while True:\n                        try:\n                            sock = socket.create_connection(\n>                               (self.host, self.port), self.connect_timeout, **kwargs\n                            )\n\nD:\\daima\\venv\\lib\\site-packages\\pymysql\\connections.py:614: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\naddress = ('192.168.199.243', 3306), timeout = 10, source_address = None\n\n    def create_connection(address, timeout=_GLOBAL_DEFAULT_TIMEOUT,\n                          source_address=None):\n        \"\"\"Connect to *address* and return the socket object.\n    \n        Convenience function.  Connect to *address* (a 2-tuple ``(host,\n        port)``) and return the socket object.  Passing the optional\n        *timeout* parameter will set the timeout on the socket instance\n        before attempting to connect.  If no *timeout* is supplied, the\n        global default timeout setting returned by :func:`getdefaulttimeout`\n        is used.  If *source_address* is set it must be a tuple of (host, port)\n        for the socket to bind as a source address before making the connection.\n        A host of '' or port 0 tells the OS to use the default.\n        \"\"\"\n    \n        host, port = address\n        err = None\n        for res in getaddrinfo(host, port, 0, SOCK_STREAM):\n            af, socktype, proto, canonname, sa = res\n            sock = None\n            try:\n                sock = socket(af, socktype, proto)\n                if timeout is not _GLOBAL_DEFAULT_TIMEOUT:\n                    sock.settimeout(timeout)\n                if source_address:\n                    sock.bind(source_address)\n                sock.connect(sa)\n                # Break explicitly a reference cycle\n                err = None\n                return sock\n    \n            except error as _:\n                err = _\n                if sock is not None:\n                    sock.close()\n    \n        if err is not None:\n>           raise err\n\nD:\\ruanjian\\python\\lib\\socket.py:727: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\naddress = ('192.168.199.243', 3306), timeout = 10, source_address = None\n\n    def create_connection(address, timeout=_GLOBAL_DEFAULT_TIMEOUT,\n                          source_address=None):\n        \"\"\"Connect to *address* and return the socket object.\n    \n        Convenience function.  Connect to *address* (a 2-tuple ``(host,\n        port)``) and return the socket object.  Passing the optional\n        *timeout* parameter will set the timeout on the socket instance\n        before attempting to connect.  If no *timeout* is supplied, the\n        global default timeout setting returned by :func:`getdefaulttimeout`\n        is used.  If *source_address* is set it must be a tuple of (host, port)\n        for the socket to bind as a source address before making the connection.\n        A host of '' or port 0 tells the OS to use the default.\n        \"\"\"\n    \n        host, port = address\n        err = None\n        for res in getaddrinfo(host, port, 0, SOCK_STREAM):\n            af, socktype, proto, canonname, sa = res\n            sock = None\n            try:\n                sock = socket(af, socktype, proto)\n                if timeout is not _GLOBAL_DEFAULT_TIMEOUT:\n                    sock.settimeout(timeout)\n                if source_address:\n                    sock.bind(source_address)\n>               sock.connect(sa)\nE               socket.timeout: timed out\n\nD:\\ruanjian\\python\\lib\\socket.py:716: timeout\n\nDuring handling of the above exception, another exception occurred:\n\nself = <testcase.TestKeywords.TestKeyword object at 0x000001C9BEDC8470>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"77e9d3b1-881b-4002-b6c3-90ae95b8a72e\")>\nrun_case = {'CASE_ID': 'Case_004', 'TC_ID': 'TC_Lg_Verification ', '备注': '验证码登录功能测试', '描述': '验证码登录', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:34: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:250: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:244: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:133: in step\n    tunnelDB = MysqlConnect('192.168.199.243', 3306, 'cloud', 'Cloud.123456', 'cloud')\nutils\\dbUtil.py:6: in __init__\n    self.db=pymysql.connect(host=host,port=port, user=user, password=password, database=database, charset='utf8')\nD:\\daima\\venv\\lib\\site-packages\\pymysql\\connections.py:353: in __init__\n    self.connect()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <pymysql.connections.Connection object at 0x000001C9BEE84A58>\nsock = None\n\n    def connect(self, sock=None):\n        self._closed = False\n        try:\n            if sock is None:\n                if self.unix_socket:\n                    sock = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)\n                    sock.settimeout(self.connect_timeout)\n                    sock.connect(self.unix_socket)\n                    self.host_info = \"Localhost via UNIX socket\"\n                    self._secure = True\n                    if DEBUG:\n                        print(\"connected using unix_socket\")\n                else:\n                    kwargs = {}\n                    if self.bind_address is not None:\n                        kwargs[\"source_address\"] = (self.bind_address, 0)\n                    while True:\n                        try:\n                            sock = socket.create_connection(\n                                (self.host, self.port), self.connect_timeout, **kwargs\n                            )\n                            break\n                        except (OSError, IOError) as e:\n                            if e.errno == errno.EINTR:\n                                continue\n                            raise\n                    self.host_info = \"socket %s:%d\" % (self.host, self.port)\n                    if DEBUG:\n                        print(\"connected using socket\")\n                    sock.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)\n                    sock.setsockopt(socket.SOL_SOCKET, socket.SO_KEEPALIVE, 1)\n                sock.settimeout(None)\n    \n            self._sock = sock\n            self._rfile = sock.makefile(\"rb\")\n            self._next_seq_id = 0\n    \n            self._get_server_information()\n            self._request_authentication()\n    \n            if self.sql_mode is not None:\n                c = self.cursor()\n                c.execute(\"SET sql_mode=%s\", (self.sql_mode,))\n    \n            if self.init_command is not None:\n                c = self.cursor()\n                c.execute(self.init_command)\n                c.close()\n                self.commit()\n    \n            if self.autocommit_mode is not None:\n                self.autocommit(self.autocommit_mode)\n        except BaseException as e:\n            self._rfile = None\n            if sock is not None:\n                try:\n                    sock.close()\n                except:  # noqa\n                    pass\n    \n            if isinstance(e, (OSError, IOError, socket.error)):\n                exc = err.OperationalError(\n                    2003, \"Can't connect to MySQL server on %r (%s)\" % (self.host, e)\n                )\n                # Keep original exception and traceback to investigate error.\n                exc.original_exception = e\n                exc.traceback = traceback.format_exc()\n                if DEBUG:\n                    print(exc.traceback)\n>               raise exc\nE               pymysql.err.OperationalError: (2003, \"Can't connect to MySQL server on '192.168.199.243' (timed out)\")\n\nD:\\daima\\venv\\lib\\site-packages\\pymysql\\connections.py:664: OperationalError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_appium_desired",
+    "time" : {
+      "start" : 1618309415737,
+      "stop" : 1618309427040,
+      "duration" : 11303
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "cmdopt",
+    "time" : {
+      "start" : 1618309415736,
+      "stop" : 1618309415736,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "pymysql.err.OperationalError: (2003, \"Can't connect to MySQL server on '192.168.199.243' (timed out)\")",
+    "statusTrace" : "self = <pymysql.connections.Connection object at 0x000001C9BEE84A58>\nsock = None\n\n    def connect(self, sock=None):\n        self._closed = False\n        try:\n            if sock is None:\n                if self.unix_socket:\n                    sock = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)\n                    sock.settimeout(self.connect_timeout)\n                    sock.connect(self.unix_socket)\n                    self.host_info = \"Localhost via UNIX socket\"\n                    self._secure = True\n                    if DEBUG:\n                        print(\"connected using unix_socket\")\n                else:\n                    kwargs = {}\n                    if self.bind_address is not None:\n                        kwargs[\"source_address\"] = (self.bind_address, 0)\n                    while True:\n                        try:\n                            sock = socket.create_connection(\n>                               (self.host, self.port), self.connect_timeout, **kwargs\n                            )\n\nD:\\daima\\venv\\lib\\site-packages\\pymysql\\connections.py:614: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\naddress = ('192.168.199.243', 3306), timeout = 10, source_address = None\n\n    def create_connection(address, timeout=_GLOBAL_DEFAULT_TIMEOUT,\n                          source_address=None):\n        \"\"\"Connect to *address* and return the socket object.\n    \n        Convenience function.  Connect to *address* (a 2-tuple ``(host,\n        port)``) and return the socket object.  Passing the optional\n        *timeout* parameter will set the timeout on the socket instance\n        before attempting to connect.  If no *timeout* is supplied, the\n        global default timeout setting returned by :func:`getdefaulttimeout`\n        is used.  If *source_address* is set it must be a tuple of (host, port)\n        for the socket to bind as a source address before making the connection.\n        A host of '' or port 0 tells the OS to use the default.\n        \"\"\"\n    \n        host, port = address\n        err = None\n        for res in getaddrinfo(host, port, 0, SOCK_STREAM):\n            af, socktype, proto, canonname, sa = res\n            sock = None\n            try:\n                sock = socket(af, socktype, proto)\n                if timeout is not _GLOBAL_DEFAULT_TIMEOUT:\n                    sock.settimeout(timeout)\n                if source_address:\n                    sock.bind(source_address)\n                sock.connect(sa)\n                # Break explicitly a reference cycle\n                err = None\n                return sock\n    \n            except error as _:\n                err = _\n                if sock is not None:\n                    sock.close()\n    \n        if err is not None:\n>           raise err\n\nD:\\ruanjian\\python\\lib\\socket.py:727: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\naddress = ('192.168.199.243', 3306), timeout = 10, source_address = None\n\n    def create_connection(address, timeout=_GLOBAL_DEFAULT_TIMEOUT,\n                          source_address=None):\n        \"\"\"Connect to *address* and return the socket object.\n    \n        Convenience function.  Connect to *address* (a 2-tuple ``(host,\n        port)``) and return the socket object.  Passing the optional\n        *timeout* parameter will set the timeout on the socket instance\n        before attempting to connect.  If no *timeout* is supplied, the\n        global default timeout setting returned by :func:`getdefaulttimeout`\n        is used.  If *source_address* is set it must be a tuple of (host, port)\n        for the socket to bind as a source address before making the connection.\n        A host of '' or port 0 tells the OS to use the default.\n        \"\"\"\n    \n        host, port = address\n        err = None\n        for res in getaddrinfo(host, port, 0, SOCK_STREAM):\n            af, socktype, proto, canonname, sa = res\n            sock = None\n            try:\n                sock = socket(af, socktype, proto)\n                if timeout is not _GLOBAL_DEFAULT_TIMEOUT:\n                    sock.settimeout(timeout)\n                if source_address:\n                    sock.bind(source_address)\n>               sock.connect(sa)\nE               socket.timeout: timed out\n\nD:\\ruanjian\\python\\lib\\socket.py:716: timeout\n\nDuring handling of the above exception, another exception occurred:\n\nself = <testcase.TestKeywords.TestKeyword object at 0x000001C9BEDC8470>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"77e9d3b1-881b-4002-b6c3-90ae95b8a72e\")>\nrun_case = {'CASE_ID': 'Case_004', 'TC_ID': 'TC_Lg_Verification ', '备注': '验证码登录功能测试', '描述': '验证码登录', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:34: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:250: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:244: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:133: in step\n    tunnelDB = MysqlConnect('192.168.199.243', 3306, 'cloud', 'Cloud.123456', 'cloud')\nutils\\dbUtil.py:6: in __init__\n    self.db=pymysql.connect(host=host,port=port, user=user, password=password, database=database, charset='utf8')\nD:\\daima\\venv\\lib\\site-packages\\pymysql\\connections.py:353: in __init__\n    self.connect()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <pymysql.connections.Connection object at 0x000001C9BEE84A58>\nsock = None\n\n    def connect(self, sock=None):\n        self._closed = False\n        try:\n            if sock is None:\n                if self.unix_socket:\n                    sock = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)\n                    sock.settimeout(self.connect_timeout)\n                    sock.connect(self.unix_socket)\n                    self.host_info = \"Localhost via UNIX socket\"\n                    self._secure = True\n                    if DEBUG:\n                        print(\"connected using unix_socket\")\n                else:\n                    kwargs = {}\n                    if self.bind_address is not None:\n                        kwargs[\"source_address\"] = (self.bind_address, 0)\n                    while True:\n                        try:\n                            sock = socket.create_connection(\n                                (self.host, self.port), self.connect_timeout, **kwargs\n                            )\n                            break\n                        except (OSError, IOError) as e:\n                            if e.errno == errno.EINTR:\n                                continue\n                            raise\n                    self.host_info = \"socket %s:%d\" % (self.host, self.port)\n                    if DEBUG:\n                        print(\"connected using socket\")\n                    sock.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)\n                    sock.setsockopt(socket.SOL_SOCKET, socket.SO_KEEPALIVE, 1)\n                sock.settimeout(None)\n    \n            self._sock = sock\n            self._rfile = sock.makefile(\"rb\")\n            self._next_seq_id = 0\n    \n            self._get_server_information()\n            self._request_authentication()\n    \n            if self.sql_mode is not None:\n                c = self.cursor()\n                c.execute(\"SET sql_mode=%s\", (self.sql_mode,))\n    \n            if self.init_command is not None:\n                c = self.cursor()\n                c.execute(self.init_command)\n                c.close()\n                self.commit()\n    \n            if self.autocommit_mode is not None:\n                self.autocommit(self.autocommit_mode)\n        except BaseException as e:\n            self._rfile = None\n            if sock is not None:\n                try:\n                    sock.close()\n                except:  # noqa\n                    pass\n    \n            if isinstance(e, (OSError, IOError, socket.error)):\n                exc = err.OperationalError(\n                    2003, \"Can't connect to MySQL server on %r (%s)\" % (self.host, e)\n                )\n                # Keep original exception and traceback to investigate error.\n                exc.original_exception = e\n                exc.traceback = traceback.format_exc()\n                if DEBUG:\n                    print(exc.traceback)\n>               raise exc\nE               pymysql.err.OperationalError: (2003, \"Can't connect to MySQL server on '192.168.199.243' (timed out)\")\n\nD:\\daima\\venv\\lib\\site-packages\\pymysql\\connections.py:664: OperationalError",
+    "steps" : [ {
+      "name" : "点击验证码登录",
+      "time" : {
+        "start" : 1618309428350,
+        "stop" : 1618309429658,
+        "duration" : 1308
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击输入手机号码",
+      "time" : {
+        "start" : 1618309429659,
+        "stop" : 1618309431718,
+        "duration" : 2059
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击获取验证码",
+      "time" : {
+        "start" : 1618309431720,
+        "stop" : 1618309433167,
+        "duration" : 1447
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "86bea020789b46fe",
+      "name" : "2021-04-13 18:24:04",
+      "source" : "86bea020789b46fe.png",
+      "type" : "image/png",
+      "size" : 164534
+    }, {
+      "uid" : "541cb395aa864da6",
+      "name" : "log",
+      "source" : "541cb395aa864da6.txt",
+      "type" : "text/plain",
+      "size" : 2932
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "验证码登录功能测试"
+  }, {
+    "name" : "story",
+    "value" : "验证码登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "TestKeywords"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKeyword"
+  }, {
+    "name" : "host",
+    "value" : "hanlizhi-pc"
+  }, {
+    "name" : "thread",
+    "value" : "9064-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.TestKeywords"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "run_case",
+    "value" : "{'TC_ID': 'TC_Lg_Verification ', 'CASE_ID': 'Case_004', '是否运行': 'y', '用例名称': '验证码登录', '测试数据': 'username=13129559867', '期望结果': '', '备注': '验证码登录功能测试', '描述': '验证码登录'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "deecf17d52a20b2e.json",
+  "parameterValues" : [ "{'TC_ID': 'TC_Lg_Verification ', 'CASE_ID': 'Case_004', '是否运行': 'y', '用例名称': '验证码登录', '测试数据': 'username=13129559867', '期望结果': '', '备注': '验证码登录功能测试', '描述': '验证码登录'}" ]
+}

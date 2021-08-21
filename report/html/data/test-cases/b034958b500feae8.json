@@ -1,0 +1,148 @@
+{
+  "uid" : "b034958b500feae8",
+  "name" : "Case_006-购买星动手机",
+  "fullName" : "testcase.TestKeywords.TestKeyword#test_run",
+  "historyId" : "09d1def909cb056249b96d75b8c275b2",
+  "time" : {
+    "start" : 1617961530200,
+    "stop" : 1617961535950,
+    "duration" : 5750
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'note'",
+  "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x0000024FDC785940>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"0a2ced4b-1562-4b45-9711-99d75882af64\")>\nrun_case = {'CASE_ID': 'Case_006', 'TC_ID': 'TC_Purchase', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:228: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:222: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:124: in step\n    code=Action.by_query(param_value)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = {'by': 'id', 'expect': '', 'mobile': '13333333333', 'note': '注册', ...}\nkwargs = {}\n\n    def by_query(self, **kwargs):\n>       by,value = kwargs[\"note\"],kwargs[\"mobile\"]\nE       KeyError: 'note'\n\nbase\\BaseAction.py:180: KeyError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "cmdopt",
+    "time" : {
+      "start" : 1617961518695,
+      "stop" : 1617961518695,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "start_appium_desired",
+    "time" : {
+      "start" : 1617961518695,
+      "stop" : 1617961530198,
+      "duration" : 11503
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "KeyError: 'note'",
+    "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x0000024FDC785940>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"0a2ced4b-1562-4b45-9711-99d75882af64\")>\nrun_case = {'CASE_ID': 'Case_006', 'TC_ID': 'TC_Purchase', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:228: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:222: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:124: in step\n    code=Action.by_query(param_value)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = {'by': 'id', 'expect': '', 'mobile': '13333333333', 'note': '注册', ...}\nkwargs = {}\n\n    def by_query(self, **kwargs):\n>       by,value = kwargs[\"note\"],kwargs[\"mobile\"]\nE       KeyError: 'note'\n\nbase\\BaseAction.py:180: KeyError",
+    "steps" : [ {
+      "name" : "输入用户名",
+      "time" : {
+        "start" : 1617961531605,
+        "stop" : 1617961534113,
+        "duration" : 2508
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1617961534116,
+        "stop" : 1617961535777,
+        "duration" : 1661
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "dbd70457bfa975cd",
+      "name" : "2021-04-09 17:45:35",
+      "source" : "dbd70457bfa975cd.png",
+      "type" : "image/png",
+      "size" : 166223
+    }, {
+      "uid" : "d856920cae4694e7",
+      "name" : "log",
+      "source" : "d856920cae4694e7.txt",
+      "type" : "text/plain",
+      "size" : 2168
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "购买云手机功能测试"
+  }, {
+    "name" : "story",
+    "value" : "购买星动云手机流程"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "TestKeywords"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKeyword"
+  }, {
+    "name" : "host",
+    "value" : "hanlizhi-pc"
+  }, {
+    "name" : "thread",
+    "value" : "10476-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.TestKeywords"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "run_case",
+    "value" : "{'TC_ID': 'TC_Purchase', 'CASE_ID': 'Case_006', '是否运行': 'y', '用例名称': '购买星动手机', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b034958b500feae8.json",
+  "parameterValues" : [ "{'TC_ID': 'TC_Purchase', 'CASE_ID': 'Case_006', '是否运行': 'y', '用例名称': '购买星动手机', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程'}" ]
+}

@@ -1,0 +1,165 @@
+{
+  "uid" : "4f0d7f1ed2b7d9de",
+  "name" : "Case_006-购买星动手机",
+  "fullName" : "testcase.TestKeywords.TestKeyword#test_run",
+  "historyId" : "09d1def909cb056249b96d75b8c275b2",
+  "time" : {
+    "start" : 1617965918256,
+    "stop" : 1617965928694,
+    "duration" : 10438
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: by_query() got an unexpected keyword argument 'expect'",
+  "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x000001AED4FFE1D0>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"5955456f-7d19-489f-8d55-b01fb339d429\")>\nrun_case = {'CASE_ID': 'Case_006', 'TC_ID': 'TC_Purchase', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:227: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:221: in get_err_screenshot\n    func(self, *args, **kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.operate.KeywordOperatePytest.Operate object at 0x000001AED4FDA320>\ndata = <base.ExcelData.Data object at 0x000001AED4D99B38>\nrun_case = {'CASE_ID': 'Case_006', 'TC_ID': 'TC_Purchase', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程', ...}\n\n    @screenshot_allure #装饰器\n    def step(self, data, run_case):\n        tc_id = run_case[TestSteps.STEP_TC_ID]\n        # 获取步骤\n        steps = data.get_steps_by_tc_id(tc_id)\n        # allure 报告\n        # feature 一级标题\n        allure.dynamic.feature(run_case[TestCases.CASES_NOTE])\n        # story 二级标题\n        allure.dynamic.story(run_case[TestCases.CASES_DESC])\n    \n        # title 标题\n        allure.dynamic.title(run_case[CaseData.DATA_CASE_ID] + \"-\" + run_case[CaseData.DATA_NAME])\n    \n        for step in steps:\n            log.debug(\"执行步骤{}\".format(step))\n            # 获取元素信息\n            elements = step[TestSteps.STEP_ELEMENT_NAME]\n            element = data.get_elements_by_element(step[TestSteps.STEP_TC_ID], elements)\n            log.debug(\"元素信息{}\".format(element))\n            # 操作步骤 关键表映射 click_btn\n            operate = self.get_keyword(step[TestSteps.STEP_OPERATE])\n    \n            # 操作判断，是否存在， 不存在不执行\n            if operate:\n                # 定义方法参数：字典\n                param_value = dict()\n                # 根据getattr判断执行那个方法\n                action_method = getattr(Action(self.driver), operate)\n                log.debug(\"该关键字是{}\".format(operate))\n    \n                # 定义具体参数\n                by = element[Elements.ELE_BY]\n                value = element[Elements.ELE_VALUE]\n    \n                # 1、获取by,value,send_value内容\n                send_value = step[TestSteps.STEP_DATA]\n                send_slid = step[TestSteps.STEP_SLIDE]\n                send_COORD = step[TestSteps.STEP_COORD]\n                send_note = step[TestSteps.STEP_NOTE]\n                # 2、send_value内容转换，通过case data数据内容\n    \n                expect = run_case[CaseData.DATA_EXPECT_RESULT]\n                param_value[\"by\"] = by\n                param_value[\"value\"] = value\n                param_value[\"expect\"] = expect\n                #映射 自动滑动\n                param_value[\"slid\"] = send_slid\n    \n                # 判断 加入有输入 内容 字符转换\n                if send_value:\n                    data_input = run_case[CaseData.DATA_INPUT]\n                    send = self.str_to_dict(data_input)\n    \n                    param_value[\"send\"] = send[send_value]\n                if send_COORD:\n                    slid = self.str_to_dict(send_COORD)\n                    # 映射 定位点击\n                    param_value[\"tap\"] = slid\n                if send_note:\n                    data_mobile = run_case[CaseData.DATA_INPUT]\n                    send = self.str_to_dict(data_mobile)\n                    # param_value[\"note\"] = send_note\n                    phone = send.get(\"username\")\n                    # print(phone)\n                    # param_value[\"mobile\"] = phone\n                    param = {'send_note':send_note, 'phone':phone}\n                    code=Action.by_query(self,send_note,phone)\n                    print(code)\n                with allure.step(step[TestSteps.STEP_NAME]):\n>                   action_method(**param_value)\nE                   TypeError: by_query() got an unexpected keyword argument 'expect'\n\ntestcase\\operate\\KeywordOperatePytest.py:129: TypeError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_appium_desired",
+    "time" : {
+      "start" : 1617965906879,
+      "stop" : 1617965918248,
+      "duration" : 11369
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "cmdopt",
+    "time" : {
+      "start" : 1617965906879,
+      "stop" : 1617965906879,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: by_query() got an unexpected keyword argument 'expect'",
+    "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x000001AED4FFE1D0>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"5955456f-7d19-489f-8d55-b01fb339d429\")>\nrun_case = {'CASE_ID': 'Case_006', 'TC_ID': 'TC_Purchase', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:227: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:221: in get_err_screenshot\n    func(self, *args, **kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.operate.KeywordOperatePytest.Operate object at 0x000001AED4FDA320>\ndata = <base.ExcelData.Data object at 0x000001AED4D99B38>\nrun_case = {'CASE_ID': 'Case_006', 'TC_ID': 'TC_Purchase', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程', ...}\n\n    @screenshot_allure #装饰器\n    def step(self, data, run_case):\n        tc_id = run_case[TestSteps.STEP_TC_ID]\n        # 获取步骤\n        steps = data.get_steps_by_tc_id(tc_id)\n        # allure 报告\n        # feature 一级标题\n        allure.dynamic.feature(run_case[TestCases.CASES_NOTE])\n        # story 二级标题\n        allure.dynamic.story(run_case[TestCases.CASES_DESC])\n    \n        # title 标题\n        allure.dynamic.title(run_case[CaseData.DATA_CASE_ID] + \"-\" + run_case[CaseData.DATA_NAME])\n    \n        for step in steps:\n            log.debug(\"执行步骤{}\".format(step))\n            # 获取元素信息\n            elements = step[TestSteps.STEP_ELEMENT_NAME]\n            element = data.get_elements_by_element(step[TestSteps.STEP_TC_ID], elements)\n            log.debug(\"元素信息{}\".format(element))\n            # 操作步骤 关键表映射 click_btn\n            operate = self.get_keyword(step[TestSteps.STEP_OPERATE])\n    \n            # 操作判断，是否存在， 不存在不执行\n            if operate:\n                # 定义方法参数：字典\n                param_value = dict()\n                # 根据getattr判断执行那个方法\n                action_method = getattr(Action(self.driver), operate)\n                log.debug(\"该关键字是{}\".format(operate))\n    \n                # 定义具体参数\n                by = element[Elements.ELE_BY]\n                value = element[Elements.ELE_VALUE]\n    \n                # 1、获取by,value,send_value内容\n                send_value = step[TestSteps.STEP_DATA]\n                send_slid = step[TestSteps.STEP_SLIDE]\n                send_COORD = step[TestSteps.STEP_COORD]\n                send_note = step[TestSteps.STEP_NOTE]\n                # 2、send_value内容转换，通过case data数据内容\n    \n                expect = run_case[CaseData.DATA_EXPECT_RESULT]\n                param_value[\"by\"] = by\n                param_value[\"value\"] = value\n                param_value[\"expect\"] = expect\n                #映射 自动滑动\n                param_value[\"slid\"] = send_slid\n    \n                # 判断 加入有输入 内容 字符转换\n                if send_value:\n                    data_input = run_case[CaseData.DATA_INPUT]\n                    send = self.str_to_dict(data_input)\n    \n                    param_value[\"send\"] = send[send_value]\n                if send_COORD:\n                    slid = self.str_to_dict(send_COORD)\n                    # 映射 定位点击\n                    param_value[\"tap\"] = slid\n                if send_note:\n                    data_mobile = run_case[CaseData.DATA_INPUT]\n                    send = self.str_to_dict(data_mobile)\n                    # param_value[\"note\"] = send_note\n                    phone = send.get(\"username\")\n                    # print(phone)\n                    # param_value[\"mobile\"] = phone\n                    param = {'send_note':send_note, 'phone':phone}\n                    code=Action.by_query(self,send_note,phone)\n                    print(code)\n                with allure.step(step[TestSteps.STEP_NAME]):\n>                   action_method(**param_value)\nE                   TypeError: by_query() got an unexpected keyword argument 'expect'\n\ntestcase\\operate\\KeywordOperatePytest.py:129: TypeError",
+    "steps" : [ {
+      "name" : "输入用户名",
+      "time" : {
+        "start" : 1617965919766,
+        "stop" : 1617965922092,
+        "duration" : 2326
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1617965922095,
+        "stop" : 1617965923759,
+        "duration" : 1664
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "获取验证码",
+      "time" : {
+        "start" : 1617965928534,
+        "stop" : 1617965928534,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: by_query() got an unexpected keyword argument 'expect'\n",
+      "statusTrace" : "  File \"D:\\appiumdm\\Appium_AutoTest\\testcase\\operate\\KeywordOperatePytest.py\", line 129, in step\n    action_method(**param_value)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "96fd4681b731e587",
+      "name" : "2021-04-09 18:58:48",
+      "source" : "96fd4681b731e587.png",
+      "type" : "image/png",
+      "size" : 166186
+    }, {
+      "uid" : "5a4ca45aed890f7a",
+      "name" : "log",
+      "source" : "5a4ca45aed890f7a.txt",
+      "type" : "text/plain",
+      "size" : 2168
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "购买云手机功能测试"
+  }, {
+    "name" : "story",
+    "value" : "购买星动云手机流程"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "TestKeywords"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKeyword"
+  }, {
+    "name" : "host",
+    "value" : "hanlizhi-pc"
+  }, {
+    "name" : "thread",
+    "value" : "13132-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.TestKeywords"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "run_case",
+    "value" : "{'TC_ID': 'TC_Purchase', 'CASE_ID': 'Case_006', '是否运行': 'y', '用例名称': '购买星动手机', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f0d7f1ed2b7d9de.json",
+  "parameterValues" : [ "{'TC_ID': 'TC_Purchase', 'CASE_ID': 'Case_006', '是否运行': 'y', '用例名称': '购买星动手机', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程'}" ]
+}

@@ -1,0 +1,150 @@
+{
+  "uid" : "40393310c999540c",
+  "name" : "Case_002-登录成功",
+  "fullName" : "testcase.TestKeywords.TestKeyword#test_run",
+  "historyId" : "09d1def909cb056249b96d75b8c275b2",
+  "time" : {
+    "start" : 1617793634175,
+    "stop" : 1617793637173,
+    "duration" : 2998
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'Operate' object has no attribute 'get_keyword'",
+  "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x00000278A2553F28>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"45fcd7f5-312f-42ce-bc75-c2292e002eb4\")>\nrun_case = {'CASE_ID': 'Case_002', 'TC_ID': 'TC_Login', '备注': '登录功能测试', '描述': '自动登录测试', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n        print(\"2\")\n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:125: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:119: in get_err_screenshot\n    func(self, *args, **kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.operate.KeywordOperatePytest.Operate object at 0x00000278A2FC7518>\ndata = <base.ExcelData.Data object at 0x00000278A252E860>\nrun_case = {'CASE_ID': 'Case_002', 'TC_ID': 'TC_Login', '备注': '登录功能测试', '描述': '自动登录测试', ...}\n\n    @screenshot_allure #装饰器\n    def step(self, data, run_case):\n        tc_id = run_case[TestSteps.STEP_TC_ID]\n        # 获取步骤\n        steps = data.get_steps_by_tc_id(tc_id)\n        # allure 报告\n        # feature 一级标题\n        allure.dynamic.feature(run_case[TestCases.CASES_NOTE])\n        print(run_case[TestCases.CASES_NOTE])\n        # story 二级标题\n        allure.dynamic.story(run_case[TestCases.CASES_DESC])\n        print(run_case[TestCases.CASES_DESC])\n        # title 标题\n        allure.dynamic.title(run_case[CaseData.DATA_CASE_ID] + \"-\" + run_case[CaseData.DATA_NAME])\n        print(run_case[CaseData.DATA_CASE_ID] + \"-\" + run_case[CaseData.DATA_NAME])\n        for step in steps:\n            log.debug(\"执行步骤{}\".format(step))\n            # 获取元素信息\n            elements = step[TestSteps.STEP_ELEMENT_NAME]\n            element = data.get_elements_by_element(step[TestSteps.STEP_TC_ID], elements)\n            log.debug(\"元素信息{}\".format(element))\n            # 操作步骤 关键表映射 click_btn\n>           operate = self.get_keyword(step[TestSteps.STEP_OPERATE])\nE           AttributeError: 'Operate' object has no attribute 'get_keyword'\n\ntestcase\\operate\\KeywordOperatePytest.py:79: AttributeError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "cmdopt",
+    "time" : {
+      "start" : 1617793620113,
+      "stop" : 1617793620113,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "start_appium_desired",
+    "time" : {
+      "start" : 1617793620114,
+      "stop" : 1617793634173,
+      "duration" : 14059
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "xunit_setup_class_fixture_TestKeyword",
+    "time" : {
+      "start" : 1617793634174,
+      "stop" : 1617793634174,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'Operate' object has no attribute 'get_keyword'",
+    "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x00000278A2553F28>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"45fcd7f5-312f-42ce-bc75-c2292e002eb4\")>\nrun_case = {'CASE_ID': 'Case_002', 'TC_ID': 'TC_Login', '备注': '登录功能测试', '描述': '自动登录测试', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n        print(\"2\")\n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:125: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:119: in get_err_screenshot\n    func(self, *args, **kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.operate.KeywordOperatePytest.Operate object at 0x00000278A2FC7518>\ndata = <base.ExcelData.Data object at 0x00000278A252E860>\nrun_case = {'CASE_ID': 'Case_002', 'TC_ID': 'TC_Login', '备注': '登录功能测试', '描述': '自动登录测试', ...}\n\n    @screenshot_allure #装饰器\n    def step(self, data, run_case):\n        tc_id = run_case[TestSteps.STEP_TC_ID]\n        # 获取步骤\n        steps = data.get_steps_by_tc_id(tc_id)\n        # allure 报告\n        # feature 一级标题\n        allure.dynamic.feature(run_case[TestCases.CASES_NOTE])\n        print(run_case[TestCases.CASES_NOTE])\n        # story 二级标题\n        allure.dynamic.story(run_case[TestCases.CASES_DESC])\n        print(run_case[TestCases.CASES_DESC])\n        # title 标题\n        allure.dynamic.title(run_case[CaseData.DATA_CASE_ID] + \"-\" + run_case[CaseData.DATA_NAME])\n        print(run_case[CaseData.DATA_CASE_ID] + \"-\" + run_case[CaseData.DATA_NAME])\n        for step in steps:\n            log.debug(\"执行步骤{}\".format(step))\n            # 获取元素信息\n            elements = step[TestSteps.STEP_ELEMENT_NAME]\n            element = data.get_elements_by_element(step[TestSteps.STEP_TC_ID], elements)\n            log.debug(\"元素信息{}\".format(element))\n            # 操作步骤 关键表映射 click_btn\n>           operate = self.get_keyword(step[TestSteps.STEP_OPERATE])\nE           AttributeError: 'Operate' object has no attribute 'get_keyword'\n\ntestcase\\operate\\KeywordOperatePytest.py:79: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c077f058e33d8f43",
+      "name" : "2021-04-07 19:07:17",
+      "source" : "c077f058e33d8f43.png",
+      "type" : "image/png",
+      "size" : 115905
+    }, {
+      "uid" : "ee71b10c18e1844a",
+      "name" : "log",
+      "source" : "ee71b10c18e1844a.txt",
+      "type" : "text/plain",
+      "size" : 918
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestKeyword::0",
+    "time" : {
+      "start" : 1617793642656,
+      "stop" : 1617793642683,
+      "duration" : 27
+    },
+    "status" : "broken",
+    "statusMessage" : "AttributeError: type object 'TestKeyword' has no attribute 'driver'\n",
+    "statusTrace" : "  File \"D:\\daima\\venv\\lib\\site-packages\\allure_commons\\_allure.py\", line 200, in __call__\n    return self._fixture_function(*args, **kwargs)\n  File \"D:\\daima\\venv\\lib\\site-packages\\_pytest\\fixtures.py\", line 941, in _teardown_yield_fixture\n    next(it)\n  File \"D:\\daima\\venv\\lib\\site-packages\\_pytest\\python.py\", line 815, in xunit_setup_class_fixture\n    _call_with_optional_argument(func, self.obj)\n  File \"D:\\daima\\venv\\lib\\site-packages\\_pytest\\python.py\", line 739, in _call_with_optional_argument\n    func(arg)\n  File \"D:\\appiumdm\\Appium_AutoTest\\testcase\\TestKeywords.py\", line 45, in teardown_class\n    self.driver.quit()\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录功能测试"
+  }, {
+    "name" : "story",
+    "value" : "自动登录测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "TestKeywords"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKeyword"
+  }, {
+    "name" : "host",
+    "value" : "hanlizhi-pc"
+  }, {
+    "name" : "thread",
+    "value" : "12776-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.TestKeywords"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "run_case",
+    "value" : "{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_002', '是否运行': 'y', '用例名称': '登录成功', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '登陆', '备注': '登录功能测试', '描述': '自动登录测试'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "40393310c999540c.json",
+  "parameterValues" : [ "{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_002', '是否运行': 'y', '用例名称': '登录成功', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '登陆', '备注': '登录功能测试', '描述': '自动登录测试'}" ]
+}

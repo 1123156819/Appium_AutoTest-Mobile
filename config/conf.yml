@@ -1,0 +1,7 @@
+
+EMAIL:
+  smtpserver: 'smtp.163.com'
+  username: 'a1123156819@163.com'
+#是授权码不是密码
+  password: 'QYTOGZWXIEPECNCN'
+  receiver: 'a1123156819@163.com'

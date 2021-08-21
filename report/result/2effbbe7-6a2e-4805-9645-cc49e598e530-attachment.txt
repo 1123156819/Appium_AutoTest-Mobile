@@ -1,0 +1,16 @@
+INFO     TestKeywords:TestKeywords.py:33 执行用例内容{'TC_ID': 'TC_Purchase_ji', 'CASE_ID': 'Case_007', '是否运行': 'y', '用例名称': '购买星际手机', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '', '备注': '购买星际手机', '描述': '购买星际云手机流程'}
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase_ji', '步骤ID': 'GM004', '步骤名称': '点击购买手机', '操作': 'click', '元素名称': 'El_bt_add', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase_ji', '元素名称': 'El_bt_add', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/bt_add', '': '点击首页上方购买按钮'}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase_ji', '步骤ID': 'GM005', '步骤名称': '点击星际', '操作': 'click', '元素名称': 'El_xingdong', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase_ji', '元素名称': 'El_xingdong', '定位类型': 'xpath', '元素信息': "//*[contains(@text,'星曜')]", '': ''}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase_ji', '步骤ID': 'GM006', '步骤名称': '点击确定购买', '操作': 'click', '元素名称': 'El_bt_confirm', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase_ji', '元素名称': 'El_bt_confirm', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/bt_confirm', '': ''}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase_ji', '步骤ID': 'GM007', '步骤名称': '点击确认支付', '操作': 'click', '元素名称': 'El_bt_confirm', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase_ji', '元素名称': 'El_bt_confirm', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/bt_confirm', '': ''}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase_ji', '步骤ID': 'GM008', '步骤名称': '点击加入QQ群', '操作': 'click', '元素名称': 'El_join', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase_ji', '元素名称': 'El_join', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/tv_join_qq', '': ''}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn

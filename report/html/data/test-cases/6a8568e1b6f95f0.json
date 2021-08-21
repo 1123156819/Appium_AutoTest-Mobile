@@ -1,0 +1,150 @@
+{
+  "uid" : "6a8568e1b6f95f0",
+  "name" : "Case_004-验证码登录",
+  "fullName" : "testcase.TestKeywords.TestKeyword#test_run",
+  "historyId" : "09d1def909cb056249b96d75b8c275b2",
+  "time" : {
+    "start" : 1618285206323,
+    "stop" : 1618285257242,
+    "duration" : 50919
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'click'",
+  "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x000001BE903F0E10>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"700c3389-ec60-41d9-b50a-d690b253c95b\")>\nrun_case = {'CASE_ID': 'Case_004', 'TC_ID': 'TC_Lg_Verification ', '备注': '验证码登录功能测试', '描述': '验证码登录', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:34: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:205: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:199: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:161: in step\n    action_method(**param_value)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <base.BaseAction.Action object at 0x000001BE90432DD8>\nkwargs = {'by': 'xpath', 'expect': '', 'send': '13129559867', 'slid': '', ...}\nby = 'xpath', value = \"//*[contains(@text,'请输入11位手机号码')]\", loc = None\n\n    def by_id_send_keys(self, **kwargs):\n        \"\"\"\n        通过id定位元素发送内容\n        :param by:\n        :param value:\n        :param send_value:\n        :return:\n        \"\"\"\n        # self.by_find_element(By.ID, value).send_keys(send_value)\n        by, value = kwargs[\"by\"], kwargs[\"value\"]\n        if by == \"id\":\n            loc = self.by_id(value)\n        elif by == \"xpath\":\n            loc = self.by_xpath(value)\n>       loc.click()\nE       AttributeError: 'NoneType' object has no attribute 'click'\n\nbase\\BaseAction.py:60: AttributeError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_appium_desired",
+    "time" : {
+      "start" : 1618285194689,
+      "stop" : 1618285206322,
+      "duration" : 11633
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "cmdopt",
+    "time" : {
+      "start" : 1618285194689,
+      "stop" : 1618285194689,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'click'",
+    "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x000001BE903F0E10>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"700c3389-ec60-41d9-b50a-d690b253c95b\")>\nrun_case = {'CASE_ID': 'Case_004', 'TC_ID': 'TC_Lg_Verification ', '备注': '验证码登录功能测试', '描述': '验证码登录', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:34: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:205: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:199: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:161: in step\n    action_method(**param_value)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <base.BaseAction.Action object at 0x000001BE90432DD8>\nkwargs = {'by': 'xpath', 'expect': '', 'send': '13129559867', 'slid': '', ...}\nby = 'xpath', value = \"//*[contains(@text,'请输入11位手机号码')]\", loc = None\n\n    def by_id_send_keys(self, **kwargs):\n        \"\"\"\n        通过id定位元素发送内容\n        :param by:\n        :param value:\n        :param send_value:\n        :return:\n        \"\"\"\n        # self.by_find_element(By.ID, value).send_keys(send_value)\n        by, value = kwargs[\"by\"], kwargs[\"value\"]\n        if by == \"id\":\n            loc = self.by_id(value)\n        elif by == \"xpath\":\n            loc = self.by_xpath(value)\n>       loc.click()\nE       AttributeError: 'NoneType' object has no attribute 'click'\n\nbase\\BaseAction.py:60: AttributeError",
+    "steps" : [ {
+      "name" : "点击微信",
+      "time" : {
+        "start" : 1618285207675,
+        "stop" : 1618285210503,
+        "duration" : 2828
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击输入手机号码",
+      "time" : {
+        "start" : 1618285210505,
+        "stop" : 1618285256867,
+        "duration" : 46362
+      },
+      "status" : "broken",
+      "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'click'\n",
+      "statusTrace" : "  File \"D:\\appiumdm\\Appium_AutoTest\\testcase\\operate\\KeywordOperatePytest.py\", line 161, in step\n    action_method(**param_value)\n  File \"D:\\appiumdm\\Appium_AutoTest\\base\\BaseAction.py\", line 60, in by_id_send_keys\n    loc.click()\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "b16b5f4a43e72260",
+      "name" : "2021-04-13 11:40:57",
+      "source" : "b16b5f4a43e72260.png",
+      "type" : "image/png",
+      "size" : 559897
+    }, {
+      "uid" : "82c90a34e846147f",
+      "name" : "log",
+      "source" : "82c90a34e846147f.txt",
+      "type" : "text/plain",
+      "size" : 1767
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "验证码登录功能测试"
+  }, {
+    "name" : "story",
+    "value" : "验证码登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "TestKeywords"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKeyword"
+  }, {
+    "name" : "host",
+    "value" : "hanlizhi-pc"
+  }, {
+    "name" : "thread",
+    "value" : "7684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.TestKeywords"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "run_case",
+    "value" : "{'TC_ID': 'TC_Lg_Verification ', 'CASE_ID': 'Case_004', '是否运行': 'y', '用例名称': '验证码登录', '测试数据': 'username=13129559867', '期望结果': '', '备注': '验证码登录功能测试', '描述': '验证码登录'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6a8568e1b6f95f0.json",
+  "parameterValues" : [ "{'TC_ID': 'TC_Lg_Verification ', 'CASE_ID': 'Case_004', '是否运行': 'y', '用例名称': '验证码登录', '测试数据': 'username=13129559867', '期望结果': '', '备注': '验证码登录功能测试', '描述': '验证码登录'}" ]
+}

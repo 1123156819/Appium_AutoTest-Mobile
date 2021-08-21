@@ -1,0 +1,100 @@
+INFO     start_appium:StartAppium.py:82 获取的devices信息udid:['MBJVB20628004068']
+INFO     start_appium:StartAppium.py:18 port 4723 is used!
+INFO     start_appium:StartAppium.py:18 port 4723 is used!
+INFO     TestKeywords:TestKeywords.py:33 执行用例内容{'TC_ID': 'TC_Purchase', 'CASE_ID': 'Case_005', '是否运行': 'y', '用例名称': '购买星动手机', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '支付取消', '备注': '购买星动云手机', '描述': '购买星动云手机流程'}
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM004', '步骤名称': '点击购买手机', '操作': 'click', '元素名称': 'El_bt_add', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_bt_add', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/bt_add', '': '点击首页上方购买按钮'}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM005', '步骤名称': '点击星动', '操作': 'click', '元素名称': 'El_xingdong', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_xingdong', '定位类型': 'xpath', '元素信息': "//*[contains(@text,'星动')]", '': ''}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM006', '步骤名称': '点击手机数量+1', '操作': 'click', '元素名称': 'El_addend', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_addend', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/fl_add', '': '购买手机页面加手机数量'}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM007', '步骤名称': '点击手机数量+1', '操作': 'click', '元素名称': 'El_addend', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_addend', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/fl_add', '': '购买手机页面加手机数量'}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM008', '步骤名称': '点击手机数量-1', '操作': 'click', '元素名称': 'El_reduction', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_reduction', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/fl_subtract', '': '购买手机页面减手机数量'}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM009', '步骤名称': '向下滑动', '操作': 'slid', '元素名称': 'El_mobile', '数据': '', '坐标': '', '滑动方向': 'swipeUp', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_mobile', '定位类型': 'xpath', '元素信息': "//android.widget.FrameLayout[@content-desc='退出']/android.widget.ImageView[1]", '': ''}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是by_slide
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM010', '步骤名称': '点击微信支付', '操作': 'click', '元素名称': 'El_weChat', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_weChat', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/fl_wx_play', '': '付款方式微信'}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM011', '步骤名称': '点击确定购买', '操作': 'click', '元素名称': 'El_bt_confirm', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_bt_confirm', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/bt_confirm', '': ''}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM012', '步骤名称': '点击确认支付', '操作': 'click', '元素名称': 'El_bt_confirm', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_bt_confirm', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/bt_confirm', '': ''}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM013', '步骤名称': '点击左上角返回', '操作': 'click', '元素名称': 'El_return2', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_return2', '定位类型': 'id', '元素信息': 'com.tencent.mm:id/ei', '': '微信支付点击左上角返回'}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM014', '步骤名称': '点击放弃', '操作': 'click', '元素名称': 'El_return3', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_return3', '定位类型': 'id', '元素信息': 'com.tencent.mm:id/ffp', '': '微信支付点击放弃'}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM016', '步骤名称': '点击支付宝', '操作': 'click', '元素名称': 'El_alipay', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_alipay', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/fl_zfb_play', '': '付款方式支付宝'}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM017', '步骤名称': '点击确定购买', '操作': 'click', '元素名称': 'El_bt_confirm', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_bt_confirm', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/bt_confirm', '': ''}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM018', '步骤名称': '点击确认支付', '操作': 'click', '元素名称': 'El_bt_confirm', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_bt_confirm', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/bt_confirm', '': ''}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM019', '步骤名称': '按键返回', '操作': 'click', '元素名称': 'El_mobile', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': 111.0}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_mobile', '定位类型': 'xpath', '元素信息': "//android.widget.FrameLayout[@content-desc='退出']/android.widget.ImageView[1]", '': ''}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM020', '步骤名称': '点击放弃', '操作': 'click', '元素名称': 'El_keys_back', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_keys_back', '定位类型': 'id', '元素信息': 'com.alipay.mobile.antui:id/cancel', '': '支付宝返回'}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM022', '步骤名称': '点击星币付款方式', '操作': 'click', '元素名称': 'El_star', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_star', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/ll_star_play', '': '付款方式星币'}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM023', '步骤名称': '点击确定购买', '操作': 'click', '元素名称': 'El_bt_confirm', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_bt_confirm', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/bt_confirm', '': ''}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM024', '步骤名称': '点击确认支付', '操作': 'click', '元素名称': 'El_bt_confirm', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_bt_confirm', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/bt_confirm', '': ''}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM025', '步骤名称': '点击查看订单', '操作': 'click', '元素名称': 'El_indent', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_indent', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/tv_see_order', '': '支付后点击查看订单'}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM026', '步骤名称': '点击返回', '操作': 'click', '元素名称': 'El_return', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_return', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/nv_leftTextView', '': ''}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM027', '步骤名称': '移动坐标', '操作': 'slid', '元素名称': 'El_view', '数据': '', '坐标': '', '滑动方向': 'swipeLeft', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_view', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/iv_cloud_phone_view', '': ''}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是by_slide
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM028', '步骤名称': '移动坐标', '操作': 'slid', '元素名称': 'El_view', '数据': '', '坐标': '', '滑动方向': 'swipeLeft', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_view', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/iv_cloud_phone_view', '': ''}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是by_slide
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM029', '步骤名称': '移动坐标', '操作': 'slid', '元素名称': 'El_view', '数据': '', '坐标': '', '滑动方向': 'swipeLeft', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_view', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/iv_cloud_phone_view', '': ''}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是by_slide
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM030', '步骤名称': '移动坐标', '操作': 'slid', '元素名称': 'El_view', '数据': '', '坐标': '', '滑动方向': 'swipeLeft', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_view', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/iv_cloud_phone_view', '': ''}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是by_slide
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM031', '步骤名称': '移动坐标', '操作': 'slid', '元素名称': 'El_view', '数据': '', '坐标': '', '滑动方向': 'swipeLeft', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_view', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/iv_cloud_phone_view', '': ''}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是by_slide
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM032', '步骤名称': '移动坐标', '操作': 'slid', '元素名称': 'El_view', '数据': '', '坐标': '', '滑动方向': 'swipeLeft', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_view', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/iv_cloud_phone_view', '': ''}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是by_slide
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM033', '步骤名称': '移动坐标', '操作': 'slid', '元素名称': 'El_view', '数据': '', '坐标': '', '滑动方向': 'swipeLeft', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_view', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/iv_cloud_phone_view', '': ''}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是by_slide
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM034', '步骤名称': '点击购买手机', '操作': 'tap', '元素名称': 'El_view1', '数据': '', '坐标': 'width=367,height=911', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_view1', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/viewPager', '': ''}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是taptest
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM035', '步骤名称': '点击返回按钮', '操作': 'click', '元素名称': 'El_back', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_back', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/iv_back', '': '购买手机页面返回按钮'}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM036', '步骤名称': '点击右上角购买按钮', '操作': 'click', '元素名称': 'El_bt_add', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_bt_add', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/bt_add', '': '点击首页上方购买按钮'}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Purchase', '步骤ID': 'GM037', '步骤名称': '点击确定购买', '操作': 'click', '元素名称': 'El_bt_confirm', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Purchase', '元素名称': 'El_bt_confirm', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/bt_confirm', '': ''}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn

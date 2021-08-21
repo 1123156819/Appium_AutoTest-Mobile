@@ -1,0 +1,300 @@
+{
+  "uid" : "aa73e9a41b1419a5",
+  "name" : "Case_005-购买星动手机",
+  "fullName" : "testcase.TestKeywords.TestKeyword#test_run",
+  "historyId" : "09d1def909cb056249b96d75b8c275b2",
+  "time" : {
+    "start" : 1618628063663,
+    "stop" : 1618628121860,
+    "duration" : 58197
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x000001C5AE398F28>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"8edeada1-ffe4-46a6-8b35-d94dca5cad10\")>\nrun_case = {'CASE_ID': 'Case_005', 'TC_ID': 'TC_Purchase', '备注': '购买星动云手机', '描述': '购买星动云手机流程', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:34: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:256: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:250: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:189: in step\n    action_method(**param_value)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <base.BaseAction.Action object at 0x000001C5AE331940>\nkwargs = {'by': 'xpath', 'expect': '支付取消', 'slid': '', 'value': '//*[contains(@text,\\'\" + text + \"\\')]'}\ntoast_result = True\n\n    def assert_toast_result(self, **kwargs):\n        toast_result = self.is_toast_get_toast(**kwargs)\n>       assert toast_result == False\nE       AssertionError\n\nbase\\BaseAction.py:234: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_appium_desired",
+    "time" : {
+      "start" : 1618628051399,
+      "stop" : 1618628063662,
+      "duration" : 12263
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "cmdopt",
+    "time" : {
+      "start" : 1618628051399,
+      "stop" : 1618628051399,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x000001C5AE398F28>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"8edeada1-ffe4-46a6-8b35-d94dca5cad10\")>\nrun_case = {'CASE_ID': 'Case_005', 'TC_ID': 'TC_Purchase', '备注': '购买星动云手机', '描述': '购买星动云手机流程', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:34: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:256: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:250: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:189: in step\n    action_method(**param_value)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <base.BaseAction.Action object at 0x000001C5AE331940>\nkwargs = {'by': 'xpath', 'expect': '支付取消', 'slid': '', 'value': '//*[contains(@text,\\'\" + text + \"\\')]'}\ntoast_result = True\n\n    def assert_toast_result(self, **kwargs):\n        toast_result = self.is_toast_get_toast(**kwargs)\n>       assert toast_result == False\nE       AssertionError\n\nbase\\BaseAction.py:234: AssertionError",
+    "steps" : [ {
+      "name" : "点击购买手机",
+      "time" : {
+        "start" : 1618628064693,
+        "stop" : 1618628108430,
+        "duration" : 43737
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击星动",
+      "time" : {
+        "start" : 1618628108432,
+        "stop" : 1618628109951,
+        "duration" : 1519
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击手机数量+1",
+      "time" : {
+        "start" : 1618628109953,
+        "stop" : 1618628110542,
+        "duration" : 589
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击手机数量+1",
+      "time" : {
+        "start" : 1618628110543,
+        "stop" : 1618628111251,
+        "duration" : 708
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击手机数量-1",
+      "time" : {
+        "start" : 1618628111256,
+        "stop" : 1618628111892,
+        "duration" : 636
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "向下滑动",
+      "time" : {
+        "start" : 1618628111894,
+        "stop" : 1618628114967,
+        "duration" : 3073
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击微信支付",
+      "time" : {
+        "start" : 1618628114975,
+        "stop" : 1618628115227,
+        "duration" : 252
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击确定购买",
+      "time" : {
+        "start" : 1618628115229,
+        "stop" : 1618628115926,
+        "duration" : 697
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击确认支付",
+      "time" : {
+        "start" : 1618628115928,
+        "stop" : 1618628117182,
+        "duration" : 1254
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击左上角返回",
+      "time" : {
+        "start" : 1618628117184,
+        "stop" : 1618628119481,
+        "duration" : 2297
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击放弃",
+      "time" : {
+        "start" : 1618628119483,
+        "stop" : 1618628120162,
+        "duration" : 679
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "获取验证",
+      "time" : {
+        "start" : 1618628120164,
+        "stop" : 1618628120938,
+        "duration" : 774
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"D:\\Appium_AutoTest-Mobile\\testcase\\operate\\KeywordOperatePytest.py\", line 189, in step\n    action_method(**param_value)\n  File \"D:\\Appium_AutoTest-Mobile\\base\\BaseAction.py\", line 234, in assert_toast_result\n    assert toast_result == False\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "95fb43c07b6db58d",
+      "name" : "2021-04-17 10:55:21",
+      "source" : "95fb43c07b6db58d.png",
+      "type" : "image/png",
+      "size" : 466759
+    }, {
+      "uid" : "d62b3cb8331a3094",
+      "name" : "log",
+      "source" : "d62b3cb8331a3094.txt",
+      "type" : "text/plain",
+      "size" : 7389
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 12
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "购买星动云手机"
+  }, {
+    "name" : "story",
+    "value" : "购买星动云手机流程"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "TestKeywords"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKeyword"
+  }, {
+    "name" : "host",
+    "value" : "hanlizhi-pc"
+  }, {
+    "name" : "thread",
+    "value" : "6116-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.TestKeywords"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "run_case",
+    "value" : "{'TC_ID': 'TC_Purchase', 'CASE_ID': 'Case_005', '是否运行': 'y', '用例名称': '购买星动手机', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '支付取消', '备注': '购买星动云手机', '描述': '购买星动云手机流程'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aa73e9a41b1419a5.json",
+  "parameterValues" : [ "{'TC_ID': 'TC_Purchase', 'CASE_ID': 'Case_005', '是否运行': 'y', '用例名称': '购买星动手机', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '支付取消', '备注': '购买星动云手机', '描述': '购买星动云手机流程'}" ]
+}

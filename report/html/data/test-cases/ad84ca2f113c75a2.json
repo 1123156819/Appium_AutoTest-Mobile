@@ -1,0 +1,150 @@
+{
+  "uid" : "ad84ca2f113c75a2",
+  "name" : "Case_004-验证码登录",
+  "fullName" : "testcase.TestKeywords.TestKeyword#test_run",
+  "historyId" : "09d1def909cb056249b96d75b8c275b2",
+  "time" : {
+    "start" : 1618228025292,
+    "stop" : 1618228029577,
+    "duration" : 4285
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'WebElement' object is not subscriptable",
+  "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x0000028019ECEEF0>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"6aa819ab-9f3a-4357-9a16-176c7dfe339a\")>\nrun_case = {'CASE_ID': 'Case_004', 'TC_ID': 'TC_Lg_Verification ', '备注': '验证码登录功能测试', '描述': '验证码登录', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:205: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:199: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:161: in step\n    action_method(**param_value)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <base.BaseAction.Action object at 0x0000028019F10710>\nkwargs = {'by': 'xpath', 'expect': '', 'send': '13129559867', 'slid': '', ...}\nby = 'xpath', value = \"//*[contains(@text,'请输入11位手机号码')]\"\nloc = <appium.webdriver.webelement.WebElement (session=\"6aa819ab-9f3a-4357-9a16-176c7dfe339a\", element=\"8dc1916c-98bf-48d6-9a3e-ac8347f0748f\")>\n\n    def by_id_send_keys(self, **kwargs):\n        \"\"\"\n        通过id定位元素发送内容\n        :param by:\n        :param value:\n        :param send_value:\n        :return:\n        \"\"\"\n        # self.by_find_element(By.ID, value).send_keys(send_value)\n        by, value = kwargs[\"by\"], kwargs[\"value\"]\n        if by == \"id\":\n            loc = self.by_id(value)\n        elif by == \"xpath\":\n            loc = self.by_xpath(value)\n>       loc[11].click()\nE       TypeError: 'WebElement' object is not subscriptable\n\nbase\\BaseAction.py:60: TypeError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "cmdopt",
+    "time" : {
+      "start" : 1618228012938,
+      "stop" : 1618228012938,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "start_appium_desired",
+    "time" : {
+      "start" : 1618228012938,
+      "stop" : 1618228025290,
+      "duration" : 12352
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: 'WebElement' object is not subscriptable",
+    "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x0000028019ECEEF0>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"6aa819ab-9f3a-4357-9a16-176c7dfe339a\")>\nrun_case = {'CASE_ID': 'Case_004', 'TC_ID': 'TC_Lg_Verification ', '备注': '验证码登录功能测试', '描述': '验证码登录', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:205: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:199: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:161: in step\n    action_method(**param_value)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <base.BaseAction.Action object at 0x0000028019F10710>\nkwargs = {'by': 'xpath', 'expect': '', 'send': '13129559867', 'slid': '', ...}\nby = 'xpath', value = \"//*[contains(@text,'请输入11位手机号码')]\"\nloc = <appium.webdriver.webelement.WebElement (session=\"6aa819ab-9f3a-4357-9a16-176c7dfe339a\", element=\"8dc1916c-98bf-48d6-9a3e-ac8347f0748f\")>\n\n    def by_id_send_keys(self, **kwargs):\n        \"\"\"\n        通过id定位元素发送内容\n        :param by:\n        :param value:\n        :param send_value:\n        :return:\n        \"\"\"\n        # self.by_find_element(By.ID, value).send_keys(send_value)\n        by, value = kwargs[\"by\"], kwargs[\"value\"]\n        if by == \"id\":\n            loc = self.by_id(value)\n        elif by == \"xpath\":\n            loc = self.by_xpath(value)\n>       loc[11].click()\nE       TypeError: 'WebElement' object is not subscriptable\n\nbase\\BaseAction.py:60: TypeError",
+    "steps" : [ {
+      "name" : "点击微信",
+      "time" : {
+        "start" : 1618228026795,
+        "stop" : 1618228028848,
+        "duration" : 2053
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击输入手机号码",
+      "time" : {
+        "start" : 1618228028850,
+        "stop" : 1618228029392,
+        "duration" : 542
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: 'WebElement' object is not subscriptable\n",
+      "statusTrace" : "  File \"D:\\appiumdm\\Appium_AutoTest\\testcase\\operate\\KeywordOperatePytest.py\", line 161, in step\n    action_method(**param_value)\n  File \"D:\\appiumdm\\Appium_AutoTest\\base\\BaseAction.py\", line 60, in by_id_send_keys\n    loc[11].click()\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "299d02c285a3179f",
+      "name" : "2021-04-12 19:47:09",
+      "source" : "299d02c285a3179f.png",
+      "type" : "image/png",
+      "size" : 162166
+    }, {
+      "uid" : "1b9ef842b6e7a6a",
+      "name" : "log",
+      "source" : "1b9ef842b6e7a6a.txt",
+      "type" : "text/plain",
+      "size" : 1714
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "验证码登录功能测试"
+  }, {
+    "name" : "story",
+    "value" : "验证码登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "TestKeywords"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKeyword"
+  }, {
+    "name" : "host",
+    "value" : "hanlizhi-pc"
+  }, {
+    "name" : "thread",
+    "value" : "11804-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.TestKeywords"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "run_case",
+    "value" : "{'TC_ID': 'TC_Lg_Verification ', 'CASE_ID': 'Case_004', '是否运行': 'y', '用例名称': '验证码登录', '测试数据': 'username=13129559867', '期望结果': '', '备注': '验证码登录功能测试', '描述': '验证码登录'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ad84ca2f113c75a2.json",
+  "parameterValues" : [ "{'TC_ID': 'TC_Lg_Verification ', 'CASE_ID': 'Case_004', '是否运行': 'y', '用例名称': '验证码登录', '测试数据': 'username=13129559867', '期望结果': '', '备注': '验证码登录功能测试', '描述': '验证码登录'}" ]
+}

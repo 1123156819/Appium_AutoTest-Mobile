@@ -1,0 +1,180 @@
+{
+  "uid" : "7dabb28c6f616878",
+  "name" : "Case_004-验证码登录",
+  "fullName" : "testcase.TestKeywords.TestKeyword#test_run",
+  "historyId" : "09d1def909cb056249b96d75b8c275b2",
+  "time" : {
+    "start" : 1618303354280,
+    "stop" : 1618303408393,
+    "duration" : 54113
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'send_keys'",
+  "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x000001BE90257208>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"9af5e1c2-3775-44c1-9454-e14e5cca8b2a\")>\nrun_case = {'CASE_ID': 'Case_004', 'TC_ID': 'TC_Lg_Verification ', '备注': '验证码登录功能测试', '描述': '验证码登录', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:34: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:215: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:209: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:162: in step\n    action_method(**param_value)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <base.BaseAction.Action object at 0x000001BE90E65E10>\nkwargs = {'by': 'class', 'expect': '', 'note': '登录', 'send': '327284', ...}\nby = 'class'\nvalue = '//android.widget.FrameLayout[1]/android.widget.TextView[6]', loc = None\n\n    def by_id_send_keys(self, **kwargs):\n        \"\"\"\n        通过id定位元素发送内容\n        :param by:\n        :param value:\n        :param send_value:\n        :return:\n        \"\"\"\n        # self.by_find_element(By.ID, value).send_keys(send_value)\n        by, value = kwargs[\"by\"], kwargs[\"value\"]\n        if by == \"id\":\n            loc = self.by_id(value)\n        elif by == \"xpath\":\n            loc = self.by_xpath(value)\n        elif by == \"class\":\n            loc = self.by_xpath(value)\n        if by != \"class\":\n            loc.click()\n>       loc.send_keys(kwargs[\"send\"])\nE       AttributeError: 'NoneType' object has no attribute 'send_keys'\n\nbase\\BaseAction.py:71: AttributeError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "cmdopt",
+    "time" : {
+      "start" : 1618303342029,
+      "stop" : 1618303342029,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "start_appium_desired",
+    "time" : {
+      "start" : 1618303342029,
+      "stop" : 1618303354279,
+      "duration" : 12250
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'send_keys'",
+    "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x000001BE90257208>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"9af5e1c2-3775-44c1-9454-e14e5cca8b2a\")>\nrun_case = {'CASE_ID': 'Case_004', 'TC_ID': 'TC_Lg_Verification ', '备注': '验证码登录功能测试', '描述': '验证码登录', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:34: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:215: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:209: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:162: in step\n    action_method(**param_value)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <base.BaseAction.Action object at 0x000001BE90E65E10>\nkwargs = {'by': 'class', 'expect': '', 'note': '登录', 'send': '327284', ...}\nby = 'class'\nvalue = '//android.widget.FrameLayout[1]/android.widget.TextView[6]', loc = None\n\n    def by_id_send_keys(self, **kwargs):\n        \"\"\"\n        通过id定位元素发送内容\n        :param by:\n        :param value:\n        :param send_value:\n        :return:\n        \"\"\"\n        # self.by_find_element(By.ID, value).send_keys(send_value)\n        by, value = kwargs[\"by\"], kwargs[\"value\"]\n        if by == \"id\":\n            loc = self.by_id(value)\n        elif by == \"xpath\":\n            loc = self.by_xpath(value)\n        elif by == \"class\":\n            loc = self.by_xpath(value)\n        if by != \"class\":\n            loc.click()\n>       loc.send_keys(kwargs[\"send\"])\nE       AttributeError: 'NoneType' object has no attribute 'send_keys'\n\nbase\\BaseAction.py:71: AttributeError",
+    "steps" : [ {
+      "name" : "点击验证码登录",
+      "time" : {
+        "start" : 1618303355577,
+        "stop" : 1618303356863,
+        "duration" : 1286
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击输入手机号码",
+      "time" : {
+        "start" : 1618303356864,
+        "stop" : 1618303358939,
+        "duration" : 2075
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击获取验证码",
+      "time" : {
+        "start" : 1618303358941,
+        "stop" : 1618303360483,
+        "duration" : 1542
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "输入验证码",
+      "time" : {
+        "start" : 1618303361502,
+        "stop" : 1618303408262,
+        "duration" : 46760
+      },
+      "status" : "broken",
+      "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'send_keys'\n",
+      "statusTrace" : "  File \"D:\\appiumdm\\Appium_AutoTest\\testcase\\operate\\KeywordOperatePytest.py\", line 162, in step\n    action_method(**param_value)\n  File \"D:\\appiumdm\\Appium_AutoTest\\base\\BaseAction.py\", line 71, in by_id_send_keys\n    loc.send_keys(kwargs[\"send\"])\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "88f760d9f90ddd48",
+      "name" : "2021-04-13 16:43:28",
+      "source" : "88f760d9f90ddd48.png",
+      "type" : "image/png",
+      "size" : 40379
+    }, {
+      "uid" : "69d5addd804c6bf6",
+      "name" : "log",
+      "source" : "69d5addd804c6bf6.txt",
+      "type" : "text/plain",
+      "size" : 2998
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "验证码登录功能测试"
+  }, {
+    "name" : "story",
+    "value" : "验证码登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "TestKeywords"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKeyword"
+  }, {
+    "name" : "host",
+    "value" : "hanlizhi-pc"
+  }, {
+    "name" : "thread",
+    "value" : "8624-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.TestKeywords"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "run_case",
+    "value" : "{'TC_ID': 'TC_Lg_Verification ', 'CASE_ID': 'Case_004', '是否运行': 'y', '用例名称': '验证码登录', '测试数据': 'username=13129559867', '期望结果': '', '备注': '验证码登录功能测试', '描述': '验证码登录'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7dabb28c6f616878.json",
+  "parameterValues" : [ "{'TC_ID': 'TC_Lg_Verification ', 'CASE_ID': 'Case_004', '是否运行': 'y', '用例名称': '验证码登录', '测试数据': 'username=13129559867', '期望结果': '', '备注': '验证码登录功能测试', '描述': '验证码登录'}" ]
+}

@@ -1,0 +1,61 @@
+{
+  "uid" : "5cb877d69d8f933c",
+  "name" : "test_run[run_case0]",
+  "fullName" : "testcase.TestKeywords.TestKeyword#test_run",
+  "historyId" : "09d1def909cb056249b96d75b8c275b2",
+  "time" : {
+    "start" : 1618234817878,
+    "stop" : 1618234817878,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: got empty parameter set ['run_case'], function test_run at D:\\appiumdm\\Appium_AutoTest\\testcase\\TestKeywords.py:27",
+  "statusTrace" : "('D:\\\\appiumdm\\\\Appium_AutoTest\\\\testcase\\\\TestKeywords.py', 28, \"Skipped: got empty parameter set ['run_case'], function test_run at D:\\\\appiumdm\\\\Appium_AutoTest\\\\testcase\\\\TestKeywords.py:27\")",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='got empty parameter set ['run_case'], function test_run at D:\\appiumdm\\Appium_AutoTest\\testcase\\TestKeywords.py:27')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "TestKeywords"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKeyword"
+  }, {
+    "name" : "host",
+    "value" : "hanlizhi-pc"
+  }, {
+    "name" : "thread",
+    "value" : "13784-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.TestKeywords"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "run_case",
+    "value" : "<NotSetType.token: 0>"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip(reason='got empty parameter set ['run_case'], function test_run at D:\\appiumdm\\Appium_AutoTest\\testcase\\TestKeywords.py:27')" ]
+  },
+  "source" : "5cb877d69d8f933c.json",
+  "parameterValues" : [ "<NotSetType.token: 0>" ]
+}

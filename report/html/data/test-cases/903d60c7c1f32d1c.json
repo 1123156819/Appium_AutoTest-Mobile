@@ -1,0 +1,165 @@
+{
+  "uid" : "903d60c7c1f32d1c",
+  "name" : "Case_006-购买星动手机",
+  "fullName" : "testcase.TestKeywords.TestKeyword#test_run",
+  "historyId" : "09d1def909cb056249b96d75b8c275b2",
+  "time" : {
+    "start" : 1618020614755,
+    "stop" : 1618020620578,
+    "duration" : 5823
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: by_id_send_keys() takes 1 positional argument but 2 were given",
+  "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x000001B9180F4EB8>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"b73b5fcf-1d30-4246-8a38-077d74433785\")>\nrun_case = {'CASE_ID': 'Case_006', 'TC_ID': 'TC_Purchase', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:238: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:232: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:128: in step\n    action_method(**param_value)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <base.BaseAction.Action object at 0x000001B9181AF358>\nkwargs = {'by': 'id', 'expect': '', 'id': 'id', 'mobile': '13333333333', ...}\nby = '注册', value = '13333333333', id = 'id'\ntunnelDB = <utils.dbUtil.MysqlConnect object at 0x000001B9181AF4A8>\nsql = 'SELECT regist FROM t_user_phonecode WHERE phone =13333333333'\nresults = (('866519',),)\n\n    def by_query(self,**kwargs):\n        print(self)\n        print(kwargs)\n        by = kwargs[\"note\"]\n        value =kwargs[\"mobile\"]\n        id = kwargs[\"id\"]\n    \n        tunnelDB = MysqlConnect('192.168.199.243', 3306, 'cloud', 'Cloud.123456', 'cloud')\n    \n        if by == \"注册\":\n            # 注册验证码\n            sql = 'SELECT regist FROM t_user_phonecode WHERE phone =%s' % value\n            results = tunnelDB.select(sql)\n        elif by == \"登陆\":\n            # 登陆验证码\n            sql = 'SELECT login FROM t_user_phonecode WHERE phone =%s' % value\n            results = tunnelDB.select(sql)\n        elif by == \"找回\":\n            # 密码找回验证码\n            sql = 'SELECT passwd_back FROM t_user_phonecode WHERE phone =%s' % value\n            results = tunnelDB.select(sql)\n        elif by == \"绑定新手机\":\n            # 绑定新手机验证码\n            sql = 'SELECT modify FROM t_user_phonecode WHERE phone =%s' % value\n            results = tunnelDB.select(sql)\n        print(results[0])\n        print(id)\n        print(self)\n        print()\n>       self.by_id_send_keys(self,by=id,send=results[0])\nE       TypeError: by_id_send_keys() takes 1 positional argument but 2 were given\n\nbase\\BaseAction.py:208: TypeError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "cmdopt",
+    "time" : {
+      "start" : 1618020595147,
+      "stop" : 1618020595147,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "start_appium_desired",
+    "time" : {
+      "start" : 1618020595147,
+      "stop" : 1618020614753,
+      "duration" : 19606
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: by_id_send_keys() takes 1 positional argument but 2 were given",
+    "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x000001B9180F4EB8>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"b73b5fcf-1d30-4246-8a38-077d74433785\")>\nrun_case = {'CASE_ID': 'Case_006', 'TC_ID': 'TC_Purchase', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:238: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:232: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:128: in step\n    action_method(**param_value)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <base.BaseAction.Action object at 0x000001B9181AF358>\nkwargs = {'by': 'id', 'expect': '', 'id': 'id', 'mobile': '13333333333', ...}\nby = '注册', value = '13333333333', id = 'id'\ntunnelDB = <utils.dbUtil.MysqlConnect object at 0x000001B9181AF4A8>\nsql = 'SELECT regist FROM t_user_phonecode WHERE phone =13333333333'\nresults = (('866519',),)\n\n    def by_query(self,**kwargs):\n        print(self)\n        print(kwargs)\n        by = kwargs[\"note\"]\n        value =kwargs[\"mobile\"]\n        id = kwargs[\"id\"]\n    \n        tunnelDB = MysqlConnect('192.168.199.243', 3306, 'cloud', 'Cloud.123456', 'cloud')\n    \n        if by == \"注册\":\n            # 注册验证码\n            sql = 'SELECT regist FROM t_user_phonecode WHERE phone =%s' % value\n            results = tunnelDB.select(sql)\n        elif by == \"登陆\":\n            # 登陆验证码\n            sql = 'SELECT login FROM t_user_phonecode WHERE phone =%s' % value\n            results = tunnelDB.select(sql)\n        elif by == \"找回\":\n            # 密码找回验证码\n            sql = 'SELECT passwd_back FROM t_user_phonecode WHERE phone =%s' % value\n            results = tunnelDB.select(sql)\n        elif by == \"绑定新手机\":\n            # 绑定新手机验证码\n            sql = 'SELECT modify FROM t_user_phonecode WHERE phone =%s' % value\n            results = tunnelDB.select(sql)\n        print(results[0])\n        print(id)\n        print(self)\n        print()\n>       self.by_id_send_keys(self,by=id,send=results[0])\nE       TypeError: by_id_send_keys() takes 1 positional argument but 2 were given\n\nbase\\BaseAction.py:208: TypeError",
+    "steps" : [ {
+      "name" : "输入用户名",
+      "time" : {
+        "start" : 1618020616661,
+        "stop" : 1618020618576,
+        "duration" : 1915
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1618020618578,
+        "stop" : 1618020620285,
+        "duration" : 1707
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "获取验证码",
+      "time" : {
+        "start" : 1618020620288,
+        "stop" : 1618020620329,
+        "duration" : 41
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: by_id_send_keys() takes 1 positional argument but 2 were given\n",
+      "statusTrace" : "  File \"D:\\appiumdm\\Appium_AutoTest\\testcase\\operate\\KeywordOperatePytest.py\", line 128, in step\n    action_method(**param_value)\n  File \"D:\\appiumdm\\Appium_AutoTest\\base\\BaseAction.py\", line 208, in by_query\n    self.by_id_send_keys(self,by=id,send=results[0])\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "a32fb371708e329c",
+      "name" : "2021-04-10 10:10:20",
+      "source" : "a32fb371708e329c.png",
+      "type" : "image/png",
+      "size" : 165965
+    }, {
+      "uid" : "594dcb2ec8e9252d",
+      "name" : "log",
+      "source" : "594dcb2ec8e9252d.txt",
+      "type" : "text/plain",
+      "size" : 2168
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "购买云手机功能测试"
+  }, {
+    "name" : "story",
+    "value" : "购买星动云手机流程"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "TestKeywords"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKeyword"
+  }, {
+    "name" : "host",
+    "value" : "hanlizhi-pc"
+  }, {
+    "name" : "thread",
+    "value" : "3252-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.TestKeywords"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "run_case",
+    "value" : "{'TC_ID': 'TC_Purchase', 'CASE_ID': 'Case_006', '是否运行': 'y', '用例名称': '购买星动手机', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "903d60c7c1f32d1c.json",
+  "parameterValues" : [ "{'TC_ID': 'TC_Purchase', 'CASE_ID': 'Case_006', '是否运行': 'y', '用例名称': '购买星动手机', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程'}" ]
+}

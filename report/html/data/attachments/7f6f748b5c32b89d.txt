@@ -1,0 +1,19 @@
+INFO     start_appium:StartAppium.py:82 获取的devices信息udid:['127.0.0.1:62001']
+INFO     start_appium:StartAppium.py:18 port 4723 is used!
+INFO     start_appium:StartAppium.py:18 port 4723 is used!
+INFO     TestKeywords:TestKeywords.py:32 执行用例内容{'TC_ID': 'TC_Regsister', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '注册', '测试数据': 'username=13129559867,password=12345678', '期望结果': '', '备注': '注册功能测试', '描述': '注册功能测试'}
+DEBUG    operate:KeywordOperatePytest.py:78 执行步骤{'TC_ID': 'TC_Regsister', '步骤ID': 'ZC001', '步骤名称': '点击注册', '操作': 'click', '元素名称': 'El_account', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': ''}
+DEBUG    operate:KeywordOperatePytest.py:82 元素信息{'TC_ID': 'TC_Regsister', '元素名称': 'El_account', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/tv_register_account'}
+DEBUG    operate:KeywordOperatePytest.py:92 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:78 执行步骤{'TC_ID': 'TC_Regsister', '步骤ID': 'ZC002', '步骤名称': '输入账号', '操作': 'text', '元素名称': 'El_account_text', '数据': 'username', '坐标': '', '滑动方向': '', '短信验证码': ''}
+DEBUG    operate:KeywordOperatePytest.py:82 元素信息{'TC_ID': 'TC_Regsister', '元素名称': 'El_account_text', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/et_register_account'}
+DEBUG    operate:KeywordOperatePytest.py:92 该关键字是by_id_send_keys
+DEBUG    operate:KeywordOperatePytest.py:78 执行步骤{'TC_ID': 'TC_Regsister', '步骤ID': 'ZC003', '步骤名称': '点击同意协议', '操作': 'click', '元素名称': 'El_agreement_zc', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': ''}
+DEBUG    operate:KeywordOperatePytest.py:82 元素信息{'TC_ID': 'TC_Regsister', '元素名称': 'El_agreement_zc', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/iv_agreement'}
+DEBUG    operate:KeywordOperatePytest.py:92 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:78 执行步骤{'TC_ID': 'TC_Regsister', '步骤ID': 'ZC004', '步骤名称': '点击获取验证码', '操作': 'click', '元素名称': 'El_account_clickNote', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '注册'}
+DEBUG    operate:KeywordOperatePytest.py:82 元素信息{'TC_ID': 'TC_Regsister', '元素名称': 'El_account_clickNote', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/tv_register_sendsms'}
+DEBUG    operate:KeywordOperatePytest.py:92 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:78 执行步骤{'TC_ID': 'TC_Regsister', '步骤ID': 'ZC005', '步骤名称': '输入验证码', '操作': 'text', '元素名称': 'El_account_noteText', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': ''}
+DEBUG    operate:KeywordOperatePytest.py:82 元素信息{'TC_ID': 'TC_Regsister', '元素名称': 'El_account_noteText', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/et_register_sms'}
+DEBUG    operate:KeywordOperatePytest.py:92 该关键字是by_id_send_keys

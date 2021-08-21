@@ -1,0 +1,5 @@
+2021-03-23 11:41:10:634 - info: Welcome to Appium v1.4.13 (REV c75d8adcb66a75818a542fe1891a34260c21f76a)
+2021-03-23 11:41:10:637 - info: Appium REST http interface listener started on 127.0.0.1:4723
+2021-03-23 11:41:10:640 - info: [debug] Non-default server args: {"udid":"127.0.0.1:62001","address":"127.0.0.1","sessionOverride":true,"log":"E:\\appiumjh\\Appium_AutoTest\\logs\\app.log"}
+2021-03-23 11:41:10:641 - info: Console LogLevel: debug
+2021-03-23 11:41:10:642 - info: File LogLevel: debug

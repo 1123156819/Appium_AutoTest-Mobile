@@ -1,0 +1,223 @@
+{
+  "uid" : "6d0705f41af594d7",
+  "name" : "Case_001-注册",
+  "fullName" : "testcase.TestKeywords.TestKeyword#test_run",
+  "historyId" : "09d1def909cb056249b96d75b8c275b2",
+  "time" : {
+    "start" : 1618046833433,
+    "stop" : 1618046842637,
+    "duration" : 9204
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: ''",
+  "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x0000021B47B25A90>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"74897148-c285-4f15-b8b3-a7c8dceea2e4\")>\nrun_case = {'CASE_ID': 'Case_001', 'TC_ID': 'TC_Regsister', '备注': '登录功能测试', '描述': '注册功能测试', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:205: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:199: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:84: in step\n    operate = self.get_keyword(step[TestSteps.STEP_OPERATE])\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.operate.KeywordOperatePytest.Operate object at 0x0000021B47B5D978>\nname = ''\n\n    def get_keyword(self, name):\n        # 1读取配置文件， 文件路径：绝对路径\n        keyword_file = Conf.keywords_path\n        # 2 YamlReader, data()\n        reader = YamlReader(keyword_file).data()\n        # 3 key获取值 name\n>       value = reader[name]\nE       KeyError: ''\n\ntestcase\\operate\\KeywordOperatePytest.py:43: KeyError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_appium_desired",
+    "time" : {
+      "start" : 1618046821442,
+      "stop" : 1618046833425,
+      "duration" : 11983
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "cmdopt",
+    "time" : {
+      "start" : 1618046821442,
+      "stop" : 1618046821442,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "KeyError: ''",
+    "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x0000021B47B25A90>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"74897148-c285-4f15-b8b3-a7c8dceea2e4\")>\nrun_case = {'CASE_ID': 'Case_001', 'TC_ID': 'TC_Regsister', '备注': '登录功能测试', '描述': '注册功能测试', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:205: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:199: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:84: in step\n    operate = self.get_keyword(step[TestSteps.STEP_OPERATE])\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.operate.KeywordOperatePytest.Operate object at 0x0000021B47B5D978>\nname = ''\n\n    def get_keyword(self, name):\n        # 1读取配置文件， 文件路径：绝对路径\n        keyword_file = Conf.keywords_path\n        # 2 YamlReader, data()\n        reader = YamlReader(keyword_file).data()\n        # 3 key获取值 name\n>       value = reader[name]\nE       KeyError: ''\n\ntestcase\\operate\\KeywordOperatePytest.py:43: KeyError",
+    "steps" : [ {
+      "name" : "点击注册",
+      "time" : {
+        "start" : 1618046834828,
+        "stop" : 1618046835981,
+        "duration" : 1153
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "输入账号",
+      "time" : {
+        "start" : 1618046835983,
+        "stop" : 1618046837981,
+        "duration" : 1998
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击获取验证码",
+      "time" : {
+        "start" : 1618046838998,
+        "stop" : 1618046839045,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1618046839046,
+        "stop" : 1618046840623,
+        "duration" : 1577
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击显示密码",
+      "time" : {
+        "start" : 1618046840625,
+        "stop" : 1618046841266,
+        "duration" : 641
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击同意协议",
+      "time" : {
+        "start" : 1618046841267,
+        "stop" : 1618046841915,
+        "duration" : 648
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "立即登录",
+      "time" : {
+        "start" : 1618046841916,
+        "stop" : 1618046842476,
+        "duration" : 560
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "9d509a57f0c9a930",
+      "name" : "2021-04-10 17:27:22",
+      "source" : "9d509a57f0c9a930.png",
+      "type" : "image/png",
+      "size" : 163332
+    }, {
+      "uid" : "a7296ef646ab94a3",
+      "name" : "log",
+      "source" : "a7296ef646ab94a3.txt",
+      "type" : "text/plain",
+      "size" : 4683
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录功能测试"
+  }, {
+    "name" : "story",
+    "value" : "注册功能测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "TestKeywords"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKeyword"
+  }, {
+    "name" : "host",
+    "value" : "hanlizhi-pc"
+  }, {
+    "name" : "thread",
+    "value" : "7300-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.TestKeywords"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "run_case",
+    "value" : "{'TC_ID': 'TC_Regsister', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '注册', '测试数据': 'username=13129559867,password=12345678', '期望结果': '', '备注': '登录功能测试', '描述': '注册功能测试'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6d0705f41af594d7.json",
+  "parameterValues" : [ "{'TC_ID': 'TC_Regsister', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '注册', '测试数据': 'username=13129559867,password=12345678', '期望结果': '', '备注': '登录功能测试', '描述': '注册功能测试'}" ]
+}

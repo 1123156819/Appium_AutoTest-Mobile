@@ -1,0 +1,8 @@
+INFO     start_appium:StartAppium.py:82 获取的devices信息udid:['127.0.0.1:62001']
+INFO     start_appium:StartAppium.py:18 port 4723 is used!
+INFO     start_appium:StartAppium.py:18 port 4723 is used!
+INFO     TestKeywords:TestKeywords.py:33 执行用例内容{'TC_ID': 'TC_Lg_Verification ', 'CASE_ID': 'Case_004', '是否运行': 'y', '用例名称': '验证码登录', '测试数据': 'username=13129559867', '期望结果': '', '备注': '验证码登录功能测试', '描述': '验证码登录'}
+DEBUG    operate:KeywordOperatePytest.py:78 执行步骤{'TC_ID': 'TC_Lg_Verification ', '步骤ID': 'LGV006', '步骤名称': '点击微信', '操作': 'click', '元素名称': 'El_clk_wx', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:82 元素信息{'TC_ID': 'TC_Lg_Verification ', '元素名称': 'El_clk_wx', '定位类型': 'xpath', '元素信息': "//*[contains(@class,'android.widget.FrameLayout[0]/android.widget.RelativeLayout[0]/android.widget.TextView[11]')]", 'class索引': 11.0, '': '点击微信登录'}
+DEBUG    operate:KeywordOperatePytest.py:92 该关键字是click_btn
+ERROR    Base_Page:BaseAction.py:83 没有找到该元素Message:

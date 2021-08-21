@@ -1,0 +1,20 @@
+INFO     start_appium:StartAppium.py:82 获取的devices信息udid:['127.0.0.1:62001']
+INFO     start_appium:StartAppium.py:18 port 4723 is used!
+INFO     start_appium:StartAppium.py:18 port 4723 is used!
+INFO     TestKeywords:TestKeywords.py:32 执行用例内容{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_002', '是否运行': 'y', '用例名称': '登录成功', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '登陆', '备注': '登录功能测试', '描述': '自动登录测试'}
+DEBUG    operate:KeywordOperatePytest.py:72 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS001', '步骤名称': '输入用户名', '操作': 'text', '元素名称': 'El_account_editText', '数据': 'username'}
+DEBUG    operate:KeywordOperatePytest.py:76 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_account_editText', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/et_account'}
+DEBUG    operate:KeywordOperatePytest.py:86 该关键字是by_id_send_keys
+DEBUG    operate:KeywordOperatePytest.py:72 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS002', '步骤名称': '输入密码', '操作': 'text', '元素名称': 'El_password_edittext', '数据': 'password'}
+DEBUG    operate:KeywordOperatePytest.py:76 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_password_edittext', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/et_password'}
+DEBUG    operate:KeywordOperatePytest.py:86 该关键字是by_id_send_keys
+DEBUG    operate:KeywordOperatePytest.py:72 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS003', '步骤名称': '点击同意协议', '操作': 'click', '元素名称': 'El_agreement', '数据': ''}
+DEBUG    operate:KeywordOperatePytest.py:76 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_agreement', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/iv_agreement'}
+DEBUG    operate:KeywordOperatePytest.py:86 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:72 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS004', '步骤名称': '点击登录', '操作': 'click', '元素名称': 'El_login_button', '数据': ''}
+DEBUG    operate:KeywordOperatePytest.py:76 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_login_button', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/btn_login'}
+DEBUG    operate:KeywordOperatePytest.py:86 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:72 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS005', '步骤名称': '获取验证', '操作': 'verify_toast', '元素名称': 'El_toast', '数据': ''}
+DEBUG    operate:KeywordOperatePytest.py:76 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_toast', '定位类型': 'xpath', '元素信息': '//*[contains(@text,\'" + text + "\')]'}
+DEBUG    operate:KeywordOperatePytest.py:86 该关键字是assert_toast_result
+ERROR    Base_Page:BaseAction.py:90 toast获取信息失败， 错误信息Message:

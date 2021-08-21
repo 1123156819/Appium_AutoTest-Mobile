@@ -1,0 +1,697 @@
+2021-04-15 14:53:40,762 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 14:53:40,772 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 14:53:40,779 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 14:53:40,787 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 14:53:40,852 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001']
+2021-04-15 14:53:40,853 - start_appium - INFO - port 4723 is used!
+2021-04-15 14:53:45,854 - start_appium - INFO - port 4723 is used!
+2021-04-15 14:54:00,071 - TestKeywords - INFO - Ö´ĞĞÓÃÀıÄÚÈİ{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}
+2021-04-15 14:54:00,080 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_001', '²½ÖèÃû³Æ': 'ÊäÈëÕËºÅ', '²Ù×÷': 'text', 'ÔªËØÃû³Æ': 'El_account_editText2', 'Êı¾İ': 'username', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 14:54:00,125 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_account_editText2', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/et_account', '': 'ÊäÈëÕË»§'}
+2021-04-15 14:54:00,126 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇby_id_send_keys
+2021-04-15 14:54:02,440 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_002', '²½ÖèÃû³Æ': 'ÊäÈëÃÜÂë', '²Ù×÷': 'text', 'ÔªËØÃû³Æ': 'El_password_edittext2', 'Êı¾İ': 'password', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 14:54:02,441 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_password_edittext2', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/et_password', '': 'ÊäÈëÃÜÂë'}
+2021-04-15 14:54:02,442 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇby_id_send_keys
+2021-04-15 14:54:04,124 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_003', '²½ÖèÃû³Æ': 'µã»÷µÇÂ¼', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_login_button2', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 14:54:04,124 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_login_button2', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/btn_login', '': 'µã»÷µÇÂ¼'}
+2021-04-15 14:54:04,125 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 14:54:04,740 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_004', '²½ÖèÃû³Æ': 'µã»÷Ğø·Ñ', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_cloud_phone', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 14:54:04,740 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_cloud_phone', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/tv_yes_cloud_phone', '': 'µã»÷Ğø·Ñ'}
+2021-04-15 14:54:04,742 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 14:54:46,348 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_005', '²½ÖèÃû³Æ': 'µã»÷1ÌìÌ×²Í', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_set_meal ', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 14:54:46,348 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_set_meal ', '¶¨Î»ÀàĞÍ': 'xpath', 'ÔªËØĞÅÏ¢': "//*[contains(@text,'1Ìì')]", '': 'µã»÷Ì×²Í'}
+2021-04-15 14:54:46,349 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 14:54:47,278 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_006', '²½ÖèÃû³Æ': 'µã»÷¹ºÂò', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_bt_confirm1', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 14:54:47,278 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_bt_confirm1', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/bt_confirm', '': 'µã»÷¹ºÂò'}
+2021-04-15 14:54:47,279 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 14:54:47,951 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_007', '²½ÖèÃû³Æ': 'µã»÷È¡Ïû', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_cancel', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 14:54:47,951 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_cancel', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/tv_cancel', '': 'µã»÷È¡Ïû'}
+2021-04-15 14:54:47,952 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 14:54:49,191 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_008', '²½ÖèÃû³Æ': 'µã»÷¹ºÂò', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_bt_confirm1', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 14:54:49,191 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_bt_confirm1', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/bt_confirm', '': 'µã»÷¹ºÂò'}
+2021-04-15 14:54:49,192 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 14:54:50,178 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_009', '²½ÖèÃû³Æ': 'µã»÷È·¶¨Ğø·Ñ', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_confirm', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 14:54:50,179 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_confirm', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/bt_confirm', '': 'µã»÷È·¶¨Ğø·Ñ'}
+2021-04-15 14:54:50,180 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 14:54:51,523 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_010', '²½ÖèÃû³Æ': 'µã»÷·µ»ØÊ×Ò³', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_return_home1', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 14:54:51,524 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_return_home1', '¶¨Î»ÀàĞÍ': 'xpath', 'ÔªËØĞÅÏ¢': "//*[contains(@text,'·µ»ØÊ×Ò³')]", '': 'µã»÷·µ»ØÊ×Ò³'}
+2021-04-15 14:54:51,525 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 14:54:54,302 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\result
+2021-04-15 14:55:15,480 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\html
+2021-04-15 14:55:35,544 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 14:55:35,551 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 14:55:35,559 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 14:55:35,566 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 14:55:35,625 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001']
+2021-04-15 14:55:35,626 - start_appium - INFO - port 4723 is used!
+2021-04-15 14:55:40,627 - start_appium - INFO - port 4723 is used!
+2021-04-15 14:55:49,818 - TestKeywords - INFO - Ö´ĞĞÓÃÀıÄÚÈİ{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}
+2021-04-15 14:55:49,833 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_001', '²½ÖèÃû³Æ': 'ÊäÈëÕËºÅ', '²Ù×÷': 'text', 'ÔªËØÃû³Æ': 'El_account_editText2', 'Êı¾İ': 'username', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 14:55:49,841 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_account_editText2', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/et_account', '': 'ÊäÈëÕË»§'}
+2021-04-15 14:55:49,842 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇby_id_send_keys
+2021-04-15 14:55:52,254 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_002', '²½ÖèÃû³Æ': 'ÊäÈëÃÜÂë', '²Ù×÷': 'text', 'ÔªËØÃû³Æ': 'El_password_edittext2', 'Êı¾İ': 'password', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 14:55:52,254 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_password_edittext2', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/et_password', '': 'ÊäÈëÃÜÂë'}
+2021-04-15 14:55:52,256 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇby_id_send_keys
+2021-04-15 14:55:53,433 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_003', '²½ÖèÃû³Æ': 'µã»÷µÇÂ¼', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_login_button2', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 14:55:53,433 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_login_button2', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/btn_login', '': 'µã»÷µÇÂ¼'}
+2021-04-15 14:55:53,435 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 14:55:54,080 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_004', '²½ÖèÃû³Æ': 'µã»÷Ğø·Ñ', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_cloud_phone', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 14:55:54,081 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_cloud_phone', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/tv_yes_cloud_phone', '': 'µã»÷Ğø·Ñ'}
+2021-04-15 14:55:54,083 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 14:56:37,409 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 14:56:37,417 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 14:56:37,424 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 14:56:37,430 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 14:56:37,474 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001']
+2021-04-15 14:56:37,475 - start_appium - INFO - port 4723 is used!
+2021-04-15 14:56:42,476 - start_appium - INFO - port 4723 is used!
+2021-04-15 14:56:51,563 - TestKeywords - INFO - Ö´ĞĞÓÃÀıÄÚÈİ{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}
+2021-04-15 14:56:51,572 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_001', '²½ÖèÃû³Æ': 'ÊäÈëÕËºÅ', '²Ù×÷': 'text', 'ÔªËØÃû³Æ': 'El_account_editText2', 'Êı¾İ': 'username', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 14:56:51,579 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_account_editText2', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/et_account', '': 'ÊäÈëÕË»§'}
+2021-04-15 14:56:51,580 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇby_id_send_keys
+2021-04-15 14:56:53,972 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_002', '²½ÖèÃû³Æ': 'ÊäÈëÃÜÂë', '²Ù×÷': 'text', 'ÔªËØÃû³Æ': 'El_password_edittext2', 'Êı¾İ': 'password', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 14:56:53,972 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_password_edittext2', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/et_password', '': 'ÊäÈëÃÜÂë'}
+2021-04-15 14:56:53,973 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇby_id_send_keys
+2021-04-15 14:56:55,705 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_003', '²½ÖèÃû³Æ': 'µã»÷µÇÂ¼', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_login_button2', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 14:56:55,706 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_login_button2', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/btn_login', '': 'µã»÷µÇÂ¼'}
+2021-04-15 14:56:55,707 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 14:56:56,327 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_004', '²½ÖèÃû³Æ': 'µã»÷Ğø·Ñ', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_cloud_phone', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 14:56:56,328 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_cloud_phone', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/tv_yes_cloud_phone', '': 'µã»÷Ğø·Ñ'}
+2021-04-15 14:56:56,329 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 14:57:21,377 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\result
+2021-04-15 14:58:11,137 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 14:58:11,145 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 14:58:11,152 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 14:58:11,158 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 14:58:11,206 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001']
+2021-04-15 14:58:11,206 - start_appium - INFO - port 4723 is used!
+2021-04-15 14:58:16,207 - start_appium - INFO - port 4723 is used!
+2021-04-15 14:58:25,257 - TestKeywords - INFO - Ö´ĞĞÓÃÀıÄÚÈİ{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}
+2021-04-15 14:58:25,266 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_001', '²½ÖèÃû³Æ': 'ÊäÈëÕËºÅ', '²Ù×÷': 'text', 'ÔªËØÃû³Æ': 'El_account_editText2', 'Êı¾İ': 'username', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 14:58:25,273 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_account_editText2', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/et_account', '': 'ÊäÈëÕË»§'}
+2021-04-15 14:58:25,274 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇby_id_send_keys
+2021-04-15 14:58:27,621 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_002', '²½ÖèÃû³Æ': 'ÊäÈëÃÜÂë', '²Ù×÷': 'text', 'ÔªËØÃû³Æ': 'El_password_edittext2', 'Êı¾İ': 'password', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 14:58:27,622 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_password_edittext2', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/et_password', '': 'ÊäÈëÃÜÂë'}
+2021-04-15 14:58:27,623 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇby_id_send_keys
+2021-04-15 14:58:29,309 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_003', '²½ÖèÃû³Æ': 'µã»÷µÇÂ¼', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_login_button2', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 14:58:29,309 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_login_button2', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/btn_login', '': 'µã»÷µÇÂ¼'}
+2021-04-15 14:58:29,310 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 14:58:29,971 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_004', '²½ÖèÃû³Æ': 'µã»÷Ğø·Ñ', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_cloud_phone', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 14:58:29,971 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_cloud_phone', '¶¨Î»ÀàĞÍ': 'xpath', 'ÔªËØĞÅÏ¢': "//*[contains(@text,'Ğø·Ñ')]", '': 'µã»÷Ğø·Ñ'}
+2021-04-15 14:58:29,972 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 15:07:16,951 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:07:16,958 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:07:16,966 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:07:16,973 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:07:17,023 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001']
+2021-04-15 15:07:17,024 - start_appium - INFO - port 4723 is used!
+2021-04-15 15:07:22,024 - start_appium - INFO - port 4723 is used!
+2021-04-15 15:07:31,106 - TestKeywords - INFO - Ö´ĞĞÓÃÀıÄÚÈİ{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}
+2021-04-15 15:07:31,115 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_001', '²½ÖèÃû³Æ': 'ÊäÈëÕËºÅ', '²Ù×÷': 'text', 'ÔªËØÃû³Æ': 'El_account_editText2', 'Êı¾İ': 'username', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:07:31,122 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_account_editText2', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/et_account', '': 'ÊäÈëÕË»§'}
+2021-04-15 15:07:31,123 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇby_id_send_keys
+2021-04-15 15:07:33,418 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_002', '²½ÖèÃû³Æ': 'ÊäÈëÃÜÂë', '²Ù×÷': 'text', 'ÔªËØÃû³Æ': 'El_password_edittext2', 'Êı¾İ': 'password', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:07:33,418 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_password_edittext2', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/et_password', '': 'ÊäÈëÃÜÂë'}
+2021-04-15 15:07:33,420 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇby_id_send_keys
+2021-04-15 15:07:35,085 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_003', '²½ÖèÃû³Æ': 'µã»÷µÇÂ¼', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_login_button2', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:07:35,086 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_login_button2', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/btn_login', '': 'µã»÷µÇÂ¼'}
+2021-04-15 15:07:35,087 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 15:07:35,721 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_004', '²½ÖèÃû³Æ': 'µã»÷Ğø·Ñ', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_cloud_phone', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:07:35,721 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_cloud_phone', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/tv_yes_cloud_phone', '': 'µã»÷Ğø·Ñ'}
+2021-04-15 15:07:35,723 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 15:08:17,163 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_005', '²½ÖèÃû³Æ': 'µã»÷1ÌìÌ×²Í', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_set_meal ', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:08:17,163 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_set_meal ', '¶¨Î»ÀàĞÍ': 'xpath', 'ÔªËØĞÅÏ¢': "//*[contains(@text,'1Ìì')]", '': 'µã»÷Ì×²Í'}
+2021-04-15 15:08:17,165 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 15:08:18,081 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_006', '²½ÖèÃû³Æ': 'µã»÷¹ºÂò', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_bt_confirm1', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:08:18,081 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_bt_confirm1', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/bt_confirm', '': 'µã»÷¹ºÂò'}
+2021-04-15 15:08:18,082 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 15:08:18,732 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_007', '²½ÖèÃû³Æ': 'µã»÷È¡Ïû', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_cancel', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:08:18,733 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_cancel', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/tv_cancel', '': 'µã»÷È¡Ïû'}
+2021-04-15 15:08:18,734 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 15:08:20,030 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_008', '²½ÖèÃû³Æ': 'µã»÷¹ºÂò', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_bt_confirm1', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:08:20,031 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_bt_confirm1', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/bt_confirm', '': 'µã»÷¹ºÂò'}
+2021-04-15 15:08:20,032 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 15:08:21,034 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_009', '²½ÖèÃû³Æ': 'µã»÷È·¶¨Ğø·Ñ', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_confirm', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:08:21,034 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_confirm', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/bt_confirm', '': 'µã»÷È·¶¨Ğø·Ñ'}
+2021-04-15 15:08:21,035 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 15:08:22,264 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_010', '²½ÖèÃû³Æ': 'µã»÷·µ»ØÊ×Ò³', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_return_home1', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:08:22,265 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_return_home1', '¶¨Î»ÀàĞÍ': 'xpath', 'ÔªËØĞÅÏ¢': "//*[contains(@text,'·µ»ØÊ×Ò³')]", '': 'µã»÷·µ»ØÊ×Ò³'}
+2021-04-15 15:08:22,266 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 15:08:25,022 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\result
+2021-04-15 15:08:32,230 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\html
+2021-04-15 15:29:28,890 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:29:28,897 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:29:28,903 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:29:28,910 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:29:28,955 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001        offline product:TAS-AN00 model:TAS_AN00']
+2021-04-15 15:29:28,995 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\result
+2021-04-15 15:29:35,356 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\html
+2021-04-15 15:30:19,218 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:30:19,225 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:30:19,232 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:30:19,238 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:30:19,283 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001        offline product:TAS-AN00 model:TAS_AN00']
+2021-04-15 15:30:19,322 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\result
+2021-04-15 15:30:25,553 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\html
+2021-04-15 15:31:56,675 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:31:56,682 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:31:56,689 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:31:56,696 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:31:56,755 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001        offline product:TAS-AN00 model:TAS_AN00']
+2021-04-15 15:31:56,794 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\result
+2021-04-15 15:32:03,825 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\html
+2021-04-15 15:32:14,666 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:32:14,673 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:32:14,680 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:32:14,686 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:32:14,732 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001        offline product:TAS-AN00 model:TAS_AN00']
+2021-04-15 15:32:14,780 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\result
+2021-04-15 15:32:21,455 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\html
+2021-04-15 15:32:55,611 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:32:55,618 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:32:55,626 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:32:55,633 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:32:55,680 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001        offline product:TAS-AN00 model:TAS_AN00']
+2021-04-15 15:32:55,721 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\result
+2021-04-15 15:33:02,234 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\html
+2021-04-15 15:35:54,808 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:35:54,816 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:35:54,823 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:35:54,831 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:35:54,876 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001        offline product:TAS-AN00 model:TAS_AN00']
+2021-04-15 15:35:54,920 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\result
+2021-04-15 15:36:02,502 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\html
+2021-04-15 15:36:57,696 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:36:57,703 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:36:57,711 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:36:57,718 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:36:57,765 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001        offline product:TAS-AN00 model:TAS_AN00']
+2021-04-15 15:36:57,807 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\result
+2021-04-15 15:37:04,510 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\html
+2021-04-15 15:37:48,800 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:37:48,807 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:37:48,815 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:37:48,822 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:37:48,867 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001        offline product:TAS-AN00 model:TAS_AN00']
+2021-04-15 15:37:48,908 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\result
+2021-04-15 15:37:56,702 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\html
+2021-04-15 15:38:28,355 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001        offline product:TAS-AN00 model:TAS_AN00']
+2021-04-15 15:38:34,971 - start_appium - INFO - port 4723 is used!
+2021-04-15 15:38:35,016 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001        offline product:TAS-AN00 model:TAS_AN00']
+2021-04-15 15:38:50,233 - start_appium - INFO - port 4723 is not used
+2021-04-15 15:38:56,210 - start_appium - INFO - [35m[Appium][39m Welcome to Appium v1.20.2
+2021-04-15 15:38:56,211 - start_appium - INFO - [35m[Appium][39m Non-default server args:
+2021-04-15 15:38:56,211 - start_appium - INFO - [35m[Appium][39m   address: 127.0.0.1
+2021-04-15 15:38:56,211 - start_appium - INFO - [35m[Appium][39m   sessionOverride: true
+2021-04-15 15:38:56,211 - start_appium - INFO - [35m[Appium][39m   udid: None
+2021-04-15 15:38:56,212 - start_appium - INFO - [35m[Appium][39m Deprecated server args:
+2021-04-15 15:38:56,212 - start_appium - INFO - [35m[Appium][39m   [31m-U[39m => --default-capabilities
+2021-04-15 15:38:56,212 - start_appium - INFO - [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2021-04-15 15:38:56,212 - start_appium - INFO - [35m[Appium][39m   udid: None
+2021-04-15 15:38:56,243 - start_appium - INFO - [35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+2021-04-15 15:38:56,244 - start_appium - INFO - Æô¶¯³É¹¦£ºÆô¶¯²ÎÊıÊÇ£ºhostÎª127.0.0.1,portÎª4723,bpportÎª4724,udidÎªNone
+2021-04-15 15:38:56,283 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001        offline product:TAS-AN00 model:TAS_AN00']
+2021-04-15 15:39:12,438 - start_appium - INFO - port 4723 is used!
+2021-04-15 15:39:12,481 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001        offline product:TAS-AN00 model:TAS_AN00']
+2021-04-15 15:39:19,697 - start_appium - INFO - port 4723 is used!
+2021-04-15 15:39:19,697 - start_appium - INFO - port 4723 is used!
+2021-04-15 15:39:19,947 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001        offline product:TAS-AN00 model:TAS_AN00']
+2021-04-15 15:39:39,972 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:39:39,979 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:39:39,986 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:39:39,993 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:39:40,039 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001        offline product:TAS-AN00 model:TAS_AN00']
+2021-04-15 15:39:40,093 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\result
+2021-04-15 15:39:46,929 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\html
+2021-04-15 15:39:59,327 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı2, Êı¾İÄÚÈİ[{'ĞòºÅ': 1.0, 'ÃèÊö': '×¢²á¹¦ÄÜ²âÊÔ', 'TC_ID': 'TC_Regsister', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '×¢²á¹¦ÄÜ²âÊÔ', 'Ç°ÖÃÌõ¼ş': 'ÒªÏÈÈ¡ÏûÍ¬ÒâĞ­Òé'}, {'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:39:59,334 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:39:59,341 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı2, Êı¾İÄÚÈİ[{'ĞòºÅ': 1.0, 'ÃèÊö': '×¢²á¹¦ÄÜ²âÊÔ', 'TC_ID': 'TC_Regsister', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '×¢²á¹¦ÄÜ²âÊÔ', 'Ç°ÖÃÌõ¼ş': 'ÒªÏÈÈ¡ÏûÍ¬ÒâĞ­Òé'}, {'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:39:59,348 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:39:59,424 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001        offline product:TAS-AN00 model:TAS_AN00']
+2021-04-15 15:39:59,470 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\result
+2021-04-15 15:40:06,807 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\html
+2021-04-15 15:40:17,587 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı2, Êı¾İÄÚÈİ[{'ĞòºÅ': 1.0, 'ÃèÊö': '×¢²á¹¦ÄÜ²âÊÔ', 'TC_ID': 'TC_Regsister', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '×¢²á¹¦ÄÜ²âÊÔ', 'Ç°ÖÃÌõ¼ş': 'ÒªÏÈÈ¡ÏûÍ¬ÒâĞ­Òé'}, {'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:40:17,595 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı2£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Regsister', 'CASE_ID': 'Case_001', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': '×¢²á', '²âÊÔÊı¾İ': 'username=13129559867,password=12345678', 'ÆÚÍû½á¹û': '', '±¸×¢': '×¢²á¹¦ÄÜ²âÊÔ', 'ÃèÊö': '×¢²á¹¦ÄÜ²âÊÔ'}, {'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:40:17,603 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı2, Êı¾İÄÚÈİ[{'ĞòºÅ': 1.0, 'ÃèÊö': '×¢²á¹¦ÄÜ²âÊÔ', 'TC_ID': 'TC_Regsister', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '×¢²á¹¦ÄÜ²âÊÔ', 'Ç°ÖÃÌõ¼ş': 'ÒªÏÈÈ¡ÏûÍ¬ÒâĞ­Òé'}, {'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:40:17,610 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı2£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Regsister', 'CASE_ID': 'Case_001', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': '×¢²á', '²âÊÔÊı¾İ': 'username=13129559867,password=12345678', 'ÆÚÍû½á¹û': '', '±¸×¢': '×¢²á¹¦ÄÜ²âÊÔ', 'ÃèÊö': '×¢²á¹¦ÄÜ²âÊÔ'}, {'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:40:17,681 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001        offline product:TAS-AN00 model:TAS_AN00']
+2021-04-15 15:40:17,754 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\result
+2021-04-15 15:40:24,607 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\html
+2021-04-15 15:40:32,936 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı2, Êı¾İÄÚÈİ[{'ĞòºÅ': 1.0, 'ÃèÊö': '×¢²á¹¦ÄÜ²âÊÔ', 'TC_ID': 'TC_Regsister', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '×¢²á¹¦ÄÜ²âÊÔ', 'Ç°ÖÃÌõ¼ş': 'ÒªÏÈÈ¡ÏûÍ¬ÒâĞ­Òé'}, {'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:40:32,943 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı2£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Regsister', 'CASE_ID': 'Case_001', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': '×¢²á', '²âÊÔÊı¾İ': 'username=13129559867,password=12345678', 'ÆÚÍû½á¹û': '', '±¸×¢': '×¢²á¹¦ÄÜ²âÊÔ', 'ÃèÊö': '×¢²á¹¦ÄÜ²âÊÔ'}, {'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:40:32,950 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı2, Êı¾İÄÚÈİ[{'ĞòºÅ': 1.0, 'ÃèÊö': '×¢²á¹¦ÄÜ²âÊÔ', 'TC_ID': 'TC_Regsister', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '×¢²á¹¦ÄÜ²âÊÔ', 'Ç°ÖÃÌõ¼ş': 'ÒªÏÈÈ¡ÏûÍ¬ÒâĞ­Òé'}, {'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:40:32,955 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı2£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Regsister', 'CASE_ID': 'Case_001', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': '×¢²á', '²âÊÔÊı¾İ': 'username=13129559867,password=12345678', 'ÆÚÍû½á¹û': '', '±¸×¢': '×¢²á¹¦ÄÜ²âÊÔ', 'ÃèÊö': '×¢²á¹¦ÄÜ²âÊÔ'}, {'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:40:33,028 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001        offline product:TAS-AN00 model:TAS_AN00']
+2021-04-15 15:40:33,107 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\result
+2021-04-15 15:40:39,516 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\html
+2021-04-15 15:48:07,610 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı2, Êı¾İÄÚÈİ[{'ĞòºÅ': 1.0, 'ÃèÊö': '×¢²á¹¦ÄÜ²âÊÔ', 'TC_ID': 'TC_Regsister', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '×¢²á¹¦ÄÜ²âÊÔ', 'Ç°ÖÃÌõ¼ş': 'ÒªÏÈÈ¡ÏûÍ¬ÒâĞ­Òé'}, {'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:48:07,744 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı2£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Regsister', 'CASE_ID': 'Case_001', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': '×¢²á', '²âÊÔÊı¾İ': 'username=13129559867,password=12345678', 'ÆÚÍû½á¹û': '', '±¸×¢': '×¢²á¹¦ÄÜ²âÊÔ', 'ÃèÊö': '×¢²á¹¦ÄÜ²âÊÔ'}, {'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:48:07,752 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı2, Êı¾İÄÚÈİ[{'ĞòºÅ': 1.0, 'ÃèÊö': '×¢²á¹¦ÄÜ²âÊÔ', 'TC_ID': 'TC_Regsister', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '×¢²á¹¦ÄÜ²âÊÔ', 'Ç°ÖÃÌõ¼ş': 'ÒªÏÈÈ¡ÏûÍ¬ÒâĞ­Òé'}, {'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:48:07,762 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı2£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Regsister', 'CASE_ID': 'Case_001', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': '×¢²á', '²âÊÔÊı¾İ': 'username=13129559867,password=12345678', 'ÆÚÍû½á¹û': '', '±¸×¢': '×¢²á¹¦ÄÜ²âÊÔ', 'ÃèÊö': '×¢²á¹¦ÄÜ²âÊÔ'}, {'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:48:07,926 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001']
+2021-04-15 15:48:10,102 - start_appium - INFO - port 4723 is not used
+2021-04-15 15:48:12,755 - start_appium - INFO - [35m[Appium][39m Welcome to Appium v1.20.2
+2021-04-15 15:48:12,756 - start_appium - INFO - [35m[Appium][39m Non-default server args:
+2021-04-15 15:48:12,756 - start_appium - INFO - [35m[Appium][39m   address: 127.0.0.1
+2021-04-15 15:48:12,756 - start_appium - INFO - [35m[Appium][39m   sessionOverride: true
+2021-04-15 15:48:12,756 - start_appium - INFO - [35m[Appium][39m   udid: 127.0.0.1:62001
+2021-04-15 15:48:12,757 - start_appium - INFO - [35m[Appium][39m Deprecated server args:
+2021-04-15 15:48:12,757 - start_appium - INFO - [35m[Appium][39m   [31m-U[39m => --default-capabilities
+2021-04-15 15:48:12,757 - start_appium - INFO - [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2021-04-15 15:48:12,757 - start_appium - INFO - [35m[Appium][39m   udid: 127.0.0.1:62001
+2021-04-15 15:48:12,832 - start_appium - INFO - [35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+2021-04-15 15:48:12,833 - start_appium - INFO - Æô¶¯³É¹¦£ºÆô¶¯²ÎÊıÊÇ£ºhostÎª127.0.0.1,portÎª4723,bpportÎª4724,udidÎª127.0.0.1:62001
+2021-04-15 15:48:19,659 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı2, Êı¾İÄÚÈİ[{'ĞòºÅ': 1.0, 'ÃèÊö': '×¢²á¹¦ÄÜ²âÊÔ', 'TC_ID': 'TC_Regsister', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '×¢²á¹¦ÄÜ²âÊÔ', 'Ç°ÖÃÌõ¼ş': 'ÒªÏÈÈ¡ÏûÍ¬ÒâĞ­Òé'}, {'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:48:19,666 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı2£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Regsister', 'CASE_ID': 'Case_001', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': '×¢²á', '²âÊÔÊı¾İ': 'username=13129559867,password=12345678', 'ÆÚÍû½á¹û': '', '±¸×¢': '×¢²á¹¦ÄÜ²âÊÔ', 'ÃèÊö': '×¢²á¹¦ÄÜ²âÊÔ'}, {'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:48:19,673 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı2, Êı¾İÄÚÈİ[{'ĞòºÅ': 1.0, 'ÃèÊö': '×¢²á¹¦ÄÜ²âÊÔ', 'TC_ID': 'TC_Regsister', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '×¢²á¹¦ÄÜ²âÊÔ', 'Ç°ÖÃÌõ¼ş': 'ÒªÏÈÈ¡ÏûÍ¬ÒâĞ­Òé'}, {'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': ''}]
+2021-04-15 15:48:19,681 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı2£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Regsister', 'CASE_ID': 'Case_001', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': '×¢²á', '²âÊÔÊı¾İ': 'username=13129559867,password=12345678', 'ÆÚÍû½á¹û': '', '±¸×¢': '×¢²á¹¦ÄÜ²âÊÔ', 'ÃèÊö': '×¢²á¹¦ÄÜ²âÊÔ'}, {'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:48:19,727 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001']
+2021-04-15 15:48:19,727 - start_appium - INFO - port 4723 is used!
+2021-04-15 15:48:24,728 - start_appium - INFO - port 4723 is used!
+2021-04-15 15:52:04,319 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 15:52:04,326 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:52:04,333 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 15:52:04,339 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:52:04,383 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001']
+2021-04-15 15:52:06,386 - start_appium - INFO - port 4723 is not used
+2021-04-15 15:52:07,192 - start_appium - INFO - [35m[Appium][39m Welcome to Appium v1.20.2
+2021-04-15 15:52:07,193 - start_appium - INFO - [35m[Appium][39m Non-default server args:
+2021-04-15 15:52:07,193 - start_appium - INFO - [35m[Appium][39m   address: 127.0.0.1
+2021-04-15 15:52:07,193 - start_appium - INFO - [35m[Appium][39m   sessionOverride: true
+2021-04-15 15:52:07,193 - start_appium - INFO - [35m[Appium][39m   udid: 127.0.0.1:62001
+2021-04-15 15:52:07,194 - start_appium - INFO - [35m[Appium][39m Deprecated server args:
+2021-04-15 15:52:07,194 - start_appium - INFO - [35m[Appium][39m   [31m-U[39m => --default-capabilities
+2021-04-15 15:52:07,194 - start_appium - INFO - [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2021-04-15 15:52:07,194 - start_appium - INFO - [35m[Appium][39m   udid: 127.0.0.1:62001
+2021-04-15 15:52:07,224 - start_appium - INFO - [35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+2021-04-15 15:52:07,224 - start_appium - INFO - Æô¶¯³É¹¦£ºÆô¶¯²ÎÊıÊÇ£ºhostÎª127.0.0.1,portÎª4723,bpportÎª4724,udidÎª127.0.0.1:62001
+2021-04-15 15:52:12,224 - start_appium - INFO - port 4723 is used!
+2021-04-15 15:52:17,971 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 15:52:17,978 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:52:17,985 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 15:52:17,992 - D:\appiumdm\Appium_AutoTest\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:52:18,035 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001']
+2021-04-15 15:52:18,036 - start_appium - INFO - port 4723 is used!
+2021-04-15 15:52:23,036 - start_appium - INFO - port 4723 is used!
+2021-04-15 15:53:07,681 - TestKeywords - INFO - Ö´ĞĞÓÃÀıÄÚÈİ{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}
+2021-04-15 15:53:07,689 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_001', '²½ÖèÃû³Æ': 'ÊäÈëÕËºÅ', '²Ù×÷': 'text', 'ÔªËØÃû³Æ': 'El_account_editText2', 'Êı¾İ': 'username', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:53:07,696 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_account_editText2', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/et_account', '': 'ÊäÈëÕË»§'}
+2021-04-15 15:53:07,698 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇby_id_send_keys
+2021-04-15 15:53:10,009 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_002', '²½ÖèÃû³Æ': 'ÊäÈëÃÜÂë', '²Ù×÷': 'text', 'ÔªËØÃû³Æ': 'El_password_edittext2', 'Êı¾İ': 'password', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:53:10,010 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_password_edittext2', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/et_password', '': 'ÊäÈëÃÜÂë'}
+2021-04-15 15:53:10,012 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇby_id_send_keys
+2021-04-15 15:53:11,690 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_003', '²½ÖèÃû³Æ': 'µã»÷µÇÂ¼', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_login_button2', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:53:11,691 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_login_button2', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/btn_login', '': 'µã»÷µÇÂ¼'}
+2021-04-15 15:53:11,692 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 15:53:12,332 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_004', '²½ÖèÃû³Æ': 'µã»÷Ğø·Ñ', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_cloud_phone', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:53:12,333 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_cloud_phone', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/tv_yes_cloud_phone', '': 'µã»÷Ğø·Ñ'}
+2021-04-15 15:53:12,334 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 15:53:23,557 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_005', '²½ÖèÃû³Æ': 'µã»÷1ÌìÌ×²Í', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_set_meal ', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:53:23,558 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_set_meal ', '¶¨Î»ÀàĞÍ': 'xpath', 'ÔªËØĞÅÏ¢': "//*[contains(@text,'1Ìì')]", '': 'µã»÷Ì×²Í'}
+2021-04-15 15:53:23,559 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 15:53:25,512 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_006', '²½ÖèÃû³Æ': 'µã»÷¹ºÂò', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_bt_confirm1', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:53:25,512 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_bt_confirm1', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/bt_confirm', '': 'µã»÷¹ºÂò'}
+2021-04-15 15:53:25,513 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 15:53:26,196 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_007', '²½ÖèÃû³Æ': 'µã»÷È¡Ïû', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_cancel', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:53:26,196 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_cancel', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/tv_cancel', '': 'µã»÷È¡Ïû'}
+2021-04-15 15:53:26,198 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 15:53:27,772 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_008', '²½ÖèÃû³Æ': 'µã»÷¹ºÂò', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_bt_confirm1', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:53:27,772 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_bt_confirm1', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/bt_confirm', '': 'µã»÷¹ºÂò'}
+2021-04-15 15:53:27,773 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 15:53:28,781 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_009', '²½ÖèÃû³Æ': 'µã»÷È·¶¨Ğø·Ñ', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_confirm', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:53:28,781 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_confirm', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/bt_confirm', '': 'µã»÷È·¶¨Ğø·Ñ'}
+2021-04-15 15:53:28,782 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 15:53:30,079 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_010', '²½ÖèÃû³Æ': 'µã»÷·µ»ØÊ×Ò³', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_return_home1', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:53:30,080 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_return_home1', '¶¨Î»ÀàĞÍ': 'xpath', 'ÔªËØĞÅÏ¢': "//*[contains(@text,'·µ»ØÊ×Ò³')]", '': 'µã»÷·µ»ØÊ×Ò³'}
+2021-04-15 15:53:30,081 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 15:53:32,795 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\result
+2021-04-15 15:54:03,775 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest\report\html
+2021-04-15 15:58:05,987 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 15:58:05,996 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:58:06,003 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 15:58:06,017 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 15:58:06,110 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['127.0.0.1:62001']
+2021-04-15 15:58:06,111 - start_appium - INFO - port 4723 is used!
+2021-04-15 15:58:11,111 - start_appium - INFO - port 4723 is used!
+2021-04-15 15:58:20,740 - TestKeywords - INFO - Ö´ĞĞÓÃÀıÄÚÈİ{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}
+2021-04-15 15:58:20,748 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_001', '²½ÖèÃû³Æ': 'ÊäÈëÕËºÅ', '²Ù×÷': 'text', 'ÔªËØÃû³Æ': 'El_account_editText2', 'Êı¾İ': 'username', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:58:20,755 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_account_editText2', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/et_account', '': 'ÊäÈëÕË»§'}
+2021-04-15 15:58:20,757 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇby_id_send_keys
+2021-04-15 15:58:22,842 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_002', '²½ÖèÃû³Æ': 'ÊäÈëÃÜÂë', '²Ù×÷': 'text', 'ÔªËØÃû³Æ': 'El_password_edittext2', 'Êı¾İ': 'password', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:58:22,842 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_password_edittext2', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/et_password', '': 'ÊäÈëÃÜÂë'}
+2021-04-15 15:58:22,843 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇby_id_send_keys
+2021-04-15 15:58:24,553 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_003', '²½ÖèÃû³Æ': 'µã»÷µÇÂ¼', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_login_button2', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:58:24,553 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_login_button2', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/btn_login', '': 'µã»÷µÇÂ¼'}
+2021-04-15 15:58:24,555 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 15:58:25,193 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_004', '²½ÖèÃû³Æ': 'µã»÷Ğø·Ñ', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_cloud_phone', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:58:25,193 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_cloud_phone', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/tv_yes_cloud_phone', '': 'µã»÷Ğø·Ñ'}
+2021-04-15 15:58:25,194 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 15:59:06,608 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_005', '²½ÖèÃû³Æ': 'µã»÷1ÌìÌ×²Í', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_set_meal ', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:59:06,608 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_set_meal ', '¶¨Î»ÀàĞÍ': 'xpath', 'ÔªËØĞÅÏ¢': "//*[contains(@text,'1Ìì')]", '': 'µã»÷Ì×²Í'}
+2021-04-15 15:59:06,610 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 15:59:07,325 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_006', '²½ÖèÃû³Æ': 'µã»÷¹ºÂò', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_bt_confirm1', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:59:07,325 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_bt_confirm1', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/bt_confirm', '': 'µã»÷¹ºÂò'}
+2021-04-15 15:59:07,326 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 15:59:07,998 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_007', '²½ÖèÃû³Æ': 'µã»÷È¡Ïû', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_cancel', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:59:07,999 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_cancel', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/tv_cancel', '': 'µã»÷È¡Ïû'}
+2021-04-15 15:59:08,000 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 15:59:09,322 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_008', '²½ÖèÃû³Æ': 'µã»÷¹ºÂò', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_bt_confirm1', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:59:09,322 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_bt_confirm1', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/bt_confirm', '': 'µã»÷¹ºÂò'}
+2021-04-15 15:59:09,323 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 15:59:10,318 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_009', '²½ÖèÃû³Æ': 'µã»÷È·¶¨Ğø·Ñ', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_confirm', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:59:10,318 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_confirm', '¶¨Î»ÀàĞÍ': 'id', 'ÔªËØĞÅÏ¢': 'com.gemini.cloud.client:id/bt_confirm', '': 'µã»÷È·¶¨Ğø·Ñ'}
+2021-04-15 15:59:10,319 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 15:59:11,701 - operate - DEBUG - Ö´ĞĞ²½Öè{'TC_ID': 'TC_Login_renew', '²½ÖèID': 'LR_010', '²½ÖèÃû³Æ': 'µã»÷·µ»ØÊ×Ò³', '²Ù×÷': 'click', 'ÔªËØÃû³Æ': 'El_return_home1', 'Êı¾İ': '', '×ø±ê': '', '»¬¶¯·½Ïò': '', '¶ÌĞÅÑéÖ¤Âë': '', '¼üÅÌ°´¼ü': ''}
+2021-04-15 15:59:11,701 - operate - DEBUG - ÔªËØĞÅÏ¢{'TC_ID': 'TC_Login_renew', 'ÔªËØÃû³Æ': 'El_return_home1', '¶¨Î»ÀàĞÍ': 'xpath', 'ÔªËØĞÅÏ¢': "//*[contains(@text,'·µ»ØÊ×Ò³')]", '': 'µã»÷·µ»ØÊ×Ò³'}
+2021-04-15 15:59:11,702 - operate - DEBUG - ¸Ã¹Ø¼ü×ÖÊÇclick_btn
+2021-04-15 15:59:14,238 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\result
+2021-04-15 15:59:20,470 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\html
+2021-04-15 16:06:35,978 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 16:06:35,986 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 16:06:35,993 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 16:06:36,000 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 16:06:36,044 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:[]
+2021-04-15 16:06:36,092 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\result
+2021-04-15 16:06:41,837 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\html
+2021-04-15 16:49:51,844 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 16:49:51,851 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 16:49:51,858 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 16:49:51,864 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 16:49:51,909 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['MBJVB20628004068']
+2021-04-15 16:49:51,951 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\result
+2021-04-15 16:49:57,127 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\html
+2021-04-15 16:50:30,238 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 16:50:30,245 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 16:50:30,252 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 16:50:30,259 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 16:50:30,314 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['MBJVB20628004068']
+2021-04-15 16:50:30,352 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\result
+2021-04-15 16:50:34,986 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\html
+2021-04-15 16:50:51,322 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 16:50:51,329 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 16:50:51,336 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 16:50:51,342 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 16:50:51,413 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['MBJVB20628004068']
+2021-04-15 16:50:51,414 - start_appium - INFO - port 4723 is used!
+2021-04-15 16:50:56,414 - start_appium - INFO - port 4723 is used!
+2021-04-15 16:51:05,531 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\result
+2021-04-15 16:51:11,720 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\html
+2021-04-15 16:58:19,549 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 16:58:19,557 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 16:58:19,564 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 16:58:19,570 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 16:58:19,635 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['MBJVB20628004068']
+2021-04-15 16:58:19,636 - start_appium - INFO - port 4723 is used!
+2021-04-15 16:58:24,637 - start_appium - INFO - port 4723 is used!
+2021-04-15 16:58:31,422 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\result
+2021-04-15 16:58:36,049 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\html
+2021-04-15 16:59:18,732 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 16:59:18,739 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 16:59:18,746 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 16:59:18,752 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 16:59:18,810 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['MBJVB20628004068']
+2021-04-15 16:59:18,810 - start_appium - INFO - port 4723 is used!
+2021-04-15 16:59:23,810 - start_appium - INFO - port 4723 is used!
+2021-04-15 16:59:51,399 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\result
+2021-04-15 16:59:56,300 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\html
+2021-04-15 17:00:03,630 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:00:03,638 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:00:03,645 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:00:03,652 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:00:03,696 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['MBJVB20628004068']
+2021-04-15 17:00:05,698 - start_appium - INFO - port 4723 is not used
+2021-04-15 17:00:10,340 - start_appium - INFO - [35m[Appium][39m Welcome to Appium v1.20.2
+2021-04-15 17:00:10,340 - start_appium - INFO - [35m[Appium][39m Non-default server args:
+2021-04-15 17:00:10,341 - start_appium - INFO - [35m[Appium][39m   address: 127.0.0.1
+2021-04-15 17:00:10,341 - start_appium - INFO - [35m[Appium][39m   sessionOverride: true
+2021-04-15 17:00:10,341 - start_appium - INFO - [35m[Appium][39m   udid: MBJVB20628004068
+2021-04-15 17:00:10,341 - start_appium - INFO - [35m[Appium][39m Deprecated server args:
+2021-04-15 17:00:10,342 - start_appium - INFO - [35m[Appium][39m   [31m-U[39m => --default-capabilities
+2021-04-15 17:00:10,342 - start_appium - INFO - [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2021-04-15 17:00:10,342 - start_appium - INFO - [35m[Appium][39m   udid: MBJVB20628004068
+2021-04-15 17:00:10,372 - start_appium - INFO - [35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+2021-04-15 17:00:10,372 - start_appium - INFO - Æô¶¯³É¹¦£ºÆô¶¯²ÎÊıÊÇ£ºhostÎª127.0.0.1,portÎª4723,bpportÎª4724,udidÎªMBJVB20628004068
+2021-04-15 17:00:15,373 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:01:02,020 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:01:02,027 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:01:02,034 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:01:02,041 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:01:02,085 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['MBJVB20628004068']
+2021-04-15 17:01:02,085 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:01:07,085 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:02:53,157 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:02:53,164 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:02:53,171 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:02:53,177 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:02:53,221 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['MBJVB20628004068']
+2021-04-15 17:02:55,223 - start_appium - INFO - port 4723 is not used
+2021-04-15 17:02:56,016 - start_appium - INFO - [35m[Appium][39m Welcome to Appium v1.20.2
+2021-04-15 17:02:56,017 - start_appium - INFO - [35m[Appium][39m Non-default server args:
+2021-04-15 17:02:56,017 - start_appium - INFO - [35m[Appium][39m   address: 127.0.0.1
+2021-04-15 17:02:56,017 - start_appium - INFO - [35m[Appium][39m   sessionOverride: true
+2021-04-15 17:02:56,017 - start_appium - INFO - [35m[Appium][39m   udid: MBJVB20628004068
+2021-04-15 17:02:56,018 - start_appium - INFO - [35m[Appium][39m Deprecated server args:
+2021-04-15 17:02:56,018 - start_appium - INFO - [35m[Appium][39m   [31m-U[39m => --default-capabilities
+2021-04-15 17:02:56,018 - start_appium - INFO - [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2021-04-15 17:02:56,018 - start_appium - INFO - [35m[Appium][39m   udid: MBJVB20628004068
+2021-04-15 17:02:56,051 - start_appium - INFO - [35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4723
+2021-04-15 17:02:56,051 - start_appium - INFO - Æô¶¯³É¹¦£ºÆô¶¯²ÎÊıÊÇ£ºhostÎª127.0.0.1,portÎª4723,bpportÎª4724,udidÎªMBJVB20628004068
+2021-04-15 17:03:09,267 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:03:09,274 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:03:09,280 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:03:09,287 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:03:09,330 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['MBJVB20628004068']
+2021-04-15 17:03:09,330 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:03:14,332 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:03:20,460 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\result
+2021-04-15 17:03:25,178 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\html
+2021-04-15 17:04:22,950 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:04:22,958 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:04:22,964 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:04:22,971 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:04:23,016 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['MBJVB20628004068']
+2021-04-15 17:04:23,017 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:04:28,017 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:04:33,791 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\result
+2021-04-15 17:04:38,880 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\html
+2021-04-15 17:05:15,044 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:05:15,051 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:05:15,058 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:05:15,064 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:05:15,120 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['MBJVB20628004068']
+2021-04-15 17:05:15,120 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:05:20,121 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:05:26,876 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\result
+2021-04-15 17:05:31,608 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\html
+2021-04-15 17:08:34,153 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:08:34,161 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:08:34,168 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:08:34,175 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:08:34,223 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['MBJVB20628004068']
+2021-04-15 17:08:34,224 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:08:39,225 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:08:46,035 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\result
+2021-04-15 17:08:51,032 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\html
+2021-04-15 17:09:46,917 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:09:46,925 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:09:46,931 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:09:46,938 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:09:47,024 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['MBJVB20628004068']
+2021-04-15 17:09:47,025 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:09:52,026 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:09:58,757 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\result
+2021-04-15 17:10:03,689 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\html
+2021-04-15 17:13:18,400 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:13:18,407 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:13:18,413 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:13:18,420 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:13:18,463 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:[]
+2021-04-15 17:13:18,499 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\result
+2021-04-15 17:13:23,808 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\html
+2021-04-15 17:13:26,658 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:13:26,665 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:13:26,672 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:13:26,679 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:13:26,751 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['MBJVB20628004068']
+2021-04-15 17:13:26,752 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:13:31,752 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:13:39,775 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\result
+2021-04-15 17:13:44,886 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\html
+2021-04-15 17:16:30,408 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:16:30,415 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:16:30,422 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:16:30,428 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:16:30,536 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['MBJVB20628004068']
+2021-04-15 17:16:30,536 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:16:35,536 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:16:49,786 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\result
+2021-04-15 17:16:54,989 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\html
+2021-04-15 17:23:14,981 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:23:14,989 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:23:14,996 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:23:15,002 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:23:15,048 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['MBJVB20628004068']
+2021-04-15 17:23:15,049 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:23:20,050 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:23:30,727 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\result
+2021-04-15 17:23:36,103 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\html
+2021-04-15 17:23:46,888 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:23:46,896 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:23:46,903 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:23:46,927 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:23:47,005 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['MBJVB20628004068']
+2021-04-15 17:23:47,006 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:23:52,006 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:24:02,257 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\result
+2021-04-15 17:24:09,456 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:24:09,464 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:24:09,472 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:24:09,479 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:24:09,547 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['MBJVB20628004068']
+2021-04-15 17:24:09,548 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:24:14,549 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:24:24,924 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\result
+2021-04-15 17:24:31,231 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\html
+2021-04-15 17:29:35,336 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:29:35,350 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:29:35,358 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:29:35,364 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:29:35,460 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['MBJVB20628004068', '127.0.0.1:62001        offline product:TAS-AN00 model:TAS_AN00']
+2021-04-15 17:29:35,460 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:29:40,461 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:29:51,167 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\result
+2021-04-15 17:29:56,753 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\html
+2021-04-15 17:30:15,335 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:30:15,342 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:30:15,348 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:30:15,355 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:30:15,399 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['MBJVB20628004068', '127.0.0.1:62001        offline product:TAS-AN00 model:TAS_AN00']
+2021-04-15 17:30:15,399 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:30:20,400 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:30:30,357 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\result
+2021-04-15 17:30:35,673 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\html
+2021-04-15 17:38:49,888 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:38:49,917 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:38:49,931 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:38:49,940 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:38:49,994 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['35987d7f', '127.0.0.1:62001']
+2021-04-15 17:38:49,994 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:38:54,995 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:39:00,721 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\result
+2021-04-15 17:39:08,923 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:39:08,931 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:39:08,939 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:39:08,950 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:39:09,042 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['35987d7f', '127.0.0.1:62001        offline product:TAS-AN00 model:TAS_AN00']
+2021-04-15 17:39:09,043 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:39:14,044 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:39:17,306 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\result
+2021-04-15 17:39:24,674 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\html
+2021-04-15 17:43:33,604 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:43:33,611 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:43:33,618 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:43:33,625 - D:\appiumdm\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:43:33,668 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['35987d7f']
+2021-04-15 17:43:33,668 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:43:38,668 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:43:41,943 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\result
+2021-04-15 17:43:47,181 - allure_generate - INFO - ±¨¸æµØÖ·D:\appiumdm\Appium_AutoTest-Mobile\report\html
+2021-04-15 17:53:55,823 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:53:55,831 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:53:55,839 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:53:55,870 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:53:55,939 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['35987d7f']
+2021-04-15 17:53:55,940 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:54:00,940 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:54:06,780 - allure_generate - INFO - ±¨¸æµØÖ·D:\Appium_AutoTest-Mobile\report\result
+2021-04-15 17:54:13,868 - allure_generate - INFO - ±¨¸æµØÖ·D:\Appium_AutoTest-Mobile\report\html
+2021-04-15 17:57:14,561 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:57:14,569 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:57:14,575 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 17:57:14,582 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 17:57:14,628 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['35987d7f']
+2021-04-15 17:57:14,628 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:57:19,629 - start_appium - INFO - port 4723 is used!
+2021-04-15 17:57:22,715 - allure_generate - INFO - ±¨¸æµØÖ·D:\Appium_AutoTest-Mobile\report\result
+2021-04-15 17:57:28,138 - allure_generate - INFO - ±¨¸æµØÖ·D:\Appium_AutoTest-Mobile\report\html
+2021-04-15 18:03:37,826 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 18:03:37,833 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 18:03:37,840 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 18:03:37,846 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 18:03:37,890 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['35987d7f']
+2021-04-15 18:03:37,891 - start_appium - INFO - port 4723 is used!
+2021-04-15 18:03:42,892 - start_appium - INFO - port 4723 is used!
+2021-04-15 18:03:46,158 - allure_generate - INFO - ±¨¸æµØÖ·D:\Appium_AutoTest-Mobile\report\result
+2021-04-15 18:03:51,444 - allure_generate - INFO - ±¨¸æµØÖ·D:\Appium_AutoTest-Mobile\report\html
+2021-04-15 18:05:29,427 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 18:05:29,435 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 18:05:29,442 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 18:05:29,449 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 18:05:29,496 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['35987d7f']
+2021-04-15 18:05:29,497 - start_appium - INFO - port 4723 is used!
+2021-04-15 18:05:34,497 - start_appium - INFO - port 4723 is used!
+2021-04-15 18:05:38,743 - allure_generate - INFO - ±¨¸æµØÖ·D:\Appium_AutoTest-Mobile\report\result
+2021-04-15 18:05:44,651 - allure_generate - INFO - ±¨¸æµØÖ·D:\Appium_AutoTest-Mobile\report\html
+2021-04-15 18:06:45,797 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 18:06:45,804 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 18:06:45,811 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 18:06:45,818 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 18:06:45,887 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['35987d7f']
+2021-04-15 18:06:45,888 - start_appium - INFO - port 4723 is used!
+2021-04-15 18:06:50,889 - start_appium - INFO - port 4723 is used!
+2021-04-15 18:06:50,934 - allure_generate - INFO - ±¨¸æµØÖ·D:\Appium_AutoTest-Mobile\report\result
+2021-04-15 18:06:56,596 - allure_generate - INFO - ±¨¸æµØÖ·D:\Appium_AutoTest-Mobile\report\html
+2021-04-15 18:13:00,389 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 18:13:00,397 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 18:13:00,404 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 18:13:00,411 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 18:13:00,455 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['35987d7f']
+2021-04-15 18:13:00,456 - start_appium - INFO - port 4723 is used!
+2021-04-15 18:13:05,456 - start_appium - INFO - port 4723 is used!
+2021-04-15 18:13:05,499 - allure_generate - INFO - ±¨¸æµØÖ·D:\Appium_AutoTest-Mobile\report\result
+2021-04-15 18:13:11,562 - allure_generate - INFO - ±¨¸æµØÖ·D:\Appium_AutoTest-Mobile\report\html
+2021-04-15 18:13:47,919 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 18:13:47,925 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 18:13:47,932 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 18:13:47,939 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 18:13:48,006 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['35987d7f']
+2021-04-15 18:13:48,006 - start_appium - INFO - port 4723 is used!
+2021-04-15 18:13:53,007 - start_appium - INFO - port 4723 is used!
+2021-04-15 18:13:57,042 - allure_generate - INFO - ±¨¸æµØÖ·D:\Appium_AutoTest-Mobile\report\result
+2021-04-15 18:14:02,760 - allure_generate - INFO - ±¨¸æµØÖ·D:\Appium_AutoTest-Mobile\report\html
+2021-04-15 18:14:51,688 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 18:14:51,695 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 18:14:51,701 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 18:14:51,708 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 18:14:51,800 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['35987d7f']
+2021-04-15 18:14:51,800 - start_appium - INFO - port 4723 is used!
+2021-04-15 18:14:56,802 - start_appium - INFO - port 4723 is used!
+2021-04-15 18:15:00,610 - allure_generate - INFO - ±¨¸æµØÖ·D:\Appium_AutoTest-Mobile\report\result
+2021-04-15 18:15:06,100 - allure_generate - INFO - ±¨¸æµØÖ·D:\Appium_AutoTest-Mobile\report\html
+2021-04-15 18:15:50,353 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 18:15:50,360 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 18:15:50,368 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 18:15:50,375 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 18:15:50,420 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['35987d7f']
+2021-04-15 18:15:50,421 - start_appium - INFO - port 4723 is used!
+2021-04-15 18:15:55,422 - start_appium - INFO - port 4723 is used!
+2021-04-15 18:15:55,460 - allure_generate - INFO - ±¨¸æµØÖ·D:\Appium_AutoTest-Mobile\report\result
+2021-04-15 18:16:01,002 - allure_generate - INFO - ±¨¸æµØÖ·D:\Appium_AutoTest-Mobile\report\html
+2021-04-15 18:16:12,836 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 18:16:12,843 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 18:16:12,850 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 18:16:12,857 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 18:16:12,902 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['35987d7f']
+2021-04-15 18:16:12,902 - start_appium - INFO - port 4723 is used!
+2021-04-15 18:16:17,903 - start_appium - INFO - port 4723 is used!
+2021-04-15 18:16:22,129 - allure_generate - INFO - ±¨¸æµØÖ·D:\Appium_AutoTest-Mobile\report\result
+2021-04-15 18:16:27,498 - allure_generate - INFO - ±¨¸æµØÖ·D:\Appium_AutoTest-Mobile\report\html
+2021-04-15 18:16:55,565 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 18:16:55,572 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 18:16:55,579 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡TestCases±í²âÊÔ¸öÊı1, Êı¾İÄÚÈİ[{'ĞòºÅ': 4.0, 'ÃèÊö': 'µÇÂ¼Ğø·Ñ', 'TC_ID': 'TC_Login_renew', 'ÊÇ·ñÔËĞĞ': 'y', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'Ç°ÖÃÌõ¼ş': 'ĞèÒªÓĞĞÇ±ÒºÍÒÑ¾­¹ºÂòÔÆÊÖ»ú'}]
+2021-04-15 18:16:55,586 - D:\Appium_AutoTest-Mobile\utils\LogUtil.py - DEBUG - »ñÈ¡CasesData±í²âÊÔ¸öÊı1£¬Êı¾İÄÚÈİ[{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', 'ÊÇ·ñÔËĞĞ': 'y', 'ÓÃÀıÃû³Æ': 'µÇÂ¼Ğø·Ñ', '²âÊÔÊı¾İ': 'username=13333333333,password=ty123456', 'ÆÚÍû½á¹û': '', '±¸×¢': '½øĞĞµÇÂ¼Ğø·Ñ', 'ÃèÊö': 'µÇÂ¼Ğø·Ñ'}]
+2021-04-15 18:16:55,630 - start_appium - INFO - »ñÈ¡µÄdevicesĞÅÏ¢udid:['35987d7f']
+2021-04-15 18:16:55,630 - start_appium - INFO - port 4723 is used!
+2021-04-15 18:17:00,632 - start_appium - INFO - port 4723 is used!
+2021-04-15 18:17:06,654 - allure_generate - INFO - ±¨¸æµØÖ·D:\Appium_AutoTest-Mobile\report\result
+2021-04-15 18:17:12,265 - allure_generate - INFO - ±¨¸æµØÖ·D:\Appium_AutoTest-Mobile\report\html

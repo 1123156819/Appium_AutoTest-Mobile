@@ -1,0 +1,7 @@
+# 2 映射
+click: "click_btn"
+text: "by_id_send_keys"
+verify_toast: "assert_toast_result"
+slid: "by_slide"
+tap: "taptest"
+note: "by_query"

@@ -1,0 +1,34 @@
+INFO     start_appium:StartAppium.py:82 获取的devices信息udid:['MBJVB20628004068']
+INFO     start_appium:StartAppium.py:18 port 4723 is used!
+INFO     start_appium:StartAppium.py:18 port 4723 is used!
+INFO     TestKeywords:TestKeywords.py:33 执行用例内容{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', '是否运行': 'y', '用例名称': '登录续费', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '', '备注': '进行登录续费', '描述': '登录续费'}
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Login_renew', '步骤ID': 'LR_001', '步骤名称': '输入账号', '操作': 'text', '元素名称': 'El_account_editText2', '数据': 'username', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Login_renew', '元素名称': 'El_account_editText2', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/et_account', '': '输入账户'}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是by_id_send_keys
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Login_renew', '步骤ID': 'LR_002', '步骤名称': '输入密码', '操作': 'text', '元素名称': 'El_password_edittext2', '数据': 'password', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Login_renew', '元素名称': 'El_password_edittext2', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/et_password', '': '输入密码'}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是by_id_send_keys
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Login_renew', '步骤ID': 'LR_003', '步骤名称': '点击登录', '操作': 'click', '元素名称': 'El_login_button2', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Login_renew', '元素名称': 'El_login_button2', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/btn_login', '': '点击登录'}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Login_renew', '步骤ID': 'LR_004', '步骤名称': '点击续费', '操作': 'click', '元素名称': 'El_cloud_phone', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Login_renew', '元素名称': 'El_cloud_phone', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/tv_yes_cloud_phone', '': '点击续费'}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Login_renew', '步骤ID': 'LR_005', '步骤名称': '点击1天套餐', '操作': 'click', '元素名称': 'El_set_meal ', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Login_renew', '元素名称': 'El_set_meal ', '定位类型': 'xpath', '元素信息': "//*[contains(@text,'1天')]", '': '点击套餐'}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Login_renew', '步骤ID': 'LR_006', '步骤名称': '点击购买', '操作': 'click', '元素名称': 'El_bt_confirm1', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Login_renew', '元素名称': 'El_bt_confirm1', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/bt_confirm', '': '点击购买'}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Login_renew', '步骤ID': 'LR_007', '步骤名称': '点击取消', '操作': 'click', '元素名称': 'El_cancel', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Login_renew', '元素名称': 'El_cancel', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/tv_cancel', '': '点击取消'}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Login_renew', '步骤ID': 'LR_008', '步骤名称': '点击购买', '操作': 'click', '元素名称': 'El_bt_confirm1', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Login_renew', '元素名称': 'El_bt_confirm1', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/bt_confirm', '': '点击购买'}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Login_renew', '步骤ID': 'LR_009', '步骤名称': '点击确定续费', '操作': 'click', '元素名称': 'El_confirm', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Login_renew', '元素名称': 'El_confirm', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/bt_confirm', '': '点击确定续费'}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:79 执行步骤{'TC_ID': 'TC_Login_renew', '步骤ID': 'LR_010', '步骤名称': '点击返回首页', '操作': 'click', '元素名称': 'El_return_home1', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': '', '键盘按键': ''}
+DEBUG    operate:KeywordOperatePytest.py:83 元素信息{'TC_ID': 'TC_Login_renew', '元素名称': 'El_return_home1', '定位类型': 'xpath', '元素信息': "//*[contains(@text,'返回首页')]", '': '点击返回首页'}
+DEBUG    operate:KeywordOperatePytest.py:93 该关键字是click_btn

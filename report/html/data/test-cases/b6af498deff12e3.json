@@ -1,0 +1,118 @@
+{
+  "uid" : "b6af498deff12e3",
+  "name" : "Case_006-购买星动手机",
+  "fullName" : "testcase.TestKeywords.TestKeyword#test_run",
+  "historyId" : "57f42c85049a65a342046333a233a277",
+  "time" : {
+    "start" : 1617846091562,
+    "stop" : 1617846093140,
+    "duration" : 1578
+  },
+  "status" : "broken",
+  "statusMessage" : "IndexError: list index out of range",
+  "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x0000020331889320>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"ea2478b0-8e38-47ee-8da3-cf40b20d40cd\")>\nrun_case = {'CASE_ID': 'Case_006', 'TC_ID': 'TC_Purchase', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:127: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:121: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:103: in step\n    send = self.str_to_dict(data_input)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.operate.KeywordOperatePytest.Operate object at 0x00000203316EE978>\ncontent = ''\n\n    def str_to_dict(self, content):\n        # 3、字符串转换成字典\n        # 1 通过, 分隔得到username=13718418200 password= 123456\n        res = {}\n        # 2 通过 = 分割\n        for i in str(content).split(\",\"):\n            # print(i)\n            c = i.split(\"=\")\n            # print(c)\n>           res[c[0]] = c[1]\nE           IndexError: list index out of range\n\ntestcase\\operate\\KeywordOperatePytest.py:50: IndexError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_appium_desired",
+    "time" : {
+      "start" : 1617846071015,
+      "stop" : 1617846083442,
+      "duration" : 12427
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "cmdopt",
+    "time" : {
+      "start" : 1617846071015,
+      "stop" : 1617846071015,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "IndexError: list index out of range",
+    "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x0000020331889320>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"ea2478b0-8e38-47ee-8da3-cf40b20d40cd\")>\nrun_case = {'CASE_ID': 'Case_006', 'TC_ID': 'TC_Purchase', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:127: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:121: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:103: in step\n    send = self.str_to_dict(data_input)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.operate.KeywordOperatePytest.Operate object at 0x00000203316EE978>\ncontent = ''\n\n    def str_to_dict(self, content):\n        # 3、字符串转换成字典\n        # 1 通过, 分隔得到username=13718418200 password= 123456\n        res = {}\n        # 2 通过 = 分割\n        for i in str(content).split(\",\"):\n            # print(i)\n            c = i.split(\"=\")\n            # print(c)\n>           res[c[0]] = c[1]\nE           IndexError: list index out of range\n\ntestcase\\operate\\KeywordOperatePytest.py:50: IndexError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7d0f00800983302d",
+      "name" : "2021-04-08 09:41:33",
+      "source" : "7d0f00800983302d.png",
+      "type" : "image/png",
+      "size" : 104439
+    }, {
+      "uid" : "ac1db296d3593831",
+      "name" : "log",
+      "source" : "ac1db296d3593831.txt",
+      "type" : "text/plain",
+      "size" : 779
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "购买云手机功能测试"
+  }, {
+    "name" : "story",
+    "value" : "购买星动云手机流程"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "TestKeywords"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKeyword"
+  }, {
+    "name" : "host",
+    "value" : "hanlizhi-pc"
+  }, {
+    "name" : "thread",
+    "value" : "12960-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.TestKeywords"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "run_case",
+    "value" : "{'TC_ID': 'TC_Purchase', 'CASE_ID': 'Case_006', '是否运行': 'y', '用例名称': '购买星动手机', '测试数据': '', '期望结果': '', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b6af498deff12e3.json",
+  "parameterValues" : [ "{'TC_ID': 'TC_Purchase', 'CASE_ID': 'Case_006', '是否运行': 'y', '用例名称': '购买星动手机', '测试数据': '', '期望结果': '', '备注': '购买云手机功能测试', '描述': '购买星动云手机流程'}" ]
+}

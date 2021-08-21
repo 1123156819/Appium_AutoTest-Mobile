@@ -1,0 +1,165 @@
+{
+  "uid" : "e759240b12e35587",
+  "name" : "Case_001-注册",
+  "fullName" : "testcase.TestKeywords.TestKeyword#test_run",
+  "historyId" : "09d1def909cb056249b96d75b8c275b2",
+  "time" : {
+    "start" : 1618049116236,
+    "stop" : 1618049124813,
+    "duration" : 8577
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'send'",
+  "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x00000260FA5F20F0>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"3c0e4095-4708-4713-b6c9-a84a3b74a212\")>\nrun_case = {'CASE_ID': 'Case_001', 'TC_ID': 'TC_Regsister', '备注': '注册功能测试', '描述': '注册功能测试', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:205: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:199: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:152: in step\n    action_method(**param_value)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <base.BaseAction.Action object at 0x00000260FA6617B8>\nkwargs = {'by': 'xpath', 'expect': '', 'slid': '', 'value': \"//*[contains(@text,'验证码')]\"}\nby = 'xpath', value = \"//*[contains(@text,'验证码')]\"\nloc = <appium.webdriver.webelement.WebElement (session=\"3c0e4095-4708-4713-b6c9-a84a3b74a212\", element=\"66da3ac4-51e4-4f26-8b70-eeeb04a0365c\")>\n\n    def by_id_send_keys(self, **kwargs):\n        \"\"\"\n        通过id定位元素发送内容\n        :param by:\n        :param value:\n        :param send_value:\n        :return:\n        \"\"\"\n        # self.by_find_element(By.ID, value).send_keys(send_value)\n        by, value = kwargs[\"by\"], kwargs[\"value\"]\n        if by == \"id\":\n            loc = self.by_id(value)\n        elif by == \"xpath\":\n            loc = self.by_xpath(value)\n        loc.click()\n>       loc.send_keys(kwargs[\"send\"])\nE       KeyError: 'send'\n\nbase\\BaseAction.py:61: KeyError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "KeyError: 'send'",
+    "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x00000260FA5F20F0>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"3c0e4095-4708-4713-b6c9-a84a3b74a212\")>\nrun_case = {'CASE_ID': 'Case_001', 'TC_ID': 'TC_Regsister', '备注': '注册功能测试', '描述': '注册功能测试', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:205: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:199: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:152: in step\n    action_method(**param_value)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <base.BaseAction.Action object at 0x00000260FA6617B8>\nkwargs = {'by': 'xpath', 'expect': '', 'slid': '', 'value': \"//*[contains(@text,'验证码')]\"}\nby = 'xpath', value = \"//*[contains(@text,'验证码')]\"\nloc = <appium.webdriver.webelement.WebElement (session=\"3c0e4095-4708-4713-b6c9-a84a3b74a212\", element=\"66da3ac4-51e4-4f26-8b70-eeeb04a0365c\")>\n\n    def by_id_send_keys(self, **kwargs):\n        \"\"\"\n        通过id定位元素发送内容\n        :param by:\n        :param value:\n        :param send_value:\n        :return:\n        \"\"\"\n        # self.by_find_element(By.ID, value).send_keys(send_value)\n        by, value = kwargs[\"by\"], kwargs[\"value\"]\n        if by == \"id\":\n            loc = self.by_id(value)\n        elif by == \"xpath\":\n            loc = self.by_xpath(value)\n        loc.click()\n>       loc.send_keys(kwargs[\"send\"])\nE       KeyError: 'send'\n\nbase\\BaseAction.py:61: KeyError",
+    "steps" : [ {
+      "name" : "点击注册",
+      "time" : {
+        "start" : 1618049117805,
+        "stop" : 1618049119197,
+        "duration" : 1392
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "输入账号",
+      "time" : {
+        "start" : 1618049119198,
+        "stop" : 1618049121208,
+        "duration" : 2010
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击同意协议",
+      "time" : {
+        "start" : 1618049121210,
+        "stop" : 1618049121835,
+        "duration" : 625
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击获取验证码",
+      "time" : {
+        "start" : 1618049122851,
+        "stop" : 1618049122898,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "输入验证码",
+      "time" : {
+        "start" : 1618049122899,
+        "stop" : 1618049124615,
+        "duration" : 1716
+      },
+      "status" : "broken",
+      "statusMessage" : "KeyError: 'send'\n",
+      "statusTrace" : "  File \"D:\\appiumdm\\Appium_AutoTest\\testcase\\operate\\KeywordOperatePytest.py\", line 152, in step\n    action_method(**param_value)\n  File \"D:\\appiumdm\\Appium_AutoTest\\base\\BaseAction.py\", line 61, in by_id_send_keys\n    loc.send_keys(kwargs[\"send\"])\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "2f8c1930e340d812",
+      "name" : "2021-04-10 18:05:24",
+      "source" : "2f8c1930e340d812.png",
+      "type" : "image/png",
+      "size" : 170395
+    }, {
+      "uid" : "53f47b8b29a0f23",
+      "name" : "log",
+      "source" : "53f47b8b29a0f23.txt",
+      "type" : "text/plain",
+      "size" : 3203
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "注册功能测试"
+  }, {
+    "name" : "story",
+    "value" : "注册功能测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "TestKeywords"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKeyword"
+  }, {
+    "name" : "host",
+    "value" : "hanlizhi-pc"
+  }, {
+    "name" : "thread",
+    "value" : "16536-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.TestKeywords"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "run_case",
+    "value" : "{'TC_ID': 'TC_Regsister', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '注册', '测试数据': 'username=13129559867,password=12345678', '期望结果': '', '备注': '注册功能测试', '描述': '注册功能测试'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e759240b12e35587.json",
+  "parameterValues" : [ "{'TC_ID': 'TC_Regsister', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '注册', '测试数据': 'username=13129559867,password=12345678', '期望结果': '', '备注': '注册功能测试', '描述': '注册功能测试'}" ]
+}

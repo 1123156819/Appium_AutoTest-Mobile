@@ -1,0 +1,106 @@
+{
+  "uid" : "5b16438b861316d5",
+  "name" : "test_run[run_case0]",
+  "fullName" : "testcase.TestKeywords.TestKeyword#test_run",
+  "historyId" : "09d1def909cb056249b96d75b8c275b2",
+  "time" : {
+    "start" : 1618476591911,
+    "stop" : 1618476591911,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'launch_app'",
+  "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x00000246D28537B8>\nstart_appium_desired = None\nrun_case = {'CASE_ID': 'Case_011', 'TC_ID': 'TC_Login_renew', '备注': '进行登录续费', '描述': '登录续费', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n>       self.driver.launch_app()\nE       AttributeError: 'NoneType' object has no attribute 'launch_app'\n\n..\\Appium_AutoTest\\testcase\\TestKeywords.py:31: AttributeError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "cmdopt",
+    "time" : {
+      "start" : 1618476591870,
+      "stop" : 1618476591870,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "start_appium_desired",
+    "time" : {
+      "start" : 1618476591870,
+      "stop" : 1618476591910,
+      "duration" : 40
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'launch_app'",
+    "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x00000246D28537B8>\nstart_appium_desired = None\nrun_case = {'CASE_ID': 'Case_011', 'TC_ID': 'TC_Login_renew', '备注': '进行登录续费', '描述': '登录续费', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n>       self.driver.launch_app()\nE       AttributeError: 'NoneType' object has no attribute 'launch_app'\n\n..\\Appium_AutoTest\\testcase\\TestKeywords.py:31: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "acc37b11b67a32e2",
+      "name" : "log",
+      "source" : "acc37b11b67a32e2.txt",
+      "type" : "text/plain",
+      "size" : 87
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "TestKeywords"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKeyword"
+  }, {
+    "name" : "host",
+    "value" : "hanlizhi-pc"
+  }, {
+    "name" : "thread",
+    "value" : "8696-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.TestKeywords"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "run_case",
+    "value" : "{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', '是否运行': 'y', '用例名称': '登录续费', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '', '备注': '进行登录续费', '描述': '登录续费'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b16438b861316d5.json",
+  "parameterValues" : [ "{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', '是否运行': 'y', '用例名称': '登录续费', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '', '备注': '进行登录续费', '描述': '登录续费'}" ]
+}

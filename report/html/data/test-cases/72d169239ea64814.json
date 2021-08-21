@@ -1,0 +1,270 @@
+{
+  "uid" : "72d169239ea64814",
+  "name" : "Case_005-购买星动手机",
+  "fullName" : "testcase.TestKeywords.TestKeyword#test_run",
+  "historyId" : "09d1def909cb056249b96d75b8c275b2",
+  "time" : {
+    "start" : 1618567629231,
+    "stop" : 1618567733622,
+    "duration" : 104391
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'click'",
+  "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x000001F0F30A5EB8>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"fbbad0fa-40bb-4e22-b3e5-a9863f5a7926\")>\nrun_case = {'CASE_ID': 'Case_005', 'TC_ID': 'TC_Purchase', '备注': '购买星动云手机', '描述': '购买星动云手机流程', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:34: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:250: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:244: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:189: in step\n    action_method(**param_value)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <base.BaseAction.Action object at 0x000001F0F303DA58>\nkwargs = {'by': 'id', 'expect': '取消', 'slid': '', 'value': \"//*[contains(@class,'android.widget.FrameLayout')]\"}\nby = 'id', value = \"//*[contains(@class,'android.widget.FrameLayout')]\"\nloc = None\n\n    def click_btn(self, **kwargs):\n        by, value = kwargs[\"by\"], kwargs[\"value\"]\n        # 根据by类型，进行by_id, by_xpath方法调用\n        if by == \"id\":\n            loc = self.by_id(value)\n        elif by == \"xpath\":\n            loc = self.by_xpath(value)\n            time.sleep(1)\n>       loc.click()\nE       AttributeError: 'NoneType' object has no attribute 'click'\n\nbase\\BaseAction.py:151: AttributeError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_appium_desired",
+    "time" : {
+      "start" : 1618567616677,
+      "stop" : 1618567629228,
+      "duration" : 12551
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "cmdopt",
+    "time" : {
+      "start" : 1618567616677,
+      "stop" : 1618567616677,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'click'",
+    "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x000001F0F30A5EB8>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"fbbad0fa-40bb-4e22-b3e5-a9863f5a7926\")>\nrun_case = {'CASE_ID': 'Case_005', 'TC_ID': 'TC_Purchase', '备注': '购买星动云手机', '描述': '购买星动云手机流程', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:34: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:250: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:244: in get_err_screenshot\n    func(self, *args, **kwargs)\ntestcase\\operate\\KeywordOperatePytest.py:189: in step\n    action_method(**param_value)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <base.BaseAction.Action object at 0x000001F0F303DA58>\nkwargs = {'by': 'id', 'expect': '取消', 'slid': '', 'value': \"//*[contains(@class,'android.widget.FrameLayout')]\"}\nby = 'id', value = \"//*[contains(@class,'android.widget.FrameLayout')]\"\nloc = None\n\n    def click_btn(self, **kwargs):\n        by, value = kwargs[\"by\"], kwargs[\"value\"]\n        # 根据by类型，进行by_id, by_xpath方法调用\n        if by == \"id\":\n            loc = self.by_id(value)\n        elif by == \"xpath\":\n            loc = self.by_xpath(value)\n            time.sleep(1)\n>       loc.click()\nE       AttributeError: 'NoneType' object has no attribute 'click'\n\nbase\\BaseAction.py:151: AttributeError",
+    "steps" : [ {
+      "name" : "点击购买手机",
+      "time" : {
+        "start" : 1618567630357,
+        "stop" : 1618567674275,
+        "duration" : 43918
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击星动",
+      "time" : {
+        "start" : 1618567674277,
+        "stop" : 1618567676320,
+        "duration" : 2043
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击手机数量+1",
+      "time" : {
+        "start" : 1618567676322,
+        "stop" : 1618567676464,
+        "duration" : 142
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击手机数量+1",
+      "time" : {
+        "start" : 1618567676466,
+        "stop" : 1618567677213,
+        "duration" : 747
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击手机数量-1",
+      "time" : {
+        "start" : 1618567677215,
+        "stop" : 1618567677879,
+        "duration" : 664
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "向下滑动",
+      "time" : {
+        "start" : 1618567677881,
+        "stop" : 1618567681045,
+        "duration" : 3164
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击微信支付",
+      "time" : {
+        "start" : 1618567681046,
+        "stop" : 1618567681211,
+        "duration" : 165
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击确定购买",
+      "time" : {
+        "start" : 1618567681213,
+        "stop" : 1618567682049,
+        "duration" : 836
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击确认支付",
+      "time" : {
+        "start" : 1618567682053,
+        "stop" : 1618567683363,
+        "duration" : 1310
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "返回账户页面",
+      "time" : {
+        "start" : 1618567684740,
+        "stop" : 1618567732362,
+        "duration" : 47622
+      },
+      "status" : "broken",
+      "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'click'\n",
+      "statusTrace" : "  File \"D:\\Appium_AutoTest-Mobile\\testcase\\operate\\KeywordOperatePytest.py\", line 189, in step\n    action_method(**param_value)\n  File \"D:\\Appium_AutoTest-Mobile\\base\\BaseAction.py\", line 151, in click_btn\n    loc.click()\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "fb63f8a13a336fce",
+      "name" : "2021-04-16 18:08:53",
+      "source" : "fb63f8a13a336fce.png",
+      "type" : "image/png",
+      "size" : 1137106
+    }, {
+      "uid" : "74c19d85361bc4ca",
+      "name" : "log",
+      "source" : "74c19d85361bc4ca.txt",
+      "type" : "text/plain",
+      "size" : 6268
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 10
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "购买星动云手机"
+  }, {
+    "name" : "story",
+    "value" : "购买星动云手机流程"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "TestKeywords"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKeyword"
+  }, {
+    "name" : "host",
+    "value" : "hanlizhi-pc"
+  }, {
+    "name" : "thread",
+    "value" : "4252-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.TestKeywords"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "run_case",
+    "value" : "{'TC_ID': 'TC_Purchase', 'CASE_ID': 'Case_005', '是否运行': 'y', '用例名称': '购买星动手机', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '取消', '备注': '购买星动云手机', '描述': '购买星动云手机流程'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "72d169239ea64814.json",
+  "parameterValues" : [ "{'TC_ID': 'TC_Purchase', 'CASE_ID': 'Case_005', '是否运行': 'y', '用例名称': '购买星动手机', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '取消', '备注': '购买星动云手机', '描述': '购买星动云手机流程'}" ]
+}

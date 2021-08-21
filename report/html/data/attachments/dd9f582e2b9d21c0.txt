@@ -1,0 +1,1 @@
+INFO     start_appium:StartAppium.py:82 获取的devices信息udid:['MBJVB20628004068', '127.0.0.1:62001']

@@ -1,0 +1,16 @@
+INFO     start_appium:StartAppium.py:82 获取的devices信息udid:['127.0.0.1:62001']
+INFO     start_appium:StartAppium.py:18 port 4723 is used!
+INFO     start_appium:StartAppium.py:18 port 4723 is used!
+INFO     TestKeywords:TestKeywords.py:32 执行用例内容{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_003', '是否运行': 'y', '用例名称': '登录成功', '测试数据': 'username=13129559867,password=12345678', '期望结果': '', '备注': '登录功能测试', '描述': '自动登录测试'}
+DEBUG    operate:KeywordOperatePytest.py:78 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS001', '步骤名称': '输入用户名', '操作': 'text', '元素名称': 'El_account_editText', '数据': 'username', '坐标': '', '滑动方向': '', '短信验证码': ''}
+DEBUG    operate:KeywordOperatePytest.py:82 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_account_editText', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/et_account'}
+DEBUG    operate:KeywordOperatePytest.py:92 该关键字是by_id_send_keys
+DEBUG    operate:KeywordOperatePytest.py:78 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS002', '步骤名称': '输入密码', '操作': 'text', '元素名称': 'El_password_edittext', '数据': 'password', '坐标': '', '滑动方向': '', '短信验证码': ''}
+DEBUG    operate:KeywordOperatePytest.py:82 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_password_edittext', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/et_password'}
+DEBUG    operate:KeywordOperatePytest.py:92 该关键字是by_id_send_keys
+DEBUG    operate:KeywordOperatePytest.py:78 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS004', '步骤名称': '点击登录', '操作': 'click', '元素名称': 'El_login_button', '数据': '', '坐标': '', '滑动方向': '', '短信验证码': ''}
+DEBUG    operate:KeywordOperatePytest.py:82 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_login_button', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/btn_login'}
+DEBUG    operate:KeywordOperatePytest.py:92 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:78 执行步骤{'TC_ID': 'TC_Login', '步骤ID': 'TS005', '步骤名称': '移动坐标', '操作': 'slid', '元素名称': 'El_view', '数据': '', '坐标': '', '滑动方向': 'swipeLeft', '短信验证码': ''}
+DEBUG    operate:KeywordOperatePytest.py:82 元素信息{'TC_ID': 'TC_Login', '元素名称': 'El_view', '定位类型': 'id', '元素信息': 'com.gemini.cloud.client:id/iv_cloud_phone_view'}
+DEBUG    operate:KeywordOperatePytest.py:92 该关键字是by_slide

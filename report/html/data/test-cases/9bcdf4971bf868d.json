@@ -1,0 +1,83 @@
+{
+  "uid" : "9bcdf4971bf868d",
+  "name" : "test_query",
+  "fullName" : "testcase.test1_db.testdb#test_query",
+  "historyId" : "ace2a29b8b2217d0b3b1e28ade4bcabe",
+  "time" : {
+    "start" : 1617955041821,
+    "stop" : 1617955041826,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_testdb",
+    "time" : {
+      "start" : 1617955041801,
+      "stop" : 1617955041801,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_testdb::0",
+    "time" : {
+      "start" : 1617955041827,
+      "stop" : 1617955041827,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test1_db"
+  }, {
+    "name" : "subSuite",
+    "value" : "testdb"
+  }, {
+    "name" : "host",
+    "value" : "hanlizhi-pc"
+  }, {
+    "name" : "thread",
+    "value" : "13920-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test1_db"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9bcdf4971bf868d.json",
+  "parameterValues" : [ ]
+}

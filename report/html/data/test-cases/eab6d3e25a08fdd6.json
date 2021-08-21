@@ -1,0 +1,178 @@
+{
+  "uid" : "eab6d3e25a08fdd6",
+  "name" : "Case_002-登录成功",
+  "fullName" : "testcase.TestKeywords.TestKeyword#test_run",
+  "historyId" : "09d1def909cb056249b96d75b8c275b2",
+  "time" : {
+    "start" : 1617870588829,
+    "stop" : 1617870595712,
+    "duration" : 6883
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'NoneType' object is not subscriptable",
+  "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x000001F04438C860>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"5a2f5b91-f711-47a3-b220-e89194fe88a4\")>\nrun_case = {'CASE_ID': 'Case_002', 'TC_ID': 'TC_Login', '备注': '登录功能测试', '描述': '自动登录测试', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:190: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:184: in get_err_screenshot\n    func(self, *args, **kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.operate.KeywordOperatePytest.Operate object at 0x000001F0444A47B8>\ndata = <base.ExcelData.Data object at 0x000001F0442937B8>\nrun_case = {'CASE_ID': 'Case_002', 'TC_ID': 'TC_Login', '备注': '登录功能测试', '描述': '自动登录测试', ...}\n\n    @screenshot_allure #装饰器\n    def step(self, data, run_case):\n        tc_id = run_case[TestSteps.STEP_TC_ID]\n        # 获取步骤\n        steps = data.get_steps_by_tc_id(tc_id)\n        # allure 报告\n        # feature 一级标题\n        allure.dynamic.feature(run_case[TestCases.CASES_NOTE])\n        # story 二级标题\n        allure.dynamic.story(run_case[TestCases.CASES_DESC])\n    \n        # title 标题\n        allure.dynamic.title(run_case[CaseData.DATA_CASE_ID] + \"-\" + run_case[CaseData.DATA_NAME])\n    \n        for step in steps:\n            log.debug(\"执行步骤{}\".format(step))\n            # 获取元素信息\n            elements = step[TestSteps.STEP_ELEMENT_NAME]\n            element = data.get_elements_by_element(step[TestSteps.STEP_TC_ID], elements)\n            log.debug(\"元素信息{}\".format(element))\n            # 操作步骤 关键表映射 click_btn\n            operate = self.get_keyword(step[TestSteps.STEP_OPERATE])\n    \n            # 操作判断，是否存在， 不存在不执行\n            if operate:\n                # 定义方法参数：字典\n                param_value = dict()\n                # 根据getattr判断执行那个方法\n                action_method = getattr(Action(self.driver), operate)\n                log.debug(\"该关键字是{}\".format(operate))\n    \n                # 定义具体参数\n>               by = element[Elements.ELE_BY]\nE               TypeError: 'NoneType' object is not subscriptable\n\ntestcase\\operate\\KeywordOperatePytest.py:91: TypeError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "cmdopt",
+    "time" : {
+      "start" : 1617870575952,
+      "stop" : 1617870575952,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "start_appium_desired",
+    "time" : {
+      "start" : 1617870575952,
+      "stop" : 1617870588828,
+      "duration" : 12876
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: 'NoneType' object is not subscriptable",
+    "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x000001F04438C860>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"5a2f5b91-f711-47a3-b220-e89194fe88a4\")>\nrun_case = {'CASE_ID': 'Case_002', 'TC_ID': 'TC_Login', '备注': '登录功能测试', '描述': '自动登录测试', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:190: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:184: in get_err_screenshot\n    func(self, *args, **kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.operate.KeywordOperatePytest.Operate object at 0x000001F0444A47B8>\ndata = <base.ExcelData.Data object at 0x000001F0442937B8>\nrun_case = {'CASE_ID': 'Case_002', 'TC_ID': 'TC_Login', '备注': '登录功能测试', '描述': '自动登录测试', ...}\n\n    @screenshot_allure #装饰器\n    def step(self, data, run_case):\n        tc_id = run_case[TestSteps.STEP_TC_ID]\n        # 获取步骤\n        steps = data.get_steps_by_tc_id(tc_id)\n        # allure 报告\n        # feature 一级标题\n        allure.dynamic.feature(run_case[TestCases.CASES_NOTE])\n        # story 二级标题\n        allure.dynamic.story(run_case[TestCases.CASES_DESC])\n    \n        # title 标题\n        allure.dynamic.title(run_case[CaseData.DATA_CASE_ID] + \"-\" + run_case[CaseData.DATA_NAME])\n    \n        for step in steps:\n            log.debug(\"执行步骤{}\".format(step))\n            # 获取元素信息\n            elements = step[TestSteps.STEP_ELEMENT_NAME]\n            element = data.get_elements_by_element(step[TestSteps.STEP_TC_ID], elements)\n            log.debug(\"元素信息{}\".format(element))\n            # 操作步骤 关键表映射 click_btn\n            operate = self.get_keyword(step[TestSteps.STEP_OPERATE])\n    \n            # 操作判断，是否存在， 不存在不执行\n            if operate:\n                # 定义方法参数：字典\n                param_value = dict()\n                # 根据getattr判断执行那个方法\n                action_method = getattr(Action(self.driver), operate)\n                log.debug(\"该关键字是{}\".format(operate))\n    \n                # 定义具体参数\n>               by = element[Elements.ELE_BY]\nE               TypeError: 'NoneType' object is not subscriptable\n\ntestcase\\operate\\KeywordOperatePytest.py:91: TypeError",
+    "steps" : [ {
+      "name" : "输入用户名",
+      "time" : {
+        "start" : 1617870590154,
+        "stop" : 1617870592671,
+        "duration" : 2517
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1617870592674,
+        "stop" : 1617870594319,
+        "duration" : 1645
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击同意协议",
+      "time" : {
+        "start" : 1617870594320,
+        "stop" : 1617870594966,
+        "duration" : 646
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1617870594968,
+        "stop" : 1617870595518,
+        "duration" : 550
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "bf00f711d439cd05",
+      "name" : "2021-04-08 16:29:55",
+      "source" : "bf00f711d439cd05.png",
+      "type" : "image/png",
+      "size" : 166350
+    }, {
+      "uid" : "c5e62a8b45504bd3",
+      "name" : "log",
+      "source" : "c5e62a8b45504bd3.txt",
+      "type" : "text/plain",
+      "size" : 2883
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录功能测试"
+  }, {
+    "name" : "story",
+    "value" : "自动登录测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "TestKeywords"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKeyword"
+  }, {
+    "name" : "host",
+    "value" : "hanlizhi-pc"
+  }, {
+    "name" : "thread",
+    "value" : "13632-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.TestKeywords"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "run_case",
+    "value" : "{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_002', '是否运行': 'y', '用例名称': '登录成功', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '', '备注': '登录功能测试', '描述': '自动登录测试'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eab6d3e25a08fdd6.json",
+  "parameterValues" : [ "{'TC_ID': 'TC_Login', 'CASE_ID': 'Case_002', '是否运行': 'y', '用例名称': '登录成功', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '', '备注': '登录功能测试', '描述': '自动登录测试'}" ]
+}

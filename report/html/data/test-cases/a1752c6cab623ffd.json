@@ -1,0 +1,223 @@
+{
+  "uid" : "a1752c6cab623ffd",
+  "name" : "Case_004-验证码登录",
+  "fullName" : "testcase.TestKeywords.TestKeyword#test_run",
+  "historyId" : "09d1def909cb056249b96d75b8c275b2",
+  "time" : {
+    "start" : 1618223758401,
+    "stop" : 1618223769932,
+    "duration" : 11531
+  },
+  "status" : "broken",
+  "statusMessage" : "UnboundLocalError: local variable 'results' referenced before assignment",
+  "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x000002370DD51550>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"8a11da5a-4e7c-426b-bb11-5dd4ef62d408\")>\nrun_case = {'CASE_ID': 'Case_004', 'TC_ID': 'TC_Lg_Verification ', '备注': '验证码登录功能测试', '描述': '验证码登录', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:205: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:199: in get_err_screenshot\n    func(self, *args, **kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.operate.KeywordOperatePytest.Operate object at 0x000002370DDA0390>\ndata = <base.ExcelData.Data object at 0x000002370DA076D8>\nrun_case = {'CASE_ID': 'Case_004', 'TC_ID': 'TC_Lg_Verification ', '备注': '验证码登录功能测试', '描述': '验证码登录', ...}\n\n    @screenshot_allure #装饰器\n    def step(self, data, run_case):\n        tc_id = run_case[TestSteps.STEP_TC_ID]\n        # 获取步骤\n        steps = data.get_steps_by_tc_id(tc_id)\n        # allure 报告\n        # feature 一级标题\n        allure.dynamic.feature(run_case[TestCases.CASES_NOTE])\n        # story 二级标题\n        allure.dynamic.story(run_case[TestCases.CASES_DESC])\n    \n        # title 标题\n        allure.dynamic.title(run_case[CaseData.DATA_CASE_ID] + \"-\" + run_case[CaseData.DATA_NAME])\n    \n        for step in steps:\n            log.debug(\"执行步骤{}\".format(step))\n            # 获取元素信息\n            elements = step[TestSteps.STEP_ELEMENT_NAME]\n            element = data.get_elements_by_element(step[TestSteps.STEP_TC_ID], elements)\n            log.debug(\"元素信息{}\".format(element))\n            # 操作步骤 关键表映射 click_btn\n            operate = self.get_keyword(step[TestSteps.STEP_OPERATE])\n    \n            # 操作判断，是否存在， 不存在不执行\n            if operate:\n                # 定义方法参数：字典\n                param_value = dict()\n                # 根据getattr判断执行那个方法\n                action_method = getattr(Action(self.driver), operate)\n                log.debug(\"该关键字是{}\".format(operate))\n    \n                # 定义具体参数\n                by = element[Elements.ELE_BY]\n                value = element[Elements.ELE_VALUE]\n    \n                # 1、获取by,value,send_value内容\n                send_value = step[TestSteps.STEP_DATA]\n                send_slid = step[TestSteps.STEP_SLIDE]\n                send_COORD = step[TestSteps.STEP_COORD]\n                send_note = step[TestSteps.STEP_NOTE]\n                send_Keyboard = step[TestSteps.STEP_KEYBOARD]\n    \n                # 2、send_value内容转换，通过case data数据内容\n    \n                expect = run_case[CaseData.DATA_EXPECT_RESULT]\n                param_value[\"by\"] = by\n                param_value[\"value\"] = value\n                param_value[\"expect\"] = expect\n                #映射 自动滑动\n                param_value[\"slid\"] = send_slid\n                if send_Keyboard:\n                    keyboard = int(send_Keyboard)\n                    # 模拟键盘按键操作\n                    self.driver.keyevent(keyboard)\n                    time.sleep(1)\n                # 判断 加入有输入 内容 字符转换\n                if send_value:\n                    data_input = run_case[CaseData.DATA_INPUT]\n                    send = self.str_to_dict(data_input)\n    \n                    param_value[\"send\"] = send[send_value]\n                if send_COORD:\n                    slid = self.str_to_dict(send_COORD)\n                    # 映射 定位点击\n                    param_value[\"tap\"] = slid\n    \n    \n                # 数据库拉取验证码进行填写\n                if send_note:\n                    time.sleep(1)\n                    tunnelDB = MysqlConnect('192.168.199.243', 3306, 'cloud', 'Cloud.123456', 'cloud')\n                    data_mobile = run_case[CaseData.DATA_INPUT]\n                    send1 = self.str_to_dict(data_mobile)\n                    param_value[\"note\"] = send_note\n                    phone = send1.get(\"username\")\n    \n                    if send_note == \"注册\":\n                        # 注册验证码\n                        sql = 'SELECT regist FROM t_user_phonecode WHERE phone =%s' % phone\n                        results = tunnelDB.select(sql)\n                    elif send_note == \"登陆\":\n                        # 登陆验证码\n                        sql = 'SELECT login FROM t_user_phonecode WHERE phone =%s' % phone\n                        results = tunnelDB.select(sql)\n                    elif send_note == \"找回\":\n                        # 密码找回验证码\n                        sql = 'SELECT passwd_back FROM t_user_phonecode WHERE phone =%s' % phone\n                        results = tunnelDB.select(sql)\n                    elif send_note == \"绑定新手机\":\n                        # 绑定新手机验证码\n                        sql = 'SELECT modify FROM t_user_phonecode WHERE phone =%s' % phone\n                        results = tunnelDB.select(sql)\n>                   print(results)\nE                   UnboundLocalError: local variable 'results' referenced before assignment\n\ntestcase\\operate\\KeywordOperatePytest.py:155: UnboundLocalError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_appium_desired",
+    "time" : {
+      "start" : 1618223742965,
+      "stop" : 1618223758400,
+      "duration" : 15435
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "cmdopt",
+    "time" : {
+      "start" : 1618223742965,
+      "stop" : 1618223742965,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "UnboundLocalError: local variable 'results' referenced before assignment",
+    "statusTrace" : "self = <testcase.TestKeywords.TestKeyword object at 0x000002370DD51550>\nstart_appium_desired = <appium.webdriver.webdriver.WebDriver (session=\"8a11da5a-4e7c-426b-bb11-5dd4ef62d408\")>\nrun_case = {'CASE_ID': 'Case_004', 'TC_ID': 'TC_Lg_Verification ', '备注': '验证码登录功能测试', '描述': '验证码登录', ...}\n\n    @pytest.mark.parametrize(\"run_case\", run_list)\n    def test_run(self, start_appium_desired, run_case):\n        self.driver = start_appium_desired\n        self.driver.launch_app()\n    \n        log.info(\"执行用例内容{}\".format(run_case))\n>       Operate(self.driver).step(data, run_case)\n\ntestcase\\TestKeywords.py:33: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nbase\\BaseAction.py:205: in get_err_screenshot\n    raise e\nbase\\BaseAction.py:199: in get_err_screenshot\n    func(self, *args, **kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.operate.KeywordOperatePytest.Operate object at 0x000002370DDA0390>\ndata = <base.ExcelData.Data object at 0x000002370DA076D8>\nrun_case = {'CASE_ID': 'Case_004', 'TC_ID': 'TC_Lg_Verification ', '备注': '验证码登录功能测试', '描述': '验证码登录', ...}\n\n    @screenshot_allure #装饰器\n    def step(self, data, run_case):\n        tc_id = run_case[TestSteps.STEP_TC_ID]\n        # 获取步骤\n        steps = data.get_steps_by_tc_id(tc_id)\n        # allure 报告\n        # feature 一级标题\n        allure.dynamic.feature(run_case[TestCases.CASES_NOTE])\n        # story 二级标题\n        allure.dynamic.story(run_case[TestCases.CASES_DESC])\n    \n        # title 标题\n        allure.dynamic.title(run_case[CaseData.DATA_CASE_ID] + \"-\" + run_case[CaseData.DATA_NAME])\n    \n        for step in steps:\n            log.debug(\"执行步骤{}\".format(step))\n            # 获取元素信息\n            elements = step[TestSteps.STEP_ELEMENT_NAME]\n            element = data.get_elements_by_element(step[TestSteps.STEP_TC_ID], elements)\n            log.debug(\"元素信息{}\".format(element))\n            # 操作步骤 关键表映射 click_btn\n            operate = self.get_keyword(step[TestSteps.STEP_OPERATE])\n    \n            # 操作判断，是否存在， 不存在不执行\n            if operate:\n                # 定义方法参数：字典\n                param_value = dict()\n                # 根据getattr判断执行那个方法\n                action_method = getattr(Action(self.driver), operate)\n                log.debug(\"该关键字是{}\".format(operate))\n    \n                # 定义具体参数\n                by = element[Elements.ELE_BY]\n                value = element[Elements.ELE_VALUE]\n    \n                # 1、获取by,value,send_value内容\n                send_value = step[TestSteps.STEP_DATA]\n                send_slid = step[TestSteps.STEP_SLIDE]\n                send_COORD = step[TestSteps.STEP_COORD]\n                send_note = step[TestSteps.STEP_NOTE]\n                send_Keyboard = step[TestSteps.STEP_KEYBOARD]\n    \n                # 2、send_value内容转换，通过case data数据内容\n    \n                expect = run_case[CaseData.DATA_EXPECT_RESULT]\n                param_value[\"by\"] = by\n                param_value[\"value\"] = value\n                param_value[\"expect\"] = expect\n                #映射 自动滑动\n                param_value[\"slid\"] = send_slid\n                if send_Keyboard:\n                    keyboard = int(send_Keyboard)\n                    # 模拟键盘按键操作\n                    self.driver.keyevent(keyboard)\n                    time.sleep(1)\n                # 判断 加入有输入 内容 字符转换\n                if send_value:\n                    data_input = run_case[CaseData.DATA_INPUT]\n                    send = self.str_to_dict(data_input)\n    \n                    param_value[\"send\"] = send[send_value]\n                if send_COORD:\n                    slid = self.str_to_dict(send_COORD)\n                    # 映射 定位点击\n                    param_value[\"tap\"] = slid\n    \n    \n                # 数据库拉取验证码进行填写\n                if send_note:\n                    time.sleep(1)\n                    tunnelDB = MysqlConnect('192.168.199.243', 3306, 'cloud', 'Cloud.123456', 'cloud')\n                    data_mobile = run_case[CaseData.DATA_INPUT]\n                    send1 = self.str_to_dict(data_mobile)\n                    param_value[\"note\"] = send_note\n                    phone = send1.get(\"username\")\n    \n                    if send_note == \"注册\":\n                        # 注册验证码\n                        sql = 'SELECT regist FROM t_user_phonecode WHERE phone =%s' % phone\n                        results = tunnelDB.select(sql)\n                    elif send_note == \"登陆\":\n                        # 登陆验证码\n                        sql = 'SELECT login FROM t_user_phonecode WHERE phone =%s' % phone\n                        results = tunnelDB.select(sql)\n                    elif send_note == \"找回\":\n                        # 密码找回验证码\n                        sql = 'SELECT passwd_back FROM t_user_phonecode WHERE phone =%s' % phone\n                        results = tunnelDB.select(sql)\n                    elif send_note == \"绑定新手机\":\n                        # 绑定新手机验证码\n                        sql = 'SELECT modify FROM t_user_phonecode WHERE phone =%s' % phone\n                        results = tunnelDB.select(sql)\n>                   print(results)\nE                   UnboundLocalError: local variable 'results' referenced before assignment\n\ntestcase\\operate\\KeywordOperatePytest.py:155: UnboundLocalError",
+    "steps" : [ {
+      "name" : "点击验证码",
+      "time" : {
+        "start" : 1618223760219,
+        "stop" : 1618223761203,
+        "duration" : 984
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击账号按钮",
+      "time" : {
+        "start" : 1618223761204,
+        "stop" : 1618223762074,
+        "duration" : 870
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击验证码",
+      "time" : {
+        "start" : 1618223762076,
+        "stop" : 1618223762658,
+        "duration" : 582
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击注册按钮",
+      "time" : {
+        "start" : 1618223762660,
+        "stop" : 1618223763516,
+        "duration" : 856
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "返回注册页面",
+      "time" : {
+        "start" : 1618223765159,
+        "stop" : 1618223766026,
+        "duration" : 867
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击输入手机号码",
+      "time" : {
+        "start" : 1618223766027,
+        "stop" : 1618223767237,
+        "duration" : 1210
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击获取验证码",
+      "time" : {
+        "start" : 1618223767239,
+        "stop" : 1618223768714,
+        "duration" : 1475
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "6b1005b4a10d899",
+      "name" : "2021-04-12 18:36:09",
+      "source" : "6b1005b4a10d899.png",
+      "type" : "image/png",
+      "size" : 169501
+    }, {
+      "uid" : "166e0f4274dc35dd",
+      "name" : "log",
+      "source" : "166e0f4274dc35dd.txt",
+      "type" : "text/plain",
+      "size" : 5267
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "验证码登录功能测试"
+  }, {
+    "name" : "story",
+    "value" : "验证码登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "TestKeywords"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKeyword"
+  }, {
+    "name" : "host",
+    "value" : "hanlizhi-pc"
+  }, {
+    "name" : "thread",
+    "value" : "15308-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.TestKeywords"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "run_case",
+    "value" : "{'TC_ID': 'TC_Lg_Verification ', 'CASE_ID': 'Case_004', '是否运行': 'y', '用例名称': '验证码登录', '测试数据': 'username=13129559867', '期望结果': '', '备注': '验证码登录功能测试', '描述': '验证码登录'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a1752c6cab623ffd.json",
+  "parameterValues" : [ "{'TC_ID': 'TC_Lg_Verification ', 'CASE_ID': 'Case_004', '是否运行': 'y', '用例名称': '验证码登录', '测试数据': 'username=13129559867', '期望结果': '', '备注': '验证码登录功能测试', '描述': '验证码登录'}" ]
+}

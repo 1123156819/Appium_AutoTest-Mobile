@@ -1,0 +1,61 @@
+[ {
+  "uid" : "eacbcad38b8f9f2",
+  "name" : "test_get_cursor",
+  "time" : {
+    "start" : 1617955548717,
+    "stop" : 1617955548723,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9515e79ff645195b",
+  "name" : "Case_005-购买星动手机",
+  "time" : {
+    "start" : 1618628885697,
+    "stop" : 1618629027675,
+    "duration" : 141978
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "595548340546b75b",
+  "name" : "test_query",
+  "time" : {
+    "start" : 1617955548726,
+    "stop" : 1617955548741,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf5f7efe194bf40e",
+  "name" : "Case_007-购买星际手机",
+  "time" : {
+    "start" : 1618560621059,
+    "stop" : 1618560673316,
+    "duration" : 52257
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "73f909408bce99a5",
+  "name" : "test_get_cursor",
+  "time" : {
+    "start" : 1617954191804,
+    "stop" : 1617954191839,
+    "duration" : 35
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f184bf9bb44164e",
+  "name" : "test_query",
+  "time" : {
+    "start" : 1617954191863,
+    "stop" : 1617954191879,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

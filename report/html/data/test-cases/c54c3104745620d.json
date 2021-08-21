@@ -1,0 +1,108 @@
+{
+  "uid" : "c54c3104745620d",
+  "name" : "test_run[run_case0]",
+  "fullName" : "testcase.TestKeywords.TestKeyword#test_run",
+  "historyId" : "09d1def909cb056249b96d75b8c275b2",
+  "time" : {
+    "start" : 1618481750380,
+    "stop" : 1618481750380,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: bad operand type for unary +: 'str'",
+  "statusTrace" : "cmdopt = \"{'host': '127.0.0.1', 'port': '4723', 'bpport': '4724', 'udid': '35987d7f'}\"\n\n    @pytest.fixture(scope=\"session\")\n    def start_appium_desired(cmdopt):\n    \n        opt = eval(cmdopt)\n        # # {\"host\":\"127.0.0.1\",\n        # #          \"port\":\"4723\",\n        # #          \"bpport\":\"4724\",\n        # #         \"udid\":None}\n        host = opt[\"host\"]\n        print(host)\n        port = opt[\"port\"]\n        print(port)\n        bpport = opt[\"bpport\"]\n        print(bpport)\n        udid = opt[\"udid\"]\n        print(udid)\n        # system_port = opt[\"systemPort\"]\n        driver = None\n        if udid in get_devices():\n            #放入 端口连接参数\n            appium_start(host, port, bpport, udid)\n            time.sleep(5)\n            if not check_port():\n>               print(host,+\"====\"+port)\nE               TypeError: bad operand type for unary +: 'str'\n\ntestcase\\conftest.py:43: TypeError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start_appium_desired",
+    "time" : {
+      "start" : 1618481750381,
+      "stop" : 1618481755423,
+      "duration" : 5042
+    },
+    "status" : "broken",
+    "statusMessage" : "TypeError: bad operand type for unary +: 'str'\n",
+    "statusTrace" : "  File \"D:\\daima\\venv\\lib\\site-packages\\pluggy\\callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"D:\\daima\\venv\\lib\\site-packages\\_pytest\\fixtures.py\", line 1126, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"D:\\daima\\venv\\lib\\site-packages\\_pytest\\fixtures.py\", line 932, in call_fixture_func\n    fixture_result = fixturefunc(**kwargs)\n  File \"D:\\Appium_AutoTest-Mobile\\testcase\\conftest.py\", line 43, in start_appium_desired\n    print(host,+\"====\"+port)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 0
+  }, {
+    "name" : "cmdopt",
+    "time" : {
+      "start" : 1618481750381,
+      "stop" : 1618481750381,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: bad operand type for unary +: 'str'",
+    "statusTrace" : "cmdopt = \"{'host': '127.0.0.1', 'port': '4723', 'bpport': '4724', 'udid': '35987d7f'}\"\n\n    @pytest.fixture(scope=\"session\")\n    def start_appium_desired(cmdopt):\n    \n        opt = eval(cmdopt)\n        # # {\"host\":\"127.0.0.1\",\n        # #          \"port\":\"4723\",\n        # #          \"bpport\":\"4724\",\n        # #         \"udid\":None}\n        host = opt[\"host\"]\n        print(host)\n        port = opt[\"port\"]\n        print(port)\n        bpport = opt[\"bpport\"]\n        print(bpport)\n        udid = opt[\"udid\"]\n        print(udid)\n        # system_port = opt[\"systemPort\"]\n        driver = None\n        if udid in get_devices():\n            #放入 端口连接参数\n            appium_start(host, port, bpport, udid)\n            time.sleep(5)\n            if not check_port():\n>               print(host,+\"====\"+port)\nE               TypeError: bad operand type for unary +: 'str'\n\ntestcase\\conftest.py:43: TypeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e158dd102c8c5eb2",
+      "name" : "log",
+      "source" : "e158dd102c8c5eb2.txt",
+      "type" : "text/plain",
+      "size" : 197
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "TestKeywords"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestKeyword"
+  }, {
+    "name" : "host",
+    "value" : "hanlizhi-pc"
+  }, {
+    "name" : "thread",
+    "value" : "12120-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.TestKeywords"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "run_case",
+    "value" : "{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', '是否运行': 'y', '用例名称': '登录续费', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '', '备注': '进行登录续费', '描述': '登录续费'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c54c3104745620d.json",
+  "parameterValues" : [ "{'TC_ID': 'TC_Login_renew', 'CASE_ID': 'Case_011', '是否运行': 'y', '用例名称': '登录续费', '测试数据': 'username=13333333333,password=ty123456', '期望结果': '', '备注': '进行登录续费', '描述': '登录续费'}" ]
+}
